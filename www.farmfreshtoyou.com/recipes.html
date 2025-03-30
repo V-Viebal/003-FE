@@ -1,0 +1,904 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    
+    <title> Farm Fresh To You - Recipes</title>
+    <link rel="shortcut icon" href="ffty/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="ffty/favicon.ico" type="image/x-icon">
+    <script type="application/ld+json">
+        {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "url": "http://www.farmfreshtoyou.com",
+        "name": "Farm Fresh To You",
+        "logo": "http://contentwww.azureedge.net/ffty/ffty-logo-header.png",
+        "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-800-796-6009",
+        "contactType": "Customer service"
+        },
+        "sameAs": [
+        "https://www.facebook.com/farmfreshtoyou",
+        "https://www.twitter.com/farmfreshtoyou",
+        "https://www.youtube.com/user/farmfreshtoyou",
+        "https://www.instagram.com/farmfreshtoyou",
+        "https://www.pinterest.com/farmfreshtoyou"
+        ]
+        }
+    </script>
+    <link href="bundles/css?v=q58wY1hwkWIB_ECC4LmvIu_Phr13qpsauaVSvjHrupQ1" rel="stylesheet">
+
+    <link href="bundles/css%20%281%29/ffty?v=8axCdyVQN3Jhh69JuR0L5seUpTdT8z-XTWFSX5gg3Xs1" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="css/ffty/recipes.css">
+    <style>
+        .butter {
+            display: none;
+            padding: 0 0 0 0;
+            margin: 1px 3px 1px 3px;
+            text-align: left;
+            background-color: #ffffff;
+            color: #e8a62d;
+            font-family: 'Inter', Helvetica, Arial, sans-serif;
+            padding: 0.50em 1.2em;
+            font-size: 1.0em;
+            border-radius: 0px;
+            border: 1px solid #e8a62d;
+        }
+
+        .butterClose {
+            display: inline-block;
+            padding: 0px 0px 0px 0px;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 15px;
+            cursor: default;
+            vertical-align: middle;
+        }
+
+        .butterText {
+            display: inline-block;
+            padding: 0px 0px 0px 10px;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 13px;
+            vertical-align: middle;
+        }
+    </style>
+
+    <script src="bundles/polyfill?v=2E3c6Ac_UEmOeNAmiNXUyX_ekKP65h5CSuuMz4ZnSuQ1"></script>
+<script src="bundles/modernizr?v=inCVuEFe6J4Q07A0AcRsbJic_UE5MwpRMNGcOtk94TE1"></script>
+
+    <script>dataLayer = [];</script>
+</head>
+
+
+    <body class="container-fluid recipe-landing">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NMSHZS" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>
+                (function (w, d, s, l, i) {
+                    w[l] = w[l] || []; w[l].push({
+                        'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                    }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-NMSHZS');
+</script>
+<!-- End Google Tag Manager -->
+<nav class="navbar navbar-exception navbar-default navbar-fixed-top boxShadow row" role="navigation">
+    <div class="login-background">
+        <div class="login-container">
+            <div class="login-nav-bar">
+                        <a class="btn btn-default btn-nav-signup" href="/compare" role="button">SIGN UP</a>
+                        <a class="btn btn-default btn-nav-login" href="/login" role="button">LOG IN</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed navbar-right" data-toggle="collapse" data-target="#myDefaultNavbar1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <a class="navbar-brand" href="index.htm">
+                <img src="ffty/ffty-logo-header.png" alt="Farm Fresh To You Logo" class="nav-bar-brand-logo boxShadow2">
+            </a>
+            <a class="sr-only sr-only-focusable" href="#main">Skip to main</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="myDefaultNavbar1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">How It Works <span class="caret2"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/how-it-works/home-delivery">Home Delivery</a></li>
+                        <li><a href="/how-it-works/office-delivery">Office Delivery</a></li>
+                        <li><a href="/how-it-works/why-choose-us">Why Choose Us</a></li>
+                        <li><a href="/how-it-works/customize-your-box">Customize Your Box</a></li>
+                        <li><a href="/how-it-works/refer-a-friend">Refer-A-Friend</a></li>
+                        <li><a href="/how-it-works/school-fundraising">School Fundraising</a></li>
+                        <li><a href="/how-it-works/workplace-wellness">Workplace Wellness</a></li>
+                        
+                        <li><a href="contact-us.html">FAQ</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About Us <span class="caret2"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/about/our-farm">Our Farm</a></li>
+                        <li><a href="/about/our-family">Our Family</a></li>
+                        <li><a href="/about/organic-explained">Why Organic &amp; Sustainable</a></li>
+                        <li><a href="/about/fieldtrue">fieldTRUE</a></li>
+                        <li><a href="/about/careers">Careers</a></li>
+                    </ul>
+                </li>
+                <li><a href="events.html">Events</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Eat &amp; Be Well <span class="caret2"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="http://blog.farmfreshtoyou.com/" target="_blank">Our Blog</a></li>
+                        <li><a href="/storage-tips">Storage Tips</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Get A Farm Box <span class="caret2"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/compare">Organic Fruits &amp; Veggies</a></li>
+                        <li><a href="/product/farm-product-list#featured">Grocery Add-Ons</a></li>
+                        <li><a href="/gift-cards">eGift Cards</a></li>
+                        <li><a href="/donate">Donate a Box</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="/checkout" style="display:none;" id="cartHeaderImage"><img src="ffty/icon-basket.png" alt="basket" class="basket-cart-icon basket"><span class="navbar-hide-desktop-view"> My Farm Box</span></a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<main role="main" id="main">
+    
+
+
+
+
+<!-- FEATURED/HERO RECIPE
+================================================== -->
+<section class="row featured-bg-color">
+    <div class="recipes-hero">
+        <div class="hero-feature-mobile">
+            <img src="recp/544/2000/0/522.jpg" alt="Creamy Green Garlic and Potato Soup">
+        </div>
+        <!--Appears only 767px or less screens-->
+        <div class="text-align-center featured-hero-container recipe-image" style="background-image:url(recp/544/2000/0/522.jpg); min-height: 50em;"></div>
+        <div class="recipes-hero-textblock-bg text-center">
+            <div class="recipes-hero-textblock">
+                <p><img src="ffty/fork-icon-white-lines.png" alt="crossed forks icon"></p>
+                <h2>Featured Recipe</h2>
+                <h1 id="solid-color">Creamy Green Garlic and Potato Soup</h1>
+                <div><a class="btn btn-primary btn-lg" href="recipes/544/creamy-green-garlic-and-potato-soup.html" role="button">VIEW RECIPE</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- / featured/hero recipe -->
+<div>
+    <div class="recipe-cta-sidebox">
+        <a href="/compare?utm_source=Recipes&utm_medium=Call_Out&utm_campaign=Bring%20Me%20A%20Box">
+            <h5>WE DELIVER THE PRODUCE YOU NEED:</h5>
+            <h6>Get An Organic Farm Box »</h6>
+            <img class="dot-line" src="ffty/dottedline-white.png" alt="dotted line">
+        </a>
+        <div class="close-white-x" onclick="parentNode.remove(); return false;">
+            <img src="ffty/close-white-x.png" data-src="//contentwww.azureedge.net/ffty/close-white-x.png" alt="close">
+        </div>
+    </div>
+
+</div>
+<!-- Conversion Panel
+      ================================================== -->
+<div class="row conversion-panel">
+    <div class="col-lg-3 col-md-2 col-sm-1"></div>
+    <div class="col-lg-1 col-md-2 col-sm-2 col-xs-12 col-centered">
+        <img src="ffty/door-illustration.png" alt="door delivery">
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+        <div class="buffer-line"></div>
+        <h2>Organic Produce <em>Delivered To Your Door!</em></h2>
+        <p>We deliver organic produce fresh from our family farm right to your door. Whether you are looking for simple ways to eat well or love the adventure of cooking, we can help you live deliciously. Customize your orders and delivery schedule! <a href="/compare">Check out our farm boxes &raquo;</a></p>
+    </div>
+    <div class="col-lg-4 col-md-2 col-sm-1"></div>
+</div>
+
+<!-- / Conversion Panel -->
+<!-- FILTER AND SEARCH AREA
+      ================================================== -->
+
+<div class="row recipe-filter-settings-bg">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="container">
+            <!--<div class="col-lg-1 col-md-1"></div>-->
+            <div class="col-lg-11 col-lg-push-1 col-sm-12 col-xs-12">
+                <div class="centering-block center-text">
+                    <div class="filter-btns-group btn-group">
+                        <div class="btn-group-item">
+                            <button name="filter" type="button" class="btn btn-clean5" data-html="true" data-toggle="popover" data-placement="bottom" data-content="&lt;div class='prod-list-popover-container'&gt;
+                          	&lt;div class='prod-list-popover-column first'&gt;
+                            	&lt;ul&gt;
+                                	&lt;li&gt;&lt;a name='tag-search' href='javascript:void(0);' data-attributeid='Winter' &gt;Winter&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a name='tag-search' href='javascript:void(0);' data-attributeid='Spring' &gt;Spring&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/div&gt;
+                          	&lt;div class='prod-list-popover-column'&gt;
+                            	&lt;ul&gt;
+                                	&lt;li&gt;&lt;a name='tag-search' href='javascript:void(0);' data-attributeid='Summer' &gt;Summer&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a name='tag-search' href='javascript:void(0);' data-attributeid='Autumn' &gt;Autumn&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                          	&lt;/div&gt;
+                          &lt;/div&gt;">
+                                filter by season <span class="glyphicon glyphicon-triangle-bottom"></span>
+                            </button>
+                        </div>
+                        <div class="btn-group-item">
+                            <button name="filter" type="button" class="btn btn-clean5" data-html="true" data-toggle="popover" data-placement="bottom" data-content="
+
+&lt;div class=&#39;prod-list-popover-container&#39;&gt;
+    &lt;div class=&#39;prod-list-popover-column first&#39;&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;177&quot; &gt;Artichoke&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;178&quot; &gt;Asparagus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;106&quot; &gt;Bay Leaves&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;134&quot; &gt;Bok Choy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;167&quot; &gt;Brussels Sprout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;158&quot; &gt;Carrot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;168&quot; &gt;Celery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;144&quot; &gt;Chives&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;140&quot; &gt;Collard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;173&quot; &gt;Cucumber&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;169&quot; &gt;Eggplant&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;170&quot; &gt;Fennel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;157&quot; &gt;Garlic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;224&quot; &gt;Greens&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;135&quot; &gt;Kale&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;185&quot; &gt;Leeks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;139&quot; &gt;Lettuce&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;130&quot; &gt;Mushroom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;156&quot; &gt;Onion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;152&quot; &gt;Parsley&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;210&quot; &gt;Pea&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;184&quot; &gt;Pepper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;205&quot; &gt;Pumpkin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;159&quot; &gt;Radish&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;211&quot; &gt;Romanesco&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;155&quot; &gt;Rutabaga&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;214&quot; &gt;Shallot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;182&quot; &gt;Summer Squash&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;160&quot; &gt;Tarragon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;192&quot; &gt;Tomatillo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;164&quot; &gt;Turnip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;183&quot; &gt;Winter Squash&lt;/a&gt;&lt;/li&gt;
+
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class=&#39;prod-list-popover-column&#39;&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;138&quot; &gt;Arugula&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;151&quot; &gt;Basil&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;181&quot; &gt;Beets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;165&quot; &gt;Broccoli&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;166&quot; &gt;Cabbage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;171&quot; &gt;Cauliflower&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;133&quot; &gt;Chard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;188&quot; &gt;Cilantro&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;176&quot; &gt;Corn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;145&quot; &gt;Dill&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;213&quot; &gt;Endive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;175&quot; &gt;Fresh Bean&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;187&quot; &gt;Ginger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;111&quot; &gt;Herb mix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;190&quot; &gt;Kohlrabi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;143&quot; &gt;Lemon Grass&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;199&quot; &gt;Mint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;189&quot; &gt;Okra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;147&quot; &gt;Oregano&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;194&quot; &gt;Parsnip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;180&quot; &gt;Peas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;154&quot; &gt;Potato&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;201&quot; &gt;Radicchio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;172&quot; &gt;Rhubarb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;146&quot; &gt;Rosemary&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;105&quot; &gt;Sage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;132&quot; &gt;Spinach&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;148&quot; &gt;Sunchoke&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;150&quot; &gt;Thyme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;122&quot; &gt;Turmeric&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;104&quot; &gt;Watercress&lt;/a&gt;&lt;/li&gt;
+
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+">
+                                filter by vegetable <span class="glyphicon glyphicon-triangle-bottom"></span>
+                            </button>
+                        </div>
+                        <div class="btn-group-item">
+                            <button name="filter" type="button" class="btn btn-clean5" data-html="true" data-toggle="popover" data-placement="bottom" data-content="
+
+&lt;div class=&#39;prod-list-popover-container&#39;&gt;
+    &lt;div class=&#39;prod-list-popover-column first&#39;&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;100&quot; &gt;Apple&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;204&quot; &gt;Aprium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;129&quot; &gt;Banana&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;113&quot; &gt;Cherry&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;174&quot; &gt;Fig&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;127&quot; &gt;Grapefruit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;128&quot; &gt;Kiwi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;126&quot; &gt;Lemon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;203&quot; &gt;Mango&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;114&quot; &gt;Nectarine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;207&quot; &gt;Papaya&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;123&quot; &gt;Pear&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;149&quot; &gt;Plum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;193&quot; &gt;Pomegranate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;137&quot; &gt;Watermelon&lt;/a&gt;&lt;/li&gt;
+
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class=&#39;prod-list-popover-column&#39;&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;116&quot; &gt;Apricot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;101&quot; &gt;Avocado&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;208&quot; &gt;Berries&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;117&quot; &gt;Cherry Tomato&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;120&quot; &gt;Grape&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;118&quot; &gt;Heirloom Tomato&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;200&quot; &gt;Kumquat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;195&quot; &gt;Lime&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;121&quot; &gt;Musk Melon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;124&quot; &gt;Orange&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;112&quot; &gt;Peach&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;196&quot; &gt;Persimmon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;163&quot; &gt;Pluot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a name=&quot;filter-search&quot; href=&#39;javascript:void(0);&#39; data-attributeid=&quot;119&quot; &gt;Tomato&lt;/a&gt;&lt;/li&gt;
+
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+">
+                                filter by fruit <span class="glyphicon glyphicon-triangle-bottom"></span>
+                            </button>
+                        </div>
+                        <span class="search-group">
+                            <div class="filter-btns-group2 text-center">
+                                <form class="">
+                                    <!--navbar-form-->
+                                    <input type="text" class="form-control search-bar-icon-base" placeholder="search" name="search"><span class="search-bar-icon"><a href="javascript:void(0);" id="search-bar-icon-link"><span class="glyphicon glyphicon-search"></span></a></span>
+                                </form>
+                            </div>
+                            <div class="filter-btns-group2" id="clear-all-btn">
+                                <a class="btn btn-clean6" href="javascript:void(0)" name="clearFilters" role="button">Clear All</a>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id="ingredientsChosen" style="display:block;clear:both;"></div>
+        </div>
+        
+    </div>
+</div>
+<div class="shadow-bg row">&nbsp;</div>
+
+<!-- / FILTER AND SEARCH AREA -->
+<!-- RECIPES LISTING ("More Seasonal Recipes")
+      ================================================== -->
+<div class="row recipe-listing-main-bg" name="recipe-container">
+    
+</div>
+<!-- / RECIPES LISTING -->
+
+</main>
+
+
+<!-- FOOTER-->
+<!-- Social -->
+<div class="row section social social-bg">
+    <div class="container">
+        <div class="footer">
+            <div class="col-xs-12 col-sm-12">
+                <div class="social-group-left">
+                    <ul>
+                        <li><a href="https://www.facebook.com/farmfreshtoyou" target="_blank"><img src="ffty/social-facebook.png" alt="facebook"></a></li>
+                        <li><a href="https://twitter.com/farmfreshtoyou" target="_blank"><img src="ffty/social-twitter.png" alt="twitter"></a></li>
+                        <li><a href="https://www.youtube.com/user/farmfreshtoyou" target="_blank"><img src="ffty/social-youtube.png" alt="youtube"></a></li>
+                    </ul>
+                </div>
+                <div class="social-group-right">
+                    <ul>
+                        <li><a href="https://instagram.com/farmfreshtoyou/" target="_blank"><img src="ffty/social-instagram.png" alt="instagram"></a></li>
+                        <li><a href="contact-us.html"><img src="ffty/social-email.png" alt="email"></a></li>
+                        <li><a href="https://www.pinterest.com/farmfreshtoyou/" target="_blank"><img src="ffty/social-pinterest.png" alt="pinterest"></a></li>
+                        <li><a href="http://blog.farmfreshtoyou.com/" target="_blank"><img src="ffty/social-blogger.png" alt="blogger"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- / Social -->
+<!-- 4-column Row -->
+<div class="row section well inner-shadow">
+    <div class="container">
+        <div class="footer">
+            <div class="col-md-4 col-sm-12 footer-line1">
+                <h3 class="text-center">GET IN TOUCH</h3>
+                <p class="text-center footer-elements">
+                    <a href="contact-us.html">contactus@farmfreshtoyou.com</a><br>
+                    1.800.796.6009
+                </p>
+            </div>
+            <div class="col-md-4 col-sm-12 footer-line3 footer-line3b">
+                <h3 class="text-center">SPECIAL PROGRAMS</h3>
+                <p class="text-center footer-elements">
+                    <a href="/how-it-works/refer-a-friend">Refer-A-Friend</a><br>
+                    <a href="/how-it-works/school-fundraising">School Fundraisers</a><br>
+                    <a href="/how-it-works/workplace-wellness">Workplace Wellness</a><br>
+                    <a href="/donate">Donate-A-Box to a Food Bank</a>
+                </p>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <h3 class="text-center">YOUR ACCOUNT</h3>
+                <div class="text-center">
+                        <a class="footer-signup-btn" href="/compare" role="button">SIGN UP</a>
+                        <a class="footer-login-btn" href="/login" role="button">LOG IN</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- / 4-column Row -->
+<!--  Copyright and Legal  -->
+<footer class="row text-center copyright">
+    <div class="container">
+        <div class="">
+            <div class="col-xs-12">
+                <div class="copyright-block">
+                    <div class="copyright-elements">Copyright 2016 Farm Fresh To You</div>
+                </div>
+                <div class="copyright-block-wide">
+                    <div class="copyright-elements"><span><a href="/privacy-policy" class="bolder">Privacy Policy &raquo;</a>&nbsp;(updated Jan 2020)</span><span>|</span><span><a href="/terms-of-use" class="bolder">Terms of Use &raquo;</a></span><span id="cookiepreferencesfooterdivider" style="display: none;">|</span><span><a href="javascript:void(0);" onclick='revisitCkyConsent()' id="cookiepreferencesfooterlink" class="bolder" style="display: none;">Cookie Preferences &raquo;</a></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- / Copyright and Legal -->
+
+
+<!--modal dialog-->
+<div class="modal fade" id="modalDiag" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times; <span class="sr-only">close</span>
+                </button>
+                <h4 class="modal-title" id="modalTitle"></h4>
+            </div>
+            <div class="modal-body custom-scroll terms-body">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">
+                    Cancel
+                </button>
+                <button type="button" class="btn btn-primary" style="display: none;">
+                    Save
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+<!-- confirm-modal -->
+
+<div id="confirm-modal" class="modal fade confirm-modal" tabindex="-1" role="dialog" aria-labelledby="unsavedChanges">
+    <div class="modal-dialog modal-sm" role="document">
+        <button type="button" class="close-btn" data-dismiss="modal"><span class="sr-only sr-only-focusable">Close</span>&nbsp;</button>
+        <div class="modal-content">
+            <div class="confirm">
+                <div class="section">
+                    <h3 name="title">UNSAVED CHANGES</h3>
+                    <div class="caution-icon"><img src="ffty/alert-circle-icon2.png" alt="caution"></div>
+                    <p name="message">
+                        Changes to your delivery have not been saved. Do you wish to continue?<br>
+                    </p>
+                    <div>
+                        <a href="javascript:void(0)" name="okButton"><div class="btn-wide-solid2 actions">Ok</div></a>
+                        <a href="javascript:void(0)" name="cancelButton"><div class="actions hyperlink">Cancel</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /confirm-modal -->
+<!-- loading modal-->
+<div class="modal fade" id="pleaseWaitDialog" tabindex="-1" role="dialog" aria-labelledby="pleaseWaitModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="popover-title" id="pleaseWaitModalLabel">Loading...</h3>
+            </div>
+            <div class="modal-body">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /loading modal-->
+<script src="bundles/jquery?v=0O7tIOJcgB9u_WiLJZd-4dbzhSWNv0_pooe5TeUVqQU1"></script>
+
+<script src="bundles/bootstrap?v=-ktyuuYVm8reiCqek-REkH9kFQQZ53F1Ay-TXz9RIew1"></script>
+
+<script src="bundles/jscookie?v=IROJUL0RSpDtGOXpC3pzS5crrEEd8IjXKn9Hhc4Mnmo1"></script>
+
+<script src="bundles/fonts-com?v=cHvqUdZeRPqO7LkLPc4Ls39YP2UILoq0qt2jw0OFDC01"></script>
+
+<script src="bundles/fieldera?v=AveVXGZbcXDOKFquphAsxw7eguldY43xSRsyDyTu_981"></script>
+
+<script>
+    (function () {
+        function displayAlert() {
+            var systemAlert = $(".alert-top-bar-warning");
+            var promoAlert = $(".alert-top-bar-promo");
+            var logo = $('.nav-bar-brand-logo');
+            var paddingLeft = (logo.width() > 72) ? (logo.offset().left + logo.width()) + 50 : 20;
+            if (systemAlert.length || promoAlert.length) {
+                $("head").append("<link rel=\"stylesheet\" href=\"/css/ffty/alert-promo-bar.css\">");
+            }
+            if (systemAlert.length) {
+                systemAlert.css("padding-left", paddingLeft + 'px');
+                systemAlert.toggle(true);
+
+                promoAlert.css("margin-top", "0px")
+            }
+            if (promoAlert.length) {
+                promoAlert.css("padding-left", paddingLeft + 'px');
+                promoAlert.toggle(true);
+            }
+        }
+
+        displayAlert();
+
+        $(window).resize(function () {
+            displayAlert();
+        });
+    })();
+</script>
+
+<script>
+    (function () {
+        var popupAlert = $('#popup-alert');
+        if (popupAlert.length) {
+            var value = fieldera.cookies.getValue('FielderaUC', 'cvid');
+            var versionId = $('#popup-alert .dont-show-anymore').data('contentitemversionid');
+            var cvids = (typeof value !== 'undefined' && value.length) ? value.split(',').map(Number) : [];
+            var showPopup = !cvids.exists(function (item) { return (item === versionId); });
+            if (showPopup) {
+                $('#popup-alert').modal('show');
+            }
+        }
+    })();
+
+    $('#ignore-popup').on('click', function (e) {
+        var versionId = $('#popup-alert .dont-show-anymore').data('contentitemversionid');
+        fieldera.ajaxPost(null, '/content/popup-alert/' + versionId + '/suppress');
+    })
+</script>
+
+<!-- Closes navbar when navbar links to anchor or inner page action  -->
+
+
+    <script>
+
+        var delayBetweenLoadings = 10; 
+        var timer = null;
+        var chosenListOfIngredientIds = [];
+        var chosenListOfTags = [];
+
+        function clearFiltersAndTags() {
+            clearTimeout(timer);
+            $('div[id^="chosenIngredient"]').fadeOut(250, function () { $('div[id^="chosenIngredient"]').remove(); });
+            chosenListOfIngredientIds = [];       
+            chosenListOfTags = [];
+            timer = setTimeout(loadFunction, delayBetweenLoadings);
+        }
+
+        var ingredientList = {
+            //1: "paprika",
+            //2: "cucumber"
+177:"Artichoke",
+138:"Arugula",
+178:"Asparagus",
+151:"Basil",
+106:"Bay Leaves",
+181:"Beets",
+134:"Bok Choy",
+165:"Broccoli",
+167:"Brussels Sprout",
+166:"Cabbage",
+158:"Carrot",
+171:"Cauliflower",
+168:"Celery",
+133:"Chard",
+144:"Chives",
+188:"Cilantro",
+140:"Collard",
+176:"Corn",
+173:"Cucumber",
+145:"Dill",
+169:"Eggplant",
+213:"Endive",
+170:"Fennel",
+175:"Fresh Bean",
+157:"Garlic",
+187:"Ginger",
+224:"Greens",
+111:"Herb mix",
+135:"Kale",
+190:"Kohlrabi",
+185:"Leeks",
+143:"Lemon Grass",
+139:"Lettuce",
+199:"Mint",
+130:"Mushroom",
+189:"Okra",
+156:"Onion",
+147:"Oregano",
+152:"Parsley",
+194:"Parsnip",
+210:"Pea",
+180:"Peas",
+184:"Pepper",
+154:"Potato",
+205:"Pumpkin",
+201:"Radicchio",
+159:"Radish",
+172:"Rhubarb",
+211:"Romanesco",
+146:"Rosemary",
+155:"Rutabaga",
+105:"Sage",
+214:"Shallot",
+132:"Spinach",
+182:"Summer Squash",
+148:"Sunchoke",
+160:"Tarragon",
+150:"Thyme",
+192:"Tomatillo",
+122:"Turmeric",
+164:"Turnip",
+104:"Watercress",
+183:"Winter Squash",100:"Apple",
+116:"Apricot",
+204:"Aprium",
+101:"Avocado",
+129:"Banana",
+208:"Berries",
+113:"Cherry",
+117:"Cherry Tomato",
+174:"Fig",
+120:"Grape",
+127:"Grapefruit",
+118:"Heirloom Tomato",
+128:"Kiwi",
+200:"Kumquat",
+126:"Lemon",
+195:"Lime",
+203:"Mango",
+121:"Musk Melon",
+114:"Nectarine",
+124:"Orange",
+207:"Papaya",
+112:"Peach",
+123:"Pear",
+196:"Persimmon",
+149:"Plum",
+163:"Pluot",
+193:"Pomegranate",
+119:"Tomato",
+137:"Watermelon"
+
+        }
+
+        function addIngredient(ingredientID) {
+            if (isNaN(ingredientID)) {
+                return;
+            } else {
+                ingredientID = Number(ingredientID);
+            }
+            var index = chosenListOfIngredientIds.indexOf(ingredientID);
+            if (index < 0) {
+                clearTimeout(timer);
+                chosenListOfIngredientIds.push(ingredientID);
+                var divToAdd = "<div class=\"butter\" id=\"chosenIngredient" + ingredientID + "\"><div class=\"butterClose\" title=\"remove filter\" onclick=\"removeIngredient('" + ingredientID + "');\">&#10006;</div><div class=\"butterText\">" + ingredientList[ingredientID] + "</div></div>";
+                $('#ingredientsChosen').append(divToAdd);
+                $('#chosenIngredient' + ingredientID).fadeIn(250).css("display", "inline-block");
+                timer = setTimeout(loadFunction, delayBetweenLoadings);
+            }
+        }
+
+        function removeIngredient(ingredientID) {
+            if (isNaN(ingredientID)) {
+                return;
+            } else {
+                ingredientID = Number(ingredientID);
+            }
+            clearTimeout(timer);
+            var index = chosenListOfIngredientIds.indexOf(ingredientID);
+            while (index > -1) {
+                chosenListOfIngredientIds.splice(index, 1);
+                index = chosenListOfIngredientIds.indexOf(ingredientID);
+            }
+            var idOfElement = "#chosenIngredient" + ingredientID;
+            $(idOfElement).fadeOut(250, function () { $(idOfElement).remove(); });
+            timer = setTimeout(loadFunction, delayBetweenLoadings);
+        }
+
+        function addTag(tag) {
+            var index = chosenListOfIngredientIds.indexOf(tag);
+            if (index < 0) {
+                clearTimeout(timer);
+                chosenListOfTags.push(tag);
+                var divToAdd = "<div class=\"butter\" id=\"chosenIngredient" + tag + "\"><div class=\"butterClose\" title=\"remove filter\" onclick=\"removeTag('" + tag + "');\">&#10006;</div><div class=\"butterText\">" + tag + "</div></div>";
+                $('#ingredientsChosen').append(divToAdd);
+                $('#chosenIngredient' + tag).fadeIn(250).css("display", "inline-block");
+                timer = setTimeout(loadFunction, delayBetweenLoadings);
+            }
+        }
+
+        function removeTag(tag) {
+            clearTimeout(timer);
+            var index = chosenListOfTags.indexOf(tag);
+            while (index > -1) {
+                chosenListOfTags.splice(index, 1);
+                index = chosenListOfTags.indexOf(tag);
+            }
+            var idOfElement = "#chosenIngredient" + tag;
+            $(idOfElement).fadeOut(250, function () { $(idOfElement).remove(); });
+            timer = setTimeout(loadFunction, delayBetweenLoadings);
+        }
+
+        function loadFunction() {
+            //$('#loadingDiv').text("Loading recipes");
+            //if (chosenListOfIngredientIds.length > 0) {
+            //    $('#loadingDiv').text("Loading recipes ")
+            //    for (var i = 0; i < chosenListOfIngredientIds.length; i++) {
+            //        $('#loadingDiv').text($('#loadingDiv').text() + chosenListOfIngredientIds[i] + " ");
+            //    }
+            //}
+            //$('#loadingDiv').fadeIn();
+            $('#search-bar-icon-link').trigger('click');
+            //$('#loadingDiv').fadeOut(1000);
+        }
+
+         $('#search-bar-icon-link').on('click', function (e) {
+            e.preventDefault();
+            //$('.filter-btns-group').find('[data-toggle="popover"]').removeClass('active');
+            var urlAndQuery = '/recipes/list/?searchValue=' + $('input[name="search"]').val();
+            urlAndQuery += '&commodityIdList=';
+
+            for (var i = 0; i < chosenListOfIngredientIds.length; i++) {
+                urlAndQuery += chosenListOfIngredientIds[i] + ","
+            }
+            urlAndQuery += '&tagList=';
+            for (var i = 0; i < chosenListOfTags.length; i++) {
+                urlAndQuery += chosenListOfTags[i] + ","
+            }
+            fieldera.ajaxGet($('div[name="recipe-container"]'), urlAndQuery, function (data) {
+                $('div[name="recipe-container"]').children().remove();
+                $('div[name="recipe-container"]').html(data);
+            });
+         });
+
+        $(document).on('keypress', 'input[name="search"]', function (e) {
+            if (e.which == 13) {
+                e.preventDefault();
+                $('#search-bar-icon-link').trigger('click');
+                return false;
+            }
+        });
+
+        $(document).on('click', 'a[name="next-page"]', function (e) {
+            e.preventDefault();
+            $('html,body,a[name="next-page"]').css('cursor', 'wait');
+            var pageNumber = $(this).data('pagenumber')
+            var urlAndQuery = '/recipes/list/' + (pageNumber + 1) + '/?searchValue=' + $('input[name="search"]').val();
+            urlAndQuery += '&commodityIdList=';
+
+            for (var i = 0; i < chosenListOfIngredientIds.length; i++) {
+                urlAndQuery += chosenListOfIngredientIds[i] + ","
+            }
+            urlAndQuery += '&tagList=';
+            for (var i = 0; i < chosenListOfTags.length; i++) {
+                urlAndQuery += chosenListOfTags[i] + ","
+            }
+            fieldera.ajaxGet($('div[name="recipe-container"]'), urlAndQuery, function (data) {
+                $('div[name="next-page"]').remove();
+                var tempDiv = $('<div></div>');
+                tempDiv.html(data);
+                $('div[name="recipe-container"]').find('div[name="recipe-list"]').append(tempDiv.find('div[name="recipe-list"]').html());
+                $('html,body,a[name="next-page"]').css('cursor', 'default');
+            });
+
+        });
+
+        $(document).on('click', 'a[name="filter-search"]', function (e) {
+            //see if you can spit out the id/name or whatever when something is clicked
+            //alert($(this).data('attributeid'));
+            addIngredient($(this).data('attributeid'));
+            $('body').trigger('click');
+            
+        });
+
+        $(document).on('click', 'a[name="tag-search"]', function (e) {
+            //alert($(this).data('attributeid'));
+            addTag($(this).data('attributeid'));
+            $('body').trigger('click');
+            
+        });
+
+        //$('button[name="filter"]').on('shown.bs.popover', function () {
+        //    var sv = $('a[name="next-page"]').data('sv');
+        //    $('a[name="filter-search"][data-attributeid="' + sv + '"]').addClass('active');
+        //    $('a[name="tag-search"][data-attributeid="' + sv + '"]').addClass('active');
+        //});
+
+        $('button[name="filter"]').on('hidden.bs.popover', function (e) {
+            $(e.target).data("bs.popover").inState = { click: false, hover: false, focus: false }
+        });
+
+        $(document).ready(function () {
+            //$('#search-bar-icon-link').trigger('click');
+            setTimeout(loadFunction, 0);
+        });
+
+        $('a[name=clearFilters]').on('click', function (e) {
+            e.preventDefault();
+            $('input[name="search"]').val('');
+            clearFiltersAndTags();
+            //$('#search-bar-icon-link').trigger('click');
+        });
+
+    </script>
+    <!-- Popover code -->
+    <script>
+        $('[data-toggle="popover"]').popover();
+
+        $('body').on('click', function (e) {
+            $('[data-toggle="popover"]').each(function () {
+                //the 'is' for buttons that trigger popups
+                //the 'has' for icons within a button that triggers a popup
+                if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+                    $(this).popover('hide');
+                }
+            });
+
+        });
+    </script>
+    <!-- / Popover code -->
+
+</body>
+</html>

@@ -1,0 +1,1216 @@
+Uri: https://connect.facebook.net/en_US/sdk.js
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\en_US\sdk-1.js
+Content Type: application/x-javascript
+
+Uri: https://connect.facebook.net/en_US/sdk.js?hash=f6ff01d6ec1864b24dc56136bfb0a27b
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\en_US\sdk.js
+Content Type: application/x-javascript
+
+Uri: https://connect.facebook.net/rsrc.php/v4/y9/r/jKEcVPZFk-2.gif
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\rsrc.php\v4\y9\r\jKEcVPZFk-2.gif
+Content Type: image/gif
+
+Uri: https://connect.facebook.net/rsrc.php/v4/ya/r/3rhSv5V8j3o.gif
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\rsrc.php\v4\ya\r\3rhSv5V8j3o.gif
+Content Type: image/gif
+
+Uri: https://connect.facebook.net/rsrc.php/v4/yd/r/Cou7n-nqK52.gif
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\rsrc.php\v4\yd\r\Cou7n-nqK52.gif
+Content Type: image/gif
+
+Uri: https://connect.facebook.net/rsrc.php/v4/yD/r/t-wz8gw1xG1.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\rsrc.php\v4\yD\r\t-wz8gw1xG1.png
+Content Type: image/png
+
+Uri: https://connect.facebook.net/rsrc.php/v4/yq/r/IE9JII6Z1Ys.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\rsrc.php\v4\yq\r\IE9JII6Z1Ys.png
+Content Type: image/png
+
+Uri: https://contenthandler.azureedge.net/cont/136/1/1600/0/farm-banner-box-lx.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\cont\136\1\1600\0\farm-banner-box-lx.jpg
+Content Type: image/jpeg
+
+Uri: https://contenthandler.azureedge.net/cont/632/8/350/0/little-raes-bakery_bunny-treats-cookies.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\cont\632\8\350\0\little-raes-bakery_bunny-treats-cookies.jpg
+Content Type: image/jpeg
+
+Uri: https://contenthandler.azureedge.net/cont/858/2/350/0/Myproject-1.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\cont\858\2\350\0\Myproject-1.png
+Content Type: image/png
+
+Uri: https://contenthandler.azureedge.net/cont/933/2/350/0/3.2025CreminelliFineMeats.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\cont\933\2\350\0\3.2025CreminelliFineMeats.jpg
+Content Type: image/jpeg
+
+Uri: https://contenthandler.azureedge.net/recp/544/2000/0/522.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\recp\544\2000\0\522.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/alert-circle-icon2.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\alert-circle-icon2.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/calendar-icon-bar.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\calendar-icon-bar.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/capay-farm-1.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\capay-farm-1.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/capay-farm-10.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\capay-farm-10.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/capay-farm-11.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\capay-farm-11.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/capay-farm-12.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\capay-farm-12.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/capay-farm-13.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\capay-farm-13.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/capay-farm-14.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\capay-farm-14.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/capay-farm-15.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\capay-farm-15.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/capay-farm-16.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\capay-farm-16.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/capay-farm-17.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\capay-farm-17.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/capay-farm-2.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\capay-farm-2.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/capay-farm-3.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\capay-farm-3.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/capay-farm-4.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\capay-farm-4.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/capay-farm-5.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\capay-farm-5.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/capay-farm-6.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\capay-farm-6.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/capay-farm-7.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\capay-farm-7.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/capay-farm-8.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\capay-farm-8.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/capay-farm-9.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\capay-farm-9.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/carrots-plate-illustration.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\carrots-plate-illustration.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/circle-solid-arrow-down.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\circle-solid-arrow-down.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/close-white-x.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\close-white-x.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/contact-email-circle-icon.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\contact-email-circle-icon.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/contact-farmbox-circle-icon.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\contact-farmbox-circle-icon.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/contact-phone-circle-icon.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\contact-phone-circle-icon.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/conversation-icon-bar.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\conversation-icon-bar.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/door-illustration.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\door-illustration.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/dottedline-gold.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\dottedline-gold.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/dottedline-white.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\dottedline-white.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/event-calendar.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\event-calendar.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/fabric-down-arrow2.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\fabric-down-arrow2.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/favicon.ico
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\favicon.ico
+Content Type: image/x-icon
+
+Uri: https://contentwww.azureedge.net/ffty/ffty-logo-header.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\ffty-logo-header.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/fork-icon-bar.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\fork-icon-bar.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/fork-icon-white-lines.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\fork-icon-white-lines.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/how-it-works-step1.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\how-it-works-step1.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/how-it-works-step2.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\how-it-works-step2.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/how-it-works-step3.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\how-it-works-step3.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/how-it-works-step4.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\how-it-works-step4.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/icon-basket.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\icon-basket.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/norcal/1.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\norcal\1.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/norcal/10.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\norcal\10.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/norcal/11.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\norcal\11.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/norcal/2.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\norcal\2.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/norcal/3.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\norcal\3.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/norcal/4.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\norcal\4.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/norcal/5.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\norcal\5.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/norcal/6.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\norcal\6.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/norcal/7.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\norcal\7.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/norcal/8.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\norcal\8.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/norcal/9.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\norcal\9.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/share-facebook-circle.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\share-facebook-circle.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/share-pinterest-circle.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\share-pinterest-circle.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/share-print-circle.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\share-print-circle.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/share-twitter-circle.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\share-twitter-circle.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/socal/1.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\socal\1.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/socal/10.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\socal\10.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/socal/11.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\socal\11.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/socal/12.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\socal\12.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/socal/2.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\socal\2.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/socal/3.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\socal\3.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/socal/4.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\socal\4.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/socal/5.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\socal\5.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/socal/6.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\socal\6.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/socal/7.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\socal\7.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/socal/8.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\socal\8.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/socal/9.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\socal\9.jpg
+Content Type: image/jpeg
+
+Uri: https://contentwww.azureedge.net/ffty/social-blogger.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\social-blogger.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/social-email.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\social-email.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/social-facebook.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\social-facebook.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/social-instagram.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\social-instagram.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/social-pinterest.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\social-pinterest.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/social-twitter.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\social-twitter.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/social-youtube.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\social-youtube.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/warning-red-circle-icon.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\warning-red-circle-icon.png
+Content Type: image/png
+
+Uri: https://contentwww.azureedge.net/ffty/wheelbarrow.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\ffty\wheelbarrow.png
+Content Type: image/png
+
+Uri: https://fast.fonts.net/t/1.css?apiType=css&projectid=06ec3476-ac15-4b25-b8f5-f6bb4659e455
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\t\1-1.css
+Content Type: text/css
+
+Uri: https://fast.fonts.net/t/1.css?apiType=css&projectid=undefined
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\t\1.css
+Content Type: text/css
+
+Uri: https://hello.myfonts.net/count/2ed32e
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\count\2ed32e
+Content Type: text/css
+
+Uri: https://www.farmfreshtoyou.com/
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\index.htm
+Content Type: text/html
+
+Uri: https://www.farmfreshtoyou.com/bundles/bootstrap?v=-ktyuuYVm8reiCqek-REkH9kFQQZ53F1Ay-TXz9RIew1
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\bundles\bootstrap
+Content Type: text/javascript
+
+Uri: https://www.farmfreshtoyou.com/bundles/css/ffty?v=8axCdyVQN3Jhh69JuR0L5seUpTdT8z-XTWFSX5gg3Xs1
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\bundles\css (1)\ffty
+Content Type: text/css
+
+Uri: https://www.farmfreshtoyou.com/bundles/css?v=q58wY1hwkWIB_ECC4LmvIu_Phr13qpsauaVSvjHrupQ1
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\bundles\css
+Content Type: text/css
+
+Uri: https://www.farmfreshtoyou.com/bundles/fieldera?v=AveVXGZbcXDOKFquphAsxw7eguldY43xSRsyDyTu_981
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\bundles\fieldera
+Content Type: text/javascript
+
+Uri: https://www.farmfreshtoyou.com/bundles/fonts-com?v=cHvqUdZeRPqO7LkLPc4Ls39YP2UILoq0qt2jw0OFDC01
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\bundles\fonts-com
+Content Type: text/javascript
+
+Uri: https://www.farmfreshtoyou.com/bundles/jquery?v=0O7tIOJcgB9u_WiLJZd-4dbzhSWNv0_pooe5TeUVqQU1
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\bundles\jquery
+Content Type: text/javascript
+
+Uri: https://www.farmfreshtoyou.com/bundles/jqueryval?v=2dgRKVPo9paJLuUBRrxmVU24JJYAUVmi7qODJSJF6oo1
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\bundles\jqueryval
+Content Type: text/javascript
+
+Uri: https://www.farmfreshtoyou.com/bundles/jscookie?v=IROJUL0RSpDtGOXpC3pzS5crrEEd8IjXKn9Hhc4Mnmo1
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\bundles\jscookie
+Content Type: text/javascript
+
+Uri: https://www.farmfreshtoyou.com/bundles/modernizr?v=inCVuEFe6J4Q07A0AcRsbJic_UE5MwpRMNGcOtk94TE1
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\bundles\modernizr
+Content Type: text/javascript
+
+Uri: https://www.farmfreshtoyou.com/bundles/polyfill?v=2E3c6Ac_UEmOeNAmiNXUyX_ekKP65h5CSuuMz4ZnSuQ1
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\bundles\polyfill
+Content Type: text/javascript
+
+Uri: https://www.farmfreshtoyou.com/contact-us
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\contact-us.html
+Content Type: text/html
+
+Uri: https://www.farmfreshtoyou.com/css/ffty/contact-help-faq.css
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\css\ffty\contact-help-faq.css
+Content Type: text/css
+
+Uri: https://www.farmfreshtoyou.com/css/ffty/delivery-area.css
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\css\ffty\delivery-area.css
+Content Type: text/css
+
+Uri: https://www.farmfreshtoyou.com/css/ffty/events.css
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\css\ffty\events.css
+Content Type: text/css
+
+Uri: https://www.farmfreshtoyou.com/css/ffty/home.css
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\css\ffty\home.css
+Content Type: text/css
+
+Uri: https://www.farmfreshtoyou.com/css/ffty/myaccount2.css
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\css\ffty\myaccount2.css
+Content Type: text/css
+
+Uri: https://www.farmfreshtoyou.com/css/ffty/recipes.css
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\css\ffty\recipes.css
+Content Type: text/css
+
+Uri: https://www.farmfreshtoyou.com/css/pgwslideshow/pgwslideshow.css
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\css\pgwslideshow\pgwslideshow.css
+Content Type: text/css
+
+Uri: https://www.farmfreshtoyou.com/events
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\events.html
+Content Type: text/html
+
+Uri: https://www.farmfreshtoyou.com/events/host-own-event
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\events\host-own-event.html
+Content Type: text/html
+
+Uri: https://www.farmfreshtoyou.com/events/norcal
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\events\norcal.html
+Content Type: text/html
+
+Uri: https://www.farmfreshtoyou.com/events/socal
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\events\socal.html
+Content Type: text/html
+
+Uri: https://www.farmfreshtoyou.com/fonts/0078f486-8e52-42c0-ad81-3c8d3d43f48e.woff2
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\0078f486-8e52-42c0-ad81-3c8d3d43f48e.woff2
+Content Type: application/font-woff2
+
+Uri: https://www.farmfreshtoyou.com/fonts/04801919-17ee-4c6b-8b17-eb1965cb3ed6.woff
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\04801919-17ee-4c6b-8b17-eb1965cb3ed6.woff
+Content Type: application/font-woff
+
+Uri: https://www.farmfreshtoyou.com/fonts/04d1bf6c-070d-4b7e-9498-6051c9f0c349.ttf
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\04d1bf6c-070d-4b7e-9498-6051c9f0c349.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/065a6b14-b2cc-446e-9428-271c570df0d9.woff2
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\065a6b14-b2cc-446e-9428-271c570df0d9.woff2
+Content Type: application/font-woff2
+
+Uri: https://www.farmfreshtoyou.com/fonts/0979215b-3a1b-4356-9c76-e90fa4551f1d.svg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\0979215b-3a1b-4356-9c76-e90fa4551f1d.svg
+Content Type: image/svg+xml
+
+Uri: https://www.farmfreshtoyou.com/fonts/15281d0d-e3c2-46e1-94db-cb681e00bfaa.svg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\15281d0d-e3c2-46e1-94db-cb681e00bfaa.svg
+Content Type: image/svg+xml
+
+Uri: https://www.farmfreshtoyou.com/fonts/17b90ef5-b63f-457b-a981-503bb7afe3c0.woff2
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\17b90ef5-b63f-457b-a981-503bb7afe3c0.woff2
+Content Type: application/font-woff2
+
+Uri: https://www.farmfreshtoyou.com/fonts/19d12bba-92b1-43ad-9bab-cd36a4195c2a.woff
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\19d12bba-92b1-43ad-9bab-cd36a4195c2a.woff
+Content Type: application/font-woff
+
+Uri: https://www.farmfreshtoyou.com/fonts/1a7173fa-062b-49ad-9915-bc57d3bfc1f5.woff2
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\1a7173fa-062b-49ad-9915-bc57d3bfc1f5.woff2
+Content Type: application/font-woff2
+
+Uri: https://www.farmfreshtoyou.com/fonts/1e9b2738-9316-4b0c-97c0-5423b69ea147.eot?
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\1e9b2738-9316-4b0c-97c0-5423b69ea147.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/20577853-40a7-4ada-a3fb-dd6e9392f401.svg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\20577853-40a7-4ada-a3fb-dd6e9392f401.svg
+Content Type: image/svg+xml
+
+Uri: https://www.farmfreshtoyou.com/fonts/2315df7a-8bc2-433d-bf0a-162fc0063de0.ttf
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\2315df7a-8bc2-433d-bf0a-162fc0063de0.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/25f994de-d13f-4a5d-a82b-bf925a1e054d.ttf
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\25f994de-d13f-4a5d-a82b-bf925a1e054d.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/2ED32E_0_0.eot
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\2ED32E_0_0.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/2ED32E_0_0.eot?
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\2ED32E_0_0-1.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/2ED32E_0_0.ttf
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\2ED32E_0_0.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/2ED32E_0_0.woff
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\2ED32E_0_0.woff
+Content Type: application/font-woff
+
+Uri: https://www.farmfreshtoyou.com/fonts/2ED32E_0_0.woff2
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\2ED32E_0_0.woff2
+Content Type: application/font-woff2
+
+Uri: https://www.farmfreshtoyou.com/fonts/33fac8ae-e7a5-4903-9ac1-c09a59b4c61d.svg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\33fac8ae-e7a5-4903-9ac1-c09a59b4c61d.svg
+Content Type: image/svg+xml
+
+Uri: https://www.farmfreshtoyou.com/fonts/3604edbd-784e-4ca7-b978-18836469c62d.svg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\3604edbd-784e-4ca7-b978-18836469c62d.svg
+Content Type: image/svg+xml
+
+Uri: https://www.farmfreshtoyou.com/fonts/38a556e4-b6e5-48c6-aece-b1d470af124e.svg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\38a556e4-b6e5-48c6-aece-b1d470af124e.svg
+Content Type: image/svg+xml
+
+Uri: https://www.farmfreshtoyou.com/fonts/3c210c80-960f-4684-850b-25390b4d08af.woff2
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\3c210c80-960f-4684-850b-25390b4d08af.woff2
+Content Type: application/font-woff2
+
+Uri: https://www.farmfreshtoyou.com/fonts/4030caeb-d266-4d36-ac58-a3bb7a5b1bfa.eot?
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\4030caeb-d266-4d36-ac58-a3bb7a5b1bfa.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/4577388c-510f-4366-addb-8b663bcc762a.ttf
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\4577388c-510f-4366-addb-8b663bcc762a.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/476612d9-282d-4f76-95cd-b4dd31e7ed21.woff2
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\476612d9-282d-4f76-95cd-b4dd31e7ed21.woff2
+Content Type: application/font-woff2
+
+Uri: https://www.farmfreshtoyou.com/fonts/4b978f72-bb48-46c3-909a-2a8cd2f8819c.woff
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\4b978f72-bb48-46c3-909a-2a8cd2f8819c.woff
+Content Type: application/font-woff
+
+Uri: https://www.farmfreshtoyou.com/fonts/57bf7902-79ee-4b31-a327-1bbf59a3d155.eot?
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\57bf7902-79ee-4b31-a327-1bbf59a3d155.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/5ba5a010-7470-4d9d-8a49-2920dc1be1f8.ttf
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\5ba5a010-7470-4d9d-8a49-2920dc1be1f8.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/61bd362e-7162-46bd-b67e-28f366c4afbe.woff
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\61bd362e-7162-46bd-b67e-28f366c4afbe.woff
+Content Type: application/font-woff
+
+Uri: https://www.farmfreshtoyou.com/fonts/63a166cb-be60-435c-a056-75172e43efa5.eot?
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\63a166cb-be60-435c-a056-75172e43efa5.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/65d75eb0-2601-4da5-a9a4-9ee67a470a59.woff
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\65d75eb0-2601-4da5-a9a4-9ee67a470a59.woff
+Content Type: application/font-woff
+
+Uri: https://www.farmfreshtoyou.com/fonts/6af9989e-235b-4c75-8c08-a83bdaef3f66.eot?
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\6af9989e-235b-4c75-8c08-a83bdaef3f66.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/6d1ce413-19e7-4b43-b328-6cdedc58b35a.ttf
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\6d1ce413-19e7-4b43-b328-6cdedc58b35a.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/6d4a6a8c-ef50-422f-8456-88d479e0b23d.svg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\6d4a6a8c-ef50-422f-8456-88d479e0b23d.svg
+Content Type: image/svg+xml
+
+Uri: https://www.farmfreshtoyou.com/fonts/6dc0e7d8-9284-44e1-8f05-984a41daa3a4.woff
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\6dc0e7d8-9284-44e1-8f05-984a41daa3a4.woff
+Content Type: application/font-woff
+
+Uri: https://www.farmfreshtoyou.com/fonts/710789a0-1557-48a1-8cec-03d52d663d74.eot?
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\710789a0-1557-48a1-8cec-03d52d663d74.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/75b36c58-2a02-4057-a537-09af0832ae46.woff
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\75b36c58-2a02-4057-a537-09af0832ae46.woff
+Content Type: application/font-woff
+
+Uri: https://www.farmfreshtoyou.com/fonts/7b1e5b2a-b6a6-43da-9021-ada6d1d797f2.svg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\7b1e5b2a-b6a6-43da-9021-ada6d1d797f2.svg
+Content Type: image/svg+xml
+
+Uri: https://www.farmfreshtoyou.com/fonts/908c4810-64db-4b46-bb8e-823eb41f68c0.woff
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\908c4810-64db-4b46-bb8e-823eb41f68c0.woff
+Content Type: application/font-woff
+
+Uri: https://www.farmfreshtoyou.com/fonts/93603a74-2be0-436c-83e1-68f9ef616eaf.svg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\93603a74-2be0-436c-83e1-68f9ef616eaf.svg
+Content Type: image/svg+xml
+
+Uri: https://www.farmfreshtoyou.com/fonts/9bdf0737-f98c-477a-9365-ffc41b9d1285.ttf
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\9bdf0737-f98c-477a-9365-ffc41b9d1285.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/9ced8e96-4602-4507-8c20-4ff381949a9a.ttf
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\9ced8e96-4602-4507-8c20-4ff381949a9a.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/a2477e08-09d9-4d4b-97a9-23a1e22cb44c.woff2
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\a2477e08-09d9-4d4b-97a9-23a1e22cb44c.woff2
+Content Type: application/font-woff2
+
+Uri: https://www.farmfreshtoyou.com/fonts/a59168c1-917d-4de9-a244-0316c057c357.woff2
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\a59168c1-917d-4de9-a244-0316c057c357.woff2
+Content Type: application/font-woff2
+
+Uri: https://www.farmfreshtoyou.com/fonts/a7c1d112-7546-459d-a153-1467481298bd.svg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\a7c1d112-7546-459d-a153-1467481298bd.svg
+Content Type: image/svg+xml
+
+Uri: https://www.farmfreshtoyou.com/fonts/b0268c31-e450-4159-bfea-e0d20e2b5c0c.svg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\b0268c31-e450-4159-bfea-e0d20e2b5c0c.svg
+Content Type: image/svg+xml
+
+Uri: https://www.farmfreshtoyou.com/fonts/b290e775-e0f9-4980-914b-a4c32a5e3e36.woff2
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\b290e775-e0f9-4980-914b-a4c32a5e3e36.woff2
+Content Type: application/font-woff2
+
+Uri: https://www.farmfreshtoyou.com/fonts/b5c44a82-eeb8-41de-9c3f-a8db50b24b8a.ttf
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\b5c44a82-eeb8-41de-9c3f-a8db50b24b8a.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/c70e90bc-3c94-41dc-bf14-caa727c76301.ttf
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\c70e90bc-3c94-41dc-bf14-caa727c76301.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/c78eb7af-a1c8-4892-974b-52379646fef4.woff2
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\c78eb7af-a1c8-4892-974b-52379646fef4.woff2
+Content Type: application/font-woff2
+
+Uri: https://www.farmfreshtoyou.com/fonts/c9aeeabd-dd65-491d-b4be-3e0db9ae47a0.woff
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\c9aeeabd-dd65-491d-b4be-3e0db9ae47a0.woff
+Content Type: application/font-woff
+
+Uri: https://www.farmfreshtoyou.com/fonts/cb5c71ad-e582-4d00-929c-67fbfaeb1c27.woff
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\cb5c71ad-e582-4d00-929c-67fbfaeb1c27.woff
+Content Type: application/font-woff
+
+Uri: https://www.farmfreshtoyou.com/fonts/ccd17c6b-e7ed-4b73-b0d2-76712a4ef46b.ttf
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\ccd17c6b-e7ed-4b73-b0d2-76712a4ef46b.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/cdda031e-26e9-4269-83d1-5a218caa10db.woff
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\cdda031e-26e9-4269-83d1-5a218caa10db.woff
+Content Type: application/font-woff
+
+Uri: https://www.farmfreshtoyou.com/fonts/cebcf56a-ea7e-4f5c-8110-a7ee367c1f91.eot?
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\cebcf56a-ea7e-4f5c-8110-a7ee367c1f91.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/cee053ec-4b41-4506-a1fe-796261690610.ttf
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\cee053ec-4b41-4506-a1fe-796261690610.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/d0a3e813-1257-4b66-812a-36101faa0fb3.svg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\d0a3e813-1257-4b66-812a-36101faa0fb3.svg
+Content Type: image/svg+xml
+
+Uri: https://www.farmfreshtoyou.com/fonts/d513e15e-8f35-4129-ad05-481815e52625.woff2
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\d513e15e-8f35-4129-ad05-481815e52625.woff2
+Content Type: application/font-woff2
+
+Uri: https://www.farmfreshtoyou.com/fonts/d8c50fcc-bc32-4f31-8c24-b170c64e2254.eot?
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\d8c50fcc-bc32-4f31-8c24-b170c64e2254.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/deb5e718-7abb-4df3-9365-edfa95317090.woff2
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\deb5e718-7abb-4df3-9365-edfa95317090.woff2
+Content Type: application/font-woff2
+
+Uri: https://www.farmfreshtoyou.com/fonts/e0542193-b2e6-4273-bc45-39d4dfd3c15b.eot?
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\e0542193-b2e6-4273-bc45-39d4dfd3c15b.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/e6b412d9-d1ed-4b17-bb93-a6911df8640d.eot?
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\e6b412d9-d1ed-4b17-bb93-a6911df8640d.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/edefe737-dc78-4aa3-ad03-3c6f908330ed.eot?
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\edefe737-dc78-4aa3-ad03-3c6f908330ed.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/f1ebae2b-5296-4244-8771-5f40e60a564a.woff
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\f1ebae2b-5296-4244-8771-5f40e60a564a.woff
+Content Type: application/font-woff
+
+Uri: https://www.farmfreshtoyou.com/fonts/f55e4498-ad48-4577-93a0-c614de5cbbb8.eot?
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\f55e4498-ad48-4577-93a0-c614de5cbbb8.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/glyphicons-halflings-regular.eot
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\glyphicons-halflings-regular.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/glyphicons-halflings-regular.eot?
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\glyphicons-halflings-regular-1.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/glyphicons-halflings-regular.svg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\glyphicons-halflings-regular.svg
+Content Type: image/svg+xml
+
+Uri: https://www.farmfreshtoyou.com/fonts/glyphicons-halflings-regular.ttf
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\glyphicons-halflings-regular.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/glyphicons-halflings-regular.woff
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\glyphicons-halflings-regular.woff
+Content Type: application/font-woff
+
+Uri: https://www.farmfreshtoyou.com/fonts/glyphicons-halflings-regular.woff2
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\glyphicons-halflings-regular.woff2
+Content Type: application/font-woff2
+
+Uri: https://www.farmfreshtoyou.com/fonts/signpainter.eot
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\signpainter.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/signpainter.eot?
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\signpainter-1.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/signpainter.svg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\signpainter.svg
+Content Type: image/svg+xml
+
+Uri: https://www.farmfreshtoyou.com/fonts/signpainter.ttf
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\signpainter.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/signpainter.woff
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\signpainter.woff
+Content Type: application/font-woff
+
+Uri: https://www.farmfreshtoyou.com/fonts/signpainterhousescript.eot
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\signpainterhousescript.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/signpainterhousescript.eot?
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\signpainterhousescript-1.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/signpainterhousescript.svg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\signpainterhousescript.svg
+Content Type: image/svg+xml
+
+Uri: https://www.farmfreshtoyou.com/fonts/signpainterhousescript.ttf
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\signpainterhousescript.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/signpainterhousescript.woff
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\signpainterhousescript.woff
+Content Type: application/font-woff
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/1861867a-50e1-4970-a8e4-1638d38dac3d.eot?
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\1861867a-50e1-4970-a8e4-1638d38dac3d.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/261e11ea-c8bf-48e3-a4ef-d7a7fd5e8d1d.woff
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\261e11ea-c8bf-48e3-a4ef-d7a7fd5e8d1d.woff
+Content Type: application/font-woff
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/3310B7_0_0.eot
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\3310B7_0_0.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/3310B7_0_0.eot?
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\3310B7_0_0-1.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/3310B7_0_0.ttf
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\3310B7_0_0.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/3310B7_0_0.woff
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\3310B7_0_0.woff
+Content Type: application/font-woff
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/3310B7_0_0.woff2
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\3310B7_0_0.woff2
+Content Type: application/font-woff2
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/429e7891-7c14-4799-b7b8-508c5c4e2365.svg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\429e7891-7c14-4799-b7b8-508c5c4e2365.svg
+Content Type: image/svg+xml
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/4663945d-000c-43bb-adf3-c433878adf4a.ttf
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\4663945d-000c-43bb-adf3-c433878adf4a.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/asap-bold-webfont.eot
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\asap-bold-webfont.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/asap-bold-webfont.eot?
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\asap-bold-webfont-1.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/asap-bold-webfont.woff
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\asap-bold-webfont.woff
+Content Type: application/font-woff
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/asap-bold-webfont.woff2
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\asap-bold-webfont.woff2
+Content Type: application/font-woff2
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/Asap-Bold.ttf
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\Asap-Bold.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/asap-bolditalic-webfont.eot
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\asap-bolditalic-webfont.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/asap-bolditalic-webfont.eot?
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\asap-bolditalic-webfont-1.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/asap-bolditalic-webfont.woff
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\asap-bolditalic-webfont.woff
+Content Type: application/font-woff
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/asap-bolditalic-webfont.woff2
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\asap-bolditalic-webfont.woff2
+Content Type: application/font-woff2
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/Asap-BoldItalic.ttf
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\Asap-BoldItalic.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/asap-italic-webfont.eot
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\asap-italic-webfont.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/asap-italic-webfont.eot?
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\asap-italic-webfont-1.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/asap-italic-webfont.woff
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\asap-italic-webfont.woff
+Content Type: application/font-woff
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/asap-italic-webfont.woff2
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\asap-italic-webfont.woff2
+Content Type: application/font-woff2
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/Asap-Italic.ttf
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\Asap-Italic.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/asap-medium-webfont.eot
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\asap-medium-webfont.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/asap-medium-webfont.eot?
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\asap-medium-webfont-1.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/asap-medium-webfont.woff
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\asap-medium-webfont.woff
+Content Type: application/font-woff
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/asap-medium-webfont.woff2
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\asap-medium-webfont.woff2
+Content Type: application/font-woff2
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/Asap-Medium.ttf
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\Asap-Medium.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/asap-mediumitalic-webfont.eot
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\asap-mediumitalic-webfont.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/asap-mediumitalic-webfont.eot?
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\asap-mediumitalic-webfont-1.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/asap-mediumitalic-webfont.woff
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\asap-mediumitalic-webfont.woff
+Content Type: application/font-woff
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/asap-mediumitalic-webfont.woff2
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\asap-mediumitalic-webfont.woff2
+Content Type: application/font-woff2
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/asap-regular-webfont.eot
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\asap-regular-webfont.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/asap-regular-webfont.eot?
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\asap-regular-webfont-1.eot
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/asap-regular-webfont.woff
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\asap-regular-webfont.woff
+Content Type: application/font-woff
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/asap-regular-webfont.woff2
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\asap-regular-webfont.woff2
+Content Type: application/font-woff2
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/Asap-Regular.ttf
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\Asap-Regular.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.farmfreshtoyou.com/fonts/webfonts/c1e6ccf0-cfd8-449d-8747-50d0e8b7fc24.woff2
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\fonts\webfonts\c1e6ccf0-cfd8-449d-8747-50d0e8b7fc24.woff2
+Content Type: application/font-woff2
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/apple-heart-hands.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\apple-heart-hands.jpg
+Content Type: image/jpeg
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/arrow-up-circle-gold.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\arrow-up-circle-gold.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/banquet2x.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\banquet2x.jpg
+Content Type: image/jpeg
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/bee2x.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\bee2x.jpg
+Content Type: image/jpeg
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/broccoli-pasta2x.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\broccoli-pasta2x.jpg
+Content Type: image/jpeg
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/brown-dotted-line.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\brown-dotted-line.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/btn-bg1.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\btn-bg1.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/btn-bg2.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\btn-bg2.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/btn-bg3.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\btn-bg3.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/carousel-text-bg-sprout.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\carousel-text-bg-sprout.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/circle-arrow-left.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\circle-arrow-left.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/circle-arrow-right.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\circle-arrow-right.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/circle-small.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\circle-small.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/dotted-vert-line-short-gold.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\dotted-vert-line-short-gold.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/dotted-vert-line-short.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\dotted-vert-line-short.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/dottedline-gold.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\dottedline-gold.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/dottedline-white.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\dottedline-white.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/dropshadow.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\dropshadow.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/events-text-box.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\events-text-box.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/fabric-dark-bg.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\fabric-dark-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/fabric-dark-w-stripe-bg.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\fabric-dark-w-stripe-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/fabric-light-bg.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\fabric-light-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/farm-banner-box-lx.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\farm-banner-box-lx.jpg
+Content Type: image/jpeg
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/farm-banner-text-box2.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\farm-banner-text-box2.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/farm-box-light-green-bg.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\farm-box-light-green-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/farm-box-with-milk-light-green-bg.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\farm-box-with-milk-light-green-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/farm_event_picking_field.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\farm_event_picking_field.jpg
+Content Type: image/jpeg
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/feature-bg1.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\feature-bg1.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/features-btn.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\features-btn.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/go-btn.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\go-btn.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/gold-dotted-line.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\gold-dotted-line.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/green-dotted-line.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\green-dotted-line.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/green-dotted-line2a.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\green-dotted-line2a.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/green-dotted-line2b.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\green-dotted-line2b.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/handmade-btn1.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\handmade-btn1.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/handmade-btn3.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\handmade-btn3.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/handmade-btn3b.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\handmade-btn3b.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/handmade-btn4.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\handmade-btn4.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/handmade-btn4b.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\handmade-btn4b.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/holding-radishes.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\holding-radishes.jpg
+Content Type: image/jpeg
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/login-top-btn.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\login-top-btn.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/myaccount-header-bg.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\myaccount-header-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/myfarmstand-freestanding-menu-bg.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\myfarmstand-freestanding-menu-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/nav-highlight-line2.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\nav-highlight-line2.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/navbar-toggle-hamburger-btn.gif
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\navbar-toggle-hamburger-btn.gif
+Content Type: image/gif
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/paperboard-texture1.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\paperboard-texture1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/plus-circle-gold.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\plus-circle-gold.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/plus-circle-white-gold.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\plus-circle-white-gold.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/putty-dotted-line.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\putty-dotted-line.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/recipe-hero-bar.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\recipe-hero-bar.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/recipes-side-box-solid.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\recipes-side-box-solid.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/romaine-lettuce-header.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\romaine-lettuce-header.jpg
+Content Type: image/jpeg
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/shadowbg.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\shadowbg.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/signup-top-btn.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\signup-top-btn.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/solid1-btn.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\solid1-btn.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/veg-baskets-on-wood.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\veg-baskets-on-wood.jpg
+Content Type: image/jpeg
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/watercolor-texture1.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\watercolor-texture1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/white-dotted-line.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\white-dotted-line.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/wide-solid1-btn.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\wide-solid1-btn.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/women-holding-box.jpg
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\women-holding-box.jpg
+Content Type: image/jpeg
+
+Uri: https://www.farmfreshtoyou.com/images/ffty/x-circle-gold.png
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\images\ffty\x-circle-gold.png
+Content Type: image/png
+
+Uri: https://www.farmfreshtoyou.com/recipes
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\recipes.html
+Content Type: text/html
+
+Uri: https://www.farmfreshtoyou.com/recipes/544/creamy-green-garlic-and-potato-soup
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\recipes\544\creamy-green-garlic-and-potato-soup.html
+Content Type: text/html
+
+Uri: https://www.farmfreshtoyou.com/Scripts/jquery-ui.min.js
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\Scripts\jquery-ui.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.farmfreshtoyou.com/scripts/mtiFontTrackingCode.js
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\scripts\mtiFontTrackingCode.js
+Content Type: application/x-javascript
+
+Uri: https://www.farmfreshtoyou.com/scripts/pgwslideshow/pgwslideshow.js
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\scripts\pgwslideshow\pgwslideshow.js
+Content Type: application/x-javascript
+
+Uri: https://www.farmfreshtoyou.com/Scripts/responsive-tabs.js
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\Scripts\responsive-tabs.js
+Content Type: application/x-javascript
+
+Uri: https://www.google.com/recaptcha/api.js
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\recaptcha\api.js
+Content Type: text/javascript
+
+Uri: https://www.googletagmanager.com/gtm.js?id=GTM-NMSHZS
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\gtm.js
+Content Type: application/javascript
+
+Uri: https://www.gstatic.com/recaptcha/releases/hbAq-YhJxOnlU-7cpgBoAJHb/recaptcha__en.js
+File Name: C:\Downloaded Web Sites\www.farmfreshtoyou.com\recaptcha\releases\hbAq-YhJxOnlU-7cpgBoAJHb\recaptcha__en.js
+Content Type: text/javascript
+

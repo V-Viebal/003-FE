@@ -1,0 +1,976 @@
+/*!
+ * This file is the custom styles that overwrite the base Bootstrap settings were needed
+ */
+
+
+
+
+/*------------------------------- HOME ---------------------------------*/
+.welcome-mobile {
+    display: none;
+}
+
+.home-welcome {
+    /*	margin-top: 80px;
+*/ background-image: url(../../images/ffty/farm-banner-box-lx.jpg);
+    min-width: 100%;
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    overflow: visible;
+}
+
+.home-welcome-textblock-bg {
+    width: 33%;
+    height: fit-content;
+    margin: 14.5% 0 6% 5%;
+    background-image: url(../../images/ffty/farm-banner-text-box2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    /*	opacity: 0.8;
+	filter: alpha(opacity=80); /* For IE8 and earlier */
+    overflow: visible;
+}
+
+.home-welcome-textblock {
+    text-align: center;
+    vertical-align: central;
+    padding: 10% 10% 10% 10%;
+}
+
+    .home-welcome-textblock h1 {
+        text-align: center;
+        color: #cbcc98;
+        font-size: 3.5em;
+        line-height: 1.0em;
+        font-family: Oswald, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        text-transform: uppercase;
+        opacity: 1.0;
+        filter: alpha(opacity=100); /* For IE8 and earlier */
+    }
+
+    .home-welcome-textblock p {
+        text-align: center;
+        color: #ffffff;
+        font-size: 2.0em;
+        line-height: 1.2em;
+        font-family: 'Moon Dance', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+    }
+
+    .home-welcome-textblock img {
+        width: 22%;
+        height: auto;
+    }
+
+.home-how-it-works-bg {
+    background-image: url(../../images/ffty/fabric-dark-bg.jpg);
+    background-size: 95px 117px;
+    background-repeat: repeat;
+    position: relative;
+}
+
+.home-how-it-works-arrow {
+    text-align: center;
+}
+
+.home-how-it-works-bg2 {
+    background-image: url(../../images/ffty/fabric-light-bg.jpg);
+    background-size: 95px 117px;
+    background-repeat: repeat;
+}
+
+.home-how-it-works-arrow > .container > .row > img {
+    margin-top: -2px;
+    position: relative;
+}
+
+.home-how-it-works h2 {
+    text-align: center;
+    color: #362b13;
+    font-size: 3.0em;
+    line-height: 0.8em;
+    font-family: 'Moon Dance', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+    padding-bottom: 0.5em;
+    margin-top: 0.125em;
+    font-weight: 600;
+}
+
+.home-how-it-works h3 {
+    text-align: center;
+    color: #a6a668;
+    font-size: 2.25em;
+    line-height: 1.0em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.home-how-it-works h4 {
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #362b13;
+    font-size: 1.0em;
+    line-height: 0.5em;
+    padding-top: 2.0em;
+    letter-spacing: 0.15em;
+}
+
+.home-how-it-works-description {
+    font-size: 1.0em;
+    padding: 0 0.75em;
+}
+
+.home-how-it-works-steps {
+    padding-top: 1.5em;
+}
+
+#getstarted-btn {
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+}
+
+.home-our-promise {
+    background-image: url(../../images/ffty/veg-baskets-on-wood.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+    .home-our-promise row {
+        min-height: 500px;
+        max-height: 500px;
+    }
+
+    .home-our-promise h2 {
+        text-align: center;
+        color: #faf9f7;
+        font-size: 3.0em;
+        line-height: 0.8em;
+        font-family: 'Moon Dance', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+        margin-top: 15%;
+        align-content: center;
+        font-weight: 600;
+    }
+
+.putty-dotted-line {
+    background-image: url(../../images/ffty/putty-dotted-line.png);
+    background-repeat: repeat-x;
+    margin: -1.5em 0em -2em 0em;
+    padding: 2.0em 0em 0em 0em;
+    width: 100%;
+    text-align: center;
+    size: 80%;
+}
+
+.dotted-line {
+    text-align: center;
+    align-content: center;
+    display: block;
+    size: 70%;
+    overflow-x: hidden;
+    margin: 1.0em 0;
+}
+
+    .dotted-line > img {
+        width: 20%;
+        height: auto;
+    }
+
+.home-our-promise p {
+    text-align: center;
+    color: #faf9f7;
+    font-size: 1.3em;
+    line-height: 1.6em;
+    margin: 0.5em 0 0.5em 0;
+}
+
+.home-our-promise .btn-primary, .home-our-promise .btn-primary a:focus, .home-our-promise .btn-primary a:hover {
+    font-size: 0.75em !important;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+}
+
+.home-features {
+}
+
+.home-features-posting-bg {
+    background-image: url(../../images/ffty/feature-bg1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 405px;
+    max-width: 308px;
+    padding: 0.5em 2.0em;
+    margin: 2.0em 0.2em;
+    background-size: 100% 100%;
+}
+
+.home-features h1 {
+    text-align: center;
+    color: #362b13;
+    font-size: 1.0em;
+    line-height: 0.5em;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin: 4.0em 0 -0.5em 0;
+}
+
+.home-features h2 {
+    text-align: center;
+    color: #362b13;
+    font-size: 3.0em;
+    line-height: 0.8em;
+    font-family: 'Moon Dance', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.home-features h3 {
+    text-align: center;
+    color: #362b13;
+    font-size: 1.0em;
+    line-height: 0.5em;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin: -2px 0;
+}
+
+.home-features h4, .home-features h4 a, .home-features h4 a:hover {
+    text-align: center;
+    color: #a6a668;
+    font-size: 1.5em;
+    font-family: Oswald, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.home-features p {
+    text-align: center;
+}
+
+.home-features-icon {
+    background-image: url(../../images/ffty/circle-small.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2.0em;
+    margin: 1.0em;
+}
+
+.home-features-btn {
+    background-image: url(../../images/ffty/features-btn.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.home-features-main-bg {
+    background-image: url(../../images/ffty/fabric-light-bg.jpg);
+    background-size: 95px 117px;
+    background-repeat: repeat;
+    padding-bottom: 20px;
+}
+
+.home-feature-column1-bg-img {
+    width: 100%;
+    height: 194px;
+    background-image: url(../../images/ffty/broccoli-pasta2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    margin: 16px 0 0 0;
+    background-position-y: -30px;
+}
+
+.home-feature-column2-bg-img {
+    width: 100%;
+    height: 194px;
+    background-image: url(../../images/ffty/banquet2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    margin: 16px 0 0 0;
+    background-position-y: -30px;
+}
+
+.home-feature-column3-bg-img {
+    width: 100%;
+    height: 194px;
+    background-image: url(../../images/ffty/bee2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    margin: 16px 0 0 0;
+    background-position-y: -30px;
+}
+
+.home-feature-column-overlay {
+    width: 100%;
+    /*	width: 255px;*/
+    position: absolute; /*You may also use fixed depending on your needs.*/
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+}
+
+.feature-container {
+    text-align: center;
+    display: table;
+    margin: 0px auto 1.0em auto;
+}
+
+    .feature-container .btn-features,
+    .feature-container .btn-features a,
+    .feature-container .btn-features:hover,
+    .feature-container .btn-features:focus,
+    .feature-container .btn-features:active {
+        margin: -5em 0 -1.7em 0;
+    }
+/*---- Feature Listing ----*/
+
+
+
+
+.feature-listing {
+}
+
+.feature-listing-bg {
+    background-image: url(../../images/ffty/feature-bg1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 480px;
+    max-width: 280px;
+    padding: 0.5em 2.0em;
+    margin: 2.0em -0.2em;
+    background-size: 100% 100%;
+}
+
+.feature-listing h1 {
+    text-align: center;
+    color: #362b13;
+    font-size: 1.0em;
+    line-height: 0.5em;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin: 4.0em 0 -0.5em 0;
+}
+
+.feature-listing h2 {
+    text-align: center;
+    color: #362b13;
+    font-size: 3.0em;
+    line-height: 0.8em;
+    font-family: 'Moon Dance', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+    padding: 0 0.5em;
+    font-weight: 600;
+}
+
+.feature-listing h3 {
+    text-align: center;
+    color: #362b13;
+    font-size: 1.0em;
+    line-height: 0.5em;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin: 0.5em 0 0 0;
+}
+
+.feature-listing p a {
+    color: #e8a62d;
+    text-decoration: none;
+}
+
+.feature-listing h4, .feature-listing h4 a, .feature-listing h4 a:hover {
+    text-align: center;
+    color: #a6a668;
+    font-size: 1.25em;
+    font-family: Oswald, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.feature-listing p {
+    text-align: center;
+    line-height: 1.4em;
+    margin-top: -0.25em;
+}
+
+.feature-listing-icon {
+    background-image: url(../../images/ffty/circle-small.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2.0em;
+    margin: 1.0em;
+}
+
+.feature-listing-main-bg {
+    background-image: url(../../images/ffty/fabric-light-bg.jpg);
+    background-size: 95px 117px;
+    background-repeat: repeat;
+    padding-bottom: 20px;
+}
+
+.recipe-filter-settings-bg {
+    background-image: url(../../images/ffty/fabric-light-bg.jpg);
+    background-size: 95px 117px;
+    background-repeat: repeat;
+    padding: 20px 0;
+}
+
+.feature-listing-column {
+    position: relative;
+    height: 149px;
+    overflow: hidden;
+    margin: 1.25em auto;
+    width: 225px;
+}
+
+    .feature-listing-column .recipe-thumbnail {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -moz-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+
+.icon-overlay {
+    width: 225px;
+    position: absolute; /*You may also use fixed depending on your needs.*/
+    left: 0;
+    bottom: -15px;
+    z-index: 999;
+}
+
+/*---- / Feature Listing ----*/
+
+.btn-features, .btn-features a, .btn-features:hover, .btn-features:focus, .btn-features:active {
+    color: #ffffff;
+    background-image: url(../../images/ffty/features-btn.png);
+    margin: -5.0em 0 -1.7em 0;
+    padding: 0.75em 0.60em 0.60em 0.60em;
+    border-color: transparent;
+    background-color: transparent;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    background-position: center;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.0em;
+    min-width: 180px;
+    max-width: 240px;
+    height: auto;
+}
+
+.home-carousel {
+}
+
+.home-carousel-posting-bg {
+    background-image: url(../../images/ffty/carousel-text-bg-sprout.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    /*	width: 930px;*/
+    overflow-y: visible;
+    text-align: center;
+    padding: 2.0em;
+    margin: -30.0em 1.0em 2.0em 1.0em;
+    /*background-size: 970px;*/
+    min-height: 460px;
+    align-content: center;
+}
+
+.home-carousel h1 {
+    text-align: center;
+    color: #362b13;
+    font-size: 1.0em;
+    line-height: 0.5em;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin: 4.0em 0 -0.5em 0;
+}
+
+.home-carousel h2 {
+    text-align: center;
+    color: #362b13;
+    font-size: 3.0em;
+    line-height: 0.8em;
+    font-family: 'Moon Dance', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.home-carousel p {
+    color: #362b13;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+    .home-carousel p .btn, .home-carousel p .btn a:hover, .home-carousel p .btn a:focus {
+        font-size: 0.75em !important;
+        font-family: 'Inter', Helvetica, Arial, sans-serif;
+    }
+
+.carousel-inner {
+    max-height: 700px;
+    min-height: 700px;
+}
+
+    .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+        width: 100%;
+        min-width: 1250px;
+        /*margin-top: -10%;*/
+        vertical-align: top;
+    }
+
+.carousel-caption {
+    /*  position: absolute;
+  	right: 15%;*/
+    /*bottom: 20%;*/
+    /*  left: 15%;
+  	z-index: 10;*/
+    top: 40em;
+    text-shadow: none;
+}
+
+.carousel-text-container {
+}
+
+
+.home-landing .with-milk .photo-fade-too-solid-bg-panel {
+    background-image: url(../../images/ffty/farm-box-with-milk-light-green-bg.jpg);
+}
+
+.home-landing .photo-fade-too-solid-bg-panel {
+    background-image: url(../../images/ffty/farm-box-light-green-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    position: relative;
+    background-color: #e9eacf;
+    padding-top: 0.5em;
+}
+
+    .home-landing .photo-fade-too-solid-bg-panel .white-dotted-line-top2 {
+        background-image: url(../../images/ffty/white-dotted-line.png);
+        background-repeat: repeat-x;
+        margin: 0em 0em -0.5em 0em;
+        width: 100%;
+        text-align: center;
+        size: 80%;
+    }
+
+    .home-landing .photo-fade-too-solid-bg-panel .white-dotted-line-bottom2 {
+        background-image: url(../../images/ffty/white-dotted-line.png);
+        background-repeat: repeat-x;
+        margin: 0em 0em -0.5em 0em;
+        width: 100%;
+        text-align: center;
+        size: 80%;
+        margin-bottom: 1em;
+        position: absolute;
+        bottom: -15px;
+    }
+
+    .home-landing .photo-fade-too-solid-bg-panel .text-block {
+        margin: auto 0;
+    }
+
+    .home-landing .photo-fade-too-solid-bg-panel h3 {
+        color: #362b13;
+        font-size: 1.45em;
+        font-family: Oswald, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 2.5em;
+    }
+
+        .home-landing .photo-fade-too-solid-bg-panel h3 em {
+            font-size: 2.0em;
+            line-height: 0.8em;
+            font-family: 'Moon Dance', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+            font-style: normal;
+            margin-bottom: 1.0em;
+            text-transform: none;
+        }
+
+    .home-landing .photo-fade-too-solid-bg-panel h5 {
+        color: #362b13;
+        font-size: 1.1em;
+        line-height: 1.5em;
+        margin: 0.5em auto;
+        text-align: center;
+        max-width: 18.5em;
+        font-weight: 200;
+    }
+
+    .home-landing .photo-fade-too-solid-bg-panel .white-dotted-line-bottom2 {
+        background-image: url(../../images/ffty/white-dotted-line.png);
+        background-repeat: repeat-x;
+        margin: 0em 0em -0.5em 0em;
+        margin-bottom: -0.5em;
+        width: 100%;
+        text-align: center;
+        size: 80%;
+        margin-bottom: 1em;
+        position: absolute;
+        bottom: -15px;
+    }
+
+/*------------------------------- 3. MEDIA SIZE STYLES ---------------------------------*/
+
+@media (max-width: 480px) {
+
+    /*Carousel - 480 max*/
+    .carousel-inner {
+        max-height: 1200px;
+    }
+
+    .carousel-caption {
+        top: 2em;
+        bottom: 9em;
+    }
+
+    .home-carousel-posting-bg {
+        padding: 2em 1.5em;
+        background-image: url(/images/ffty/carousel-text-bg-sprout1.png);
+        padding-top: 0.6em;
+        margin: 2.0em 0em 0.5em 0em;
+    }
+
+    .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+        min-height: 900px;
+    }
+
+    .home-carousel p {
+        font-size: 1.25em;
+        line-height: 1.35em;
+    }
+
+    .home-carousel h1 {
+        font-size: 0.9em;
+        margin: 5.0em 0 -0.5em 0;
+    }
+
+
+    .home-features-posting-bg {
+        height: 420px;
+    }
+
+    .home-feature-column1-bg-img {
+        width: 100%;
+    }
+
+    .home-feature-column2-bg-img {
+        width: 100%;
+    }
+
+    .home-feature-column3-bg-img {
+        width: 100%;
+    }
+
+    .home-feature-column-overlay {
+        width: 100%;
+        max-width: 255px;
+    }
+
+    /*.btn-features, .btn-features a, .btn-features a:hover, .btn-features a:focus, .btn-features a:active {
+	 color: #ffffff;
+	 background-image: url(../../images/ffty/features-btn.png);
+	 margin: 0.5em 0 -1.7em 0;
+	 padding: 0.75em 0.60em 0.60em 0.60em;
+	 border-color: transparent;
+	 background-color:transparent;
+	 background-size: 100% auto;
+	 background-repeat: no-repeat;
+	 border-radius: 0px;
+	 background-position: center;
+	 font-family: 'Inter', sans-serif;
+	 font-weight: 400;
+	 font-size: 1.0em;
+	 width: 8.0em;
+	 max-width: 240px;
+	 height: auto;
+}*/
+
+    .btn-carousel {
+        width: 14.0em;
+        background-image: url(../../images/ffty/features-btn.png);
+    }
+
+        .btn-carousel a, .btn-carousel:hover, .btn-carousel:focus, .btn-carousel:active:hover {
+            color: #ffffff;
+            background-image: url(../../images/ffty/features-btn.png);
+            margin: 0.5em 0 -1.7em 0;
+            padding: 0.75em 0.60em 0.60em 0.60em;
+            border-color: transparent;
+            background-color: transparent;
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            border-radius: 0px;
+            background-position: center;
+            font-family: 'Inter', Helvetica, Arial, sans-serif;
+            font-weight: 400;
+            font-size: 1.0em;
+            width: 14.0em;
+            max-width: 240px;
+            height: auto;
+        }
+}
+
+@media (max-width: 767px) {
+    body {
+        font-family: 'Inter', sans-serif;
+    }
+
+    .welcome-mobile {
+        display: inline-block;
+        width: 100%;
+        height: 80%;
+    }
+
+    .home-our-promise p {
+        font-size: 1.5em;
+        line-height: 1.5em;
+        font-weight: 600;
+    }
+
+    .welcome-mobile img {
+        width: 100%;
+    }
+
+    .home-welcome {
+        /*	margin-top: 80px;*/
+        background-image: none; /*	background-size: 100% auto;*/
+        /*	min-height: 40.0em;*/
+    }
+
+    .home-welcome-textblock-bg {
+        width: 100% !important;
+        height: 100%;
+        margin: 0 0 0 0 !important;
+        background-image: none;
+        background-color: #362b13;
+        opacity: 1.0;
+        filter: alpha(opacity=100); /* For IE8 and earlier */
+    }
+
+    .home-welcome-textblock {
+        padding: 5% 10% 9% 10%;
+    }
+
+        .home-welcome-textblock p img {
+            max-height: 4.0em;
+        }
+
+        .home-welcome-textblock img {
+            width: 22%;
+            height: auto;
+            max-width: 4em;
+            min-width: 3em;
+        }
+
+    .container-no-side-padding {
+        padding-left: 0px;
+        padding-right: 0px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .home-our-promise {
+        background-image: url(../../images/ffty/veg-baskets-on-wood.jpg);
+        background-size: auto 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    div .home-how-it-works-steps {
+        padding: 2.0em 4.0em;
+        max-width: 300px;
+    }
+
+    div .home-how-it-works-steps {
+        padding: 2.0em 1.0em;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .home-how-it-works p {
+        font-size: 1.25em;
+    }
+
+    .home-how-it-works-description {
+        font-size: 1.25em;
+    }
+
+    div > .delivery-area {
+        padding: 28.0em;
+    }
+
+    .home-delivery-area p {
+        font-size: 1.25em;
+    }
+
+    .home-features h3 {
+        font-size: 1.10em;
+        line-height: 1.0em;
+    }
+
+    .home-features h4 {
+        font-size: 2.125em;
+        line-height: 0.93em;
+    }
+
+    .home-features p {
+        text-align: center;
+        color: #362b13;
+        font-size: 1.10em;
+        line-height: 1.35em;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .home-feature-column1-bg-img,
+    .home-feature-column2-bg-img,
+    .home-feature-column3-bg-img {
+        height: 146px;
+        margin-top: 16px;
+    }
+
+    .home-carousel p {
+        font-size: 1.25em;
+        line-height: 1.35em;
+    }
+    .home-landing .photo-fade-too-solid-bg-panel .text-block {
+        margin: auto auto auto 8%;
+    }
+}
+
+@media (max-width: 992px) {
+    .carousel-caption {
+        top: 36em;
+        bottom: 14em;
+    }
+
+    .home-welcome-textblock-bg {
+        width: 50%;
+        margin: 9% auto 1% auto;
+        max-height: 351px;
+        min-height: 355px;
+    }
+
+    .certification p img {
+        max-width: 3.2em;
+        max-height: auto;
+        margin: 0 4px;
+    }
+
+    .home-welcome-textblock {
+        padding: 7% 10%;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+        .home-welcome-textblock h1 {
+            color: #cbcc98;
+            font-size: 2.25em;
+            line-height: 1.0em;
+            font-family: Oswald, sans-serif;
+            font-weight: normal;
+            font-style: normal;
+            text-transform: uppercase;
+        }
+
+        .home-welcome-textblock p {
+            text-align: center;
+            color: #ffffff;
+            font-size: 2.0em;
+            line-height: 1.0em;
+            font-family: 'Moon Dance', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+        }
+
+        .home-welcome-textblock img {
+            width: 22%;
+            height: auto;
+        }
+
+    .home-carousel-posting-bg {
+        background-image: none;
+        background-color: rgba(255, 255, 255, 0.35); /*background: rgba(255,255,255,0);
+	background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); */
+    }
+
+    .row-centered {
+        margin: auto;
+        max-width: 320px;
+        text-align: center;
+    }
+
+    .col-centered {
+        /*margin: auto;*/
+        text-align: center;
+    }
+
+    .home-our-promise p {
+        font-family: 'Inter', Helvetica, Arial, sans-serif;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    div .home-how-it-works-steps {
+        padding: 2.0em 1.0em;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .home-welcome-textblock-bg {
+        width: 40%;
+        margin: 17% 0 3% 5%;
+    }
+
+    .dotted-line > img {
+        min-width: 140px;
+    }
+
+    .home-landing .photo-fade-too-solid-bg-panel {
+        background-position: right;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .home-carousel-posting-bg {
+        min-height: 500px;
+    }
+
+    .home-our-promise {
+        min-height: 450px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .home-carousel-posting-bg {
+        min-height: 50%;
+    }
+
+    .home-carousel p {
+        padding-left: 2.0em;
+        padding-right: 2.0em;
+    }
+}

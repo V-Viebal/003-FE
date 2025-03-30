@@ -1,0 +1,934 @@
+/*!
+ * This file is the custom styles that overwrite the base Bootstrap settings were needed
+ */
+
+
+
+
+/*------------------------------- CONTACT HELP FAQ ---------------------------------*/
+
+.bolder {
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+}
+
+.contact-pg-bg {
+    background-color: #f4f2ec;
+}
+
+.contact-help-header {
+    background-image: url(../../images/ffty/romaine-lettuce-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: auto;
+    background-color: #9f9f63;
+    color: #ffffff;
+    min-height: 37em;
+}
+
+.contact-help-header-icons img {
+    width: 100px;
+    height: 100px;
+}
+
+.contact-help-header-icons p {
+    margin: 0.75em 0 3.0em 0;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+    .contact-help-header-icons p a {
+        color: #e8a62d;
+        text-decoration: none;
+    }
+
+.contact-help-header h1 {
+    text-align: center;
+    padding-top: 125px;
+    color: #faf9f7;
+    font-size: 3.9em;
+    font-family: VinylOT-Regular, sans-serif;
+    text-transform: uppercase;
+    margin: 1.0em 22% 0.5em 22%;
+}
+
+.contact-help-header h4 {
+    font-size: 1.05em;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    letter-spacing: 0.12em;
+}
+
+.contact-help-header p {
+    margin-top: -0.50em;
+}
+
+.contact-help-header-container {
+    max-width: 90%;
+    margin-left: 6%;
+}
+
+.contact-form {
+    background-color: #cccc86;
+}
+
+    .contact-form .container {
+        margin: 4.0em auto 2.0em auto;
+    }
+
+    .contact-form h2 {
+        color: #ffffff;
+        font-size: 2.7em;
+        line-height: 0.95em;
+        font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+        margin-top: 0.25em;
+        margin-bottom: 0.25em;
+        font-weight: normal;
+    }
+
+    .contact-form h3 {
+        text-align: left;
+        color: #362b13;
+        font-size: 1.6em;
+        font-family: VinylOT-Regular, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+        margin: 0;
+    }
+
+    .contact-form p {
+        color: #6e6e46;
+        font-family: 'Inter', sans-serif;
+        display: inline-block;
+        float: right;
+        margin: 0;
+    }
+
+    .contact-form .form-header {
+        border-bottom: 1px #9f9f63 solid;
+        float: left;
+        width: 100%;
+        margin: 1.25em 0em;
+    }
+
+    .contact-form .radio-group-container {
+        background-color: #d8d89e;
+        display: block;
+        padding: 1em;
+    }
+
+        .contact-form .radio-group-container label {
+            display: inline-block;
+            text-transform: none;
+            letter-spacing: normal;
+            margin: 0.7em 0.5em;
+        }
+
+        .contact-form .radio-group-container input[type=text] {
+            margin: -0.5em 0 0 0.5em;
+            width: 80%;
+            display: inline-block;
+        }
+
+    .contact-form .cta-btn-row {
+        margin: 1.0em;
+    }
+
+.contact-form-confirm-box {
+    background-color: #d5d593;
+    padding: 12em 0;
+    margin: 1em 0;
+}
+
+/* FAQ Search and Results */
+.contact-pg .search {
+    padding: 3em;
+    background-color: #9f9f63;
+}
+
+    .contact-pg .search h2 {
+        color: #ffffff;
+        font-size: 3.0em;
+        line-height: 0.95em;
+        font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+        margin-top: 0.25em;
+        margin-bottom: 0.25em;
+        padding-right: 0.25em;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+        .contact-pg .search h2 em {
+            font-family: VinylOT-Regular, sans-serif;
+            font-style: normal;
+            text-transform: uppercase;
+            font-size: .70em;
+            line-height: 1.25em;
+            display: inline-block;
+        }
+
+    .contact-pg .search input[type=search] {
+        max-width: 14em;
+        display: inline-block;
+        margin: 0.5em auto 0 auto;
+    }
+
+    .contact-pg .search label {
+        margin-top: -0.75em;
+    }
+
+.search-bar-icon-base {
+    position: relative;
+    z-index: 10;
+}
+
+.search-bar-icon {
+    position: relative;
+    top: -30px;
+    right: 10px;
+    float: right;
+    color: #e8a62d;
+    z-index: 500;
+    display: inline-block;
+}
+
+.search-bar-icon-link {
+    color: #e8a62d !important;
+    cursor: default;
+}
+
+.form-control {
+    font-size: 16px;
+}
+
+.putty-dotted-line {
+    background-image: url(../../images/ffty/dottedline-white.png);
+    background-repeat: repeat-x;
+    background-size: 35%;
+    padding: 2.0em 0em 0em 0em;
+    text-align: center;
+    size: 80%;
+    opacity: 0.8;
+    max-width: 32em;
+    margin: 0.25em auto 0 auto;
+    filter: alpha(opacity=80);
+}
+
+.search-again {
+    font-family: VinylOT-Regular, sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    display: inline-block;
+    color: #ffffff;
+    margin-top: 0.75em;
+    margin-right: 0.5em;
+    vertical-align: sub;
+}
+
+.search-results-box {
+    background-color: #ffffff;
+    padding: 2.5em 4.5em;
+    margin: 1em auto;
+    max-width: 70em;
+}
+
+    .search-results-box a {
+        text-decoration: none;
+    }
+
+.search-results-box-header {
+    padding: 1em 0 3em 0;
+    border-bottom: 1px #9f9f63 solid;
+    margin-bottom: 3em;
+}
+
+.search-results-box h5 {
+    font-family: VinylOT-Regular, sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #e8a62d;
+    font-size: 1.5em;
+    text-align: left;
+    margin-top: 1em;
+    margin-bottom: 0em;
+}
+
+.search-results-box h6 {
+    font-size: 1.0em;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    display: inline-block;
+}
+
+.search-results-box .quantity-links {
+    margin: -0.25em auto 2em auto;
+}
+
+    .search-results-box .quantity-links a {
+        margin: auto 0.25em;
+    }
+
+.results-per-page {
+}
+
+.search-results-box a {
+    color: #e8a62d;
+}
+
+.search-results-box p {
+    text-align: left;
+}
+
+.search-results-box .result amount {
+    font-family: VinylOT-Regular, sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #e8a62d;
+}
+
+/* /FAQ Search and Results */
+
+
+/*FAQ Help Menu*/
+.faq-menu {
+    background-color: none;
+    background-image: url(../../images/ffty/fabric-light-bg.jpg);
+    padding-bottom: 5em;
+    padding-top: 2.5em;
+}
+
+    .faq-menu .menu-container {
+        max-width: 47em;
+        margin: 0 auto;
+        text-align: center;
+        align-content: center;
+    }
+
+    .faq-menu h2 {
+        text-align: center;
+        color: #a6a668;
+        font-size: 3.0em;
+        line-height: 0.8em;
+        margin: 1.0em 0 0.5em 0;
+        font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+    }
+
+    .faq-menu a {
+        list-style-image: none;
+        list-style-position: inside;
+        list-style-type: none;
+        display: inline-block;
+        width: 14em;
+        padding: 0.25em;
+        margin: 0.53em;
+        float: left;
+    }
+
+        .faq-menu a,
+        .faq-menu a:hover,
+        .faq-menu a:active,
+        .faq-menu a:focus {
+            padding: 6px 12px;
+            font-weight: normal;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-color: #ffffff;
+            color: #e8a62d;
+            font-size: 1.0em;
+            font-family: 'Inter', Helvetica, Arial, sans-serif;
+            border-radius: 0px;
+            border: 1px solid #e8a62d;
+            text-decoration: none;
+        }
+/* /FAQ Help Menu*/
+
+
+/* FAQ Q&A List */
+.q-and-a {
+    margin: 0 auto 3em auto;
+}
+
+.dotted-line-header-top,
+.dotted-line-header-bottom {
+    background-repeat: repeat-x;
+    background-size: auto;
+    background-position: center;
+    padding: auto;
+    text-align: center;
+}
+
+.dotted-line-header-top {
+    background-image: url(../../images/ffty/green-dotted-line2a.png);
+    margin: 5em auto 0 auto;
+}
+
+.dotted-line-header-bottom {
+    background-image: url(../../images/ffty/green-dotted-line2b.png);
+    margin: 0.25em auto 1em auto;
+}
+
+.h2-mod {
+    color: #a6a668;
+    font-size: 3.25em;
+    line-height: 0.75em;
+    font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+    margin: 0 auto;
+    padding: 1em 0.125em 0em 0;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+}
+
+.q-and-a h2,
+.q-and-a h2 a,
+.q-and-a h2 a:hover,
+.q-and-a h2 a:focus,
+.q-and-a h2 a:active {
+    color: #a6a668;
+    font-size: 1.75em;
+    line-height: 0.75em;
+    font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0.25em 0.125em 0em 0;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+}
+
+.q-and-a img {
+    margin-left: 0.25em;
+    margin-bottom: 0.125em;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+}
+
+.q-and-a h2 em {
+    font-family: VinylOT-Regular, sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    line-height: 0.5em;
+    max-width: 5em;
+}
+
+.question h3, .qa-row h3 a {
+    color: #362b13;
+    font-family: VinylOT-Regular, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: initial;
+    text-align: left;
+    line-height: 1.0em;
+    text-decoration: none;
+    font-size: 0.85em;
+}
+
+.answer a {
+    font-style: normal;
+}
+
+    .answer a,
+    .answer a:hover,
+    .answer a:focus,
+    .answer a:active,
+    blockquote a,
+    blockquote a:hover,
+    blockquote a:focus,
+    blockquote a:active {
+        font-style: normal;
+        color: #e8a62d;
+        text-decoration: none;
+    }
+
+blockquote {
+    font-style: normal;
+    font-size: 14px;
+    border: 0px;
+}
+
+.qa-row {
+    margin: 2.25em auto 0.3em auto;
+    max-width: 50em;
+}
+
+    .qa-row h3,
+    .qa-row p {
+        margin: 0.125em 0;
+    }
+/* / FAQ Q&A List */
+
+.egift-t-and-c p,
+.refer-a-friend-bg p {
+    max-width: 50em;
+    margin: auto;
+}
+
+
+.egift-t-and-c h2,
+.refer-a-friend-bg h2 {
+    color: #a6a668;
+    font-size: 3.25em;
+    line-height: 0.75em;
+    font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+    margin: 1.5em auto 0.75em auto;
+    text-align: center;
+}
+
+.egift-t-and-c h3,
+.refer-a-friend-bg h3 {
+    text-align: center;
+    color: #362b13;
+    font-size: 1.20em;
+    font-weight: 300;
+    line-height: 1.6em;
+    margin: 0.5em auto 0.5em auto;
+}
+
+.egift-t-and-c .trigger a,
+.egift-t-and-c .trigger a:hover,
+.egift-t-and-c .trigger a:active,
+.refer-a-friend-bg .trigger a,
+.refer-a-friend-bg .trigger a:hover,
+.refer-a-friend-bg .trigger a:active {
+    color: #e8a62d;
+    text-decoration: none;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    line-height: 1.4em;
+    display: inline-block;
+    text-align: center;
+    margin: 1em auto 2.5em auto;
+}
+
+.egift-t-and-c h4,
+.refer-a-friend-bg h4 {
+    color: #362b13;
+    font-size: 1.45em;
+    font-family: VinylOT-Regular, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.0em;
+    margin: 1.5em auto 0.75em auto;
+}
+
+/* Online Self Cancel Service */
+.contact-form .cancel-container1 {
+	background-color: #d8d89e;
+	display: block;
+	padding: 1em 1.75em;
+}
+.gold-italic {
+	font-family:'Inter', Helvetica, Arial, sans-serif;
+	color: #e8a62d;
+}
+.reason {
+	margin-top: 30px;
+}
+.contact-form p.retention-text {
+	color:#362b13;
+	font-family: 'Inter', Helvetica, Arial, sans-serif;
+	margin-bottom: 1em;
+}
+.contact-form .cancel-container2 {
+	background-color: #e3e3b1;
+	display: block;
+	padding: 1em 1.75em 2em 1.75em;
+}
+.contact-form .cancel-container2 h2{
+	color: #362b13;
+}
+.contact-form .cancel-container2 p.retention-text {
+	color:#362b13;
+	font-family: 'Inter', Helvetica, Arial, sans-serif;
+	margin-bottom: 1em;
+	float: none;
+}
+.contact-form .cancel-container2 p.retention-text a {
+	color:#e8a62d;
+	font-family: 'Inter', Helvetica, Arial, sans-serif;
+}
+.contact-form .cancel-container2 p.retention-text a:hover {
+	text-decoration: none;
+}
+.contact-form .cancel-container2 p.retention-text .bolder a {
+	color:#e8a62d;
+	font-family: "Inter", Helvetica, Arial, sans-serif;
+}
+.contact-form .cancel-container2 p.retention-text .bolder a:hover {
+	text-decoration: none;
+}
+.contact-form p.retention-text p.bolder {
+	color: #362b13;
+	font-family: "Inter", Helvetica, Arial, sans-serif;
+}
+.contact-form a.btn-clean1,
+.contact-form a.btn-clean1:active {
+	background-color: #ffffff;
+    color: #e8a62d;
+    font-size: 1.0em;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    border-radius: 0px;
+    border: 1px solid #e8a62d;
+}
+.reason .btn-container {
+	text-align: right;
+}
+.contact-form-confirm-box {
+	padding: 15% 20%;
+}
+.contact-form-confirm-box h2,
+.contact-form-confirm-box h3,
+.contact-form-confirm-box p {
+	text-align: center;
+}
+.contact-form-confirm-box-red {
+	padding: 40px 14.5%;
+	text-align: center;
+	background-color: #d58b8b;
+	margin: 1em 0;
+}
+.contact-form-confirm-box-red h2,
+.contact-form-confirm-box-red h3,
+.contact-form-confirm-box-red p {
+	text-align: center;
+	float: inherit;
+}
+.contact-form-confirm-box-red img{
+	max-width: 60px;
+    margin-bottom: 1em;
+}
+.contact-form .contact-form-confirm-box-red p {
+	text-align: center;
+	color:#362b13;
+	font-family:'Inter', Helvetica, Arial, sans-serif;
+	font-size: 1.25em;
+}
+.contact-form .contact-form-confirm-box-red a {
+	font-family: "Inter", Helvetica, Arial, sans-serif;
+	color:#362b13;
+	text-decoration: none;
+	cursor: pointer;
+}
+.contact-form .contact-form-confirm-box-red h4 {
+	color:#362b13;
+	font-family: 'Inter', Helvetica, Arial, sans-serif;
+	font-size: 1.4em;
+	line-height: 1.3em;
+	margin-bottom: 1em;
+}
+.contact-form .contact-form-confirm-box-red h4 strong {
+	font-family:"Inter", Helvetica, Arial, sans-serif;
+}
+.continue-cancellation-modal-sm .modal-content {
+	padding: 0;
+	letter-spacing: 0.03em;
+}
+.modal-dialog .modal-content .modal-box1,
+.modal-dialog .modal-content .modal-box3,
+.modal-dialog .modal-content .modal-box4 {
+	padding: 1.25em 2em;
+	float: none;
+	text-align: center;
+}
+.modal-dialog .modal-content .modal-box2 {
+    padding: .5em 2em;
+	float: none;
+	text-align: center;
+}
+
+
+.modal-dialog .modal-content .modal-box1 {
+	background-color: #edebe5;
+	font-size: 1.25em;
+}
+.modal-dialog .modal-content .modal-box1 p {
+	padding-top: 0.5em;
+}
+.modal-dialog .modal-content .modal-box1 strong {
+	font-family: 'Inter', Helvetica, Arial, sans-serif;
+}
+.modal-dialog .modal-content .modal-box2 {
+	background-color: #e6b5b5;
+}
+.modal-dialog .modal-content .modal-box4 {
+	padding: 1.25em 2em 2.25em 2em;
+}
+.modal-dialog .modal-content p .red {
+	color: #b02b21;
+}
+.modal-dialog .modal-content .modal-box2 p {
+	font-family: 'Inter', Helvetica, Arial, sans-serif;
+	line-height: 1.45em;
+}
+.modal-dialog .modal-content .modal-box2 p a {
+	font-family: "Inter", Helvetica, Arial, sans-serif;
+	color: #362b13;
+	text-decoration: none;
+	cursor: pointer;
+}
+.modal-dialog .modal-content .modal-box3 {
+	background-color: #fff;
+	text-align: left;
+	padding-bottom: 1em;
+	padding-left: 3em;
+}
+.modal-dialog .modal-content .modal-box3 p {
+	margin-bottom: .75em;
+}
+.modal-dialog .modal-content .modal-box3 p a,
+.modal-dialog .modal-content .modal-box4 p a {
+	color: #e8a62d;
+	font-family:'Inter', Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	cursor: pointer;
+}
+.modal-dialog .modal-content .modal-box3 p strong {
+	font-family: 'Inter', Helvetica, Arial, sans-serif;
+}
+.modal-dialog .modal-content .modal-box3 p em {
+	color: #998675;
+}
+.modal-dialog .modal-content .modal-box4 {
+	background-color: #edebe5;
+}
+.modal-dialog .modal-content p {
+	float: none;
+	color: #362b13;
+	font-family: 'Inter', Helvetica, Arial, sans-serif;
+}
+.modal-dialog .modal-content .modal-box4 .btn-wide-solid2,
+.modal-dialog .modal-content .modal-box4 .btn-wide-solid2 a:hover{
+	margin: 0.7em 0 0.20em 0;
+    padding: 1.20em 1.25em;
+    width: 15em;
+}
+
+/* / Online Self Cancel Service */
+
+
+
+/*------------------------------- 3. MEDIA SIZE STYLES ---------------------------------*/
+
+@media (max-width: 480px) {
+
+    
+	
+/* Online Self Cancel Service - Mobile */	
+.contact-form .contact-form-confirm-box h2 {
+	font-size: 2em;
+}
+.contact-form .contact-form-confirm-box-red p {
+	font-size: 1em;
+}
+.contact-form .contact-form-confirm-box-red h4 {
+	font-size: 1.2em;
+	line-height: 1.3em;
+}
+.continue-cancellation-modal-sm {
+	margin-top: -15px !important;
+	margin-right: -15px !important;
+	margin-left: -15px !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+/* / Online Self Cancel Service - Mobile */	
+	
+
+
+    .contact-help-header h1 {
+        padding-top: 57px;
+        font-size: 2.5em;
+        margin: 0.15em;
+    }
+
+    .spawn-block {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .faq-menu .menu-container {
+        max-width: 15.5em;
+    }
+
+    .faq-menu .menu-container {
+        max-width: 15em;
+    }
+
+    .q-and-a h2 {
+        line-height: 0.125em;
+        margin: 0 auto;
+        padding: 0.4em 0.25em 0em 0;
+        text-align: center;
+    }
+
+    .q-and-a .spawn-block {
+        display: block;
+    }
+
+    .q-and-a img {
+        margin-left: 0em;
+    }
+
+    .q-and-a h2,
+    .q-and-a h2 a,
+    .q-and-a h2 a:hover,
+    .q-and-a h2 a:focus,
+    .q-and-a h2 a:active {
+        padding: .5em 0 0 0;
+    }
+
+    .contact-form .radio-group-container input[type=text] {
+        width: 60%;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+    .contact-help-header {
+        height: auto;
+    }
+
+        .contact-help-header h1 {
+            padding-top: 57px;
+            font-size: 2.5em;
+            margin: 1.0em;
+        }
+
+    .contact-help-header-icons p {
+        margin: 0 3.0em 3.0em 3.0em;
+    }
+
+    .contact-form p {
+        display: block;
+        float: none;
+        margin: 0em;
+    }
+
+    .contact-pg .search h2 {
+        padding-right: 0em;
+    }
+
+    .faq-menu .menu-container {
+        max-width: 18em;
+        margin: 0 auto;
+        text-align: center;
+        align-content: center;
+    }
+
+    .qa-row p {
+        font-size: 1.5em;
+    }
+    /*	FAQ Search and Results  */
+    .search-results-box {
+        padding: 1.5em 1.5em;
+        margin: 1em 0;
+    }
+
+    .contact-pg .search {
+        padding: 0.5em;
+    }
+
+    .search-results-box .quantity-links a {
+        margin: auto 1em;
+    }
+
+    .search-results-box-header {
+        padding: 1em 0 0 0;
+    }
+
+    /*	FAQs */
+    .question {
+        text-align: left;
+    }
+
+    .answer {
+        text-align: left;
+        padding-left: 0;
+    }
+
+    .qa-row h3,
+    .qa-row p {
+        margin: 0.25em;
+    }
+
+    .qa-row p {
+        font-size: 1.25em;
+    }
+
+    .qa-row h3 {
+        font-size: 1.85em;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .contact-help-header-icons img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .contact-help-header-icons p {
+        font-size: 1.25em;
+    }
+
+    .contact-help-header h1 {
+        /*	font-size: 3.9em;*/
+        margin: 1.0em 0.5% 0.5em 0.5%;
+    }
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (min-width: 0px) {
+}
+
+@media (min-width: 480px) {
+}
+
+@media (min-width: 768px) {
+    .nav > li > a {
+        position: relative;
+        display: block;
+        padding: 14px 12px 10px 12px;
+    }
+
+    .navbar-hide-desktop-view {
+        display: none;
+    }
+
+    .results-per-page {
+        float: right;
+        margin-left: 2em;
+    }
+
+    .displaying-pages {
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+    .qa-row h3 {
+        margin-left: 0em;
+    }
+}

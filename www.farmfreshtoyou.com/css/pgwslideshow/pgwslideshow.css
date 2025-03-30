@@ -1,0 +1,283 @@
+/**
+ * PgwSlideshow - Version 2.0
+ *
+ * Copyright 2014, Jonathan M. Piat
+ * http://pgwjs.com - http://pagawa.com
+ *
+ * Released under the GNU GPLv3 license - http://opensource.org/licenses/gpl-3.0
+ */
+.pgwSlideshow {
+    width: 100%;
+    background: #333;
+    display: none;
+    box-shadow: 3px 2px 3px #ccc;
+    z-index: 4;
+    position: relative;
+}
+
+    .pgwSlideshow a {
+        color: #fff;
+    }
+
+    .pgwSlideshow .ps-current {
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        /*	box-shadow: 0 6px 6px 5px #333 inset; */
+    }
+
+        .pgwSlideshow .ps-current > ul {
+            padding-left: 0;
+        }
+
+            .pgwSlideshow .ps-current > ul > li {
+                text-align: center;
+                width: 100%;
+                z-index: 1;
+                opacity: 0;
+                display: block;
+            }
+
+                .pgwSlideshow .ps-current > ul > li img {
+                    display: block;
+                    margin: auto;
+                    max-height: 45em;
+                    width: auto;
+                    max-width: 100%;
+                }
+
+    .pgwSlideshow .ps-caption {
+        background: rgba(0, 0, 0, 0.5);
+        filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000', endColorstr='#99000000');
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000', endColorstr='#99000000')";
+        text-align: left;
+        font-size: 1rem;
+        color: #fff;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        padding: 10px;
+        display: none;
+    }
+
+        .pgwSlideshow .ps-caption span {
+            padding: 7px;
+            display: none; /* <--- Made this "none" to hide it */
+        }
+
+    .pgwSlideshow .ps-list {
+        border-top: 1px solid #555;
+        /*  box-shadow: 0 10px 10px -5px #333 inset; */
+        background: #faf9f7;
+        overflow: hidden;
+        position: relative;
+    }
+
+        .pgwSlideshow .ps-list ul {
+            position: relative;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            left: 0;
+        }
+
+        .pgwSlideshow .ps-list li {
+            float: left;
+        }
+
+            .pgwSlideshow .ps-list li .ps-item {
+                display: block;
+                margin: 5px 3px;
+                opacity: 1.0;
+                filter: alpha(opacity=60);
+            }
+
+            .pgwSlideshow .ps-list li img {
+                display: block;
+                width: 135px;
+                max-height: 90px;
+                /*height: 100px;*/
+            }
+
+            /*.pgwSlideshow .ps-list li .ps-item .ps-selected:before {
+    opacity: 0.6;
+    background-color: #FF9A00;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 135px;
+    height: 100px;
+}*/
+            .pgwSlideshow .ps-list li .ps-item .ps-selected:before {
+                opacity: 0.6;
+                background-color: #FF9A00;
+                position: absolute;
+                z-index: 999;
+            }
+
+            .pgwSlideshow .ps-list li .ps-item.ps-selected {
+                float: left;
+                opacity: 0.6;
+                border: 4px solid #FF9A00;
+                overflow: hidden;
+                position: relative;
+            }
+
+                .pgwSlideshow .ps-list li .ps-item.ps-selected:before {
+                    position: absolute;
+                    content: '';
+                    background: #ffaa00;
+                    opacity: 0.6;
+                    pointer-events: none;
+                }
+
+                .pgwSlideshow .ps-list li .ps-item.ps-selected img {
+                    margin: -4px;
+                }
+
+    .pgwSlideshow .ps-prevIcon {
+        display: block;
+        background-image: url(../../images/ffty/circle-arrow-left.png);
+        background-position: center;
+        height: 2em;
+        width: 2em;
+    }
+
+    .pgwSlideshow .ps-nextIcon {
+        display: block;
+        background-image: url(../../images/ffty/circle-arrow-right.png);
+        background-position: center;
+        height: 2em;
+        width: 2em;
+    }
+
+    .pgwSlideshow .ps-current .ps-prev {
+        background: rgba(0, 0, 0, 0.35);
+        filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000', endColorstr='#99000000');
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000', endColorstr='#99000000')";
+        border: 0px solid #777;
+        border-left: 0;
+        position: absolute;
+        padding: 20px 18px 20px 18px;
+        border-radius: 0px 7px 7px 0px;
+        left: 0;
+        top: 45%;
+        cursor: pointer;
+    }
+
+    .pgwSlideshow .ps-current .ps-next {
+        background: rgba(0, 0, 0, 0.35);
+        filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000', endColorstr='#99000000');
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000', endColorstr='#99000000')";
+        border: 0px solid #777;
+        border-right: 0;
+        position: absolute;
+        padding: 20px 15px 20px 20px;
+        border-radius: 7px 0px 0px 7px;
+        right: 0;
+        top: 45%;
+        cursor: pointer;
+    }
+
+    .pgwSlideshow .ps-list .ps-prev {
+        background: #faf9f7;
+        filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#bb000000', endColorstr='#bb000000');
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#bb000000', endColorstr='#bb000000')";
+        border-left: 0;
+        border-radius: 0;
+        padding: 60px 10px 50px 15px;
+        cursor: pointer;
+        position: absolute;
+        left: 0;
+        top: -26px;
+        z-index: 1000;
+        display: none;
+    }
+
+    .pgwSlideshow .ps-list .ps-next {
+        background: #faf9f7;
+        filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#bb000000', endColorstr='#bb000000');
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#bb000000', endColorstr='#bb000000')";
+        border-right: 0;
+        border-radius: 0;
+        padding: 60px 15px 50px 10px;
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        top: -26px;
+        z-index: 1000;
+        display: none;
+    }
+
+    /*
+ * The media-queries are not used because IE8 doesn't support them.
+ */
+    .pgwSlideshow.narrow .ps-list li img {
+        width: 60px;
+        height: 30px;
+    }
+
+    .pgwSlideshow.narrow .ps-current .ps-prev {
+        padding: 15px 15px 15px 12px;
+        top: 40%;
+    }
+
+    .pgwSlideshow.narrow .ps-current .ps-next {
+        padding: 15px 12px 15px 15px;
+        top: 40%;
+    }
+
+    .pgwSlideshow.narrow .ps-list .ps-prev {
+        padding: 15px 12px 15px 10px;
+        top: -8px;
+        height: 70px;
+    }
+
+    .pgwSlideshow.narrow .ps-list .ps-next {
+        padding: 15px 10px 15px 12px;
+        top: -8px;
+        height: 70px;
+    }
+
+    .pgwSlideshow.narrow .ps-caption {
+        font-size: 0.8rem;
+        padding: 8px;
+    }
+
+
+
+@media (max-width: 480px) {
+
+    .pgwSlideshow .ps-list .ps-prev {
+        top: -10px;
+    }
+
+    .pgwSlideshow .ps-list .ps-next {
+        top: -20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .pgwSlideshow .ps-current .ps-prev {
+        background: rgba(0, 0, 0, 0);
+    }
+
+    .pgwSlideshow .ps-current .ps-next {
+        background: rgba(0, 0, 0, 0);
+    }
+}
+
+@media (min-width: 768px) {
+
+    .pgwSlideshow {
+        width: 100%;
+        background: #362b13;
+        display: none;
+        box-shadow: 3px 2px 3px #ccc;
+        z-index: 4;
+        position: relative;
+        margin-top: 2.5em;
+    }
+}

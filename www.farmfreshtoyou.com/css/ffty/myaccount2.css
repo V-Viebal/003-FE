@@ -1,0 +1,3054 @@
+/*!
+ * This file is the custom styles that overwrite the base Bootstrap settings were needed
+ */
+
+
+
+
+/*------------------------------- MY ACCOUNT ---------------------------------*/
+#btn-clean1, #btn-clean1 a, #btn-clean1:hover, #btn-clean1 a:active, #btn-clean1 a:focus,
+#btn-clean2, #btn-clean2 a, #btn-clean2:hover, #btn-clean2 a:active, #btn-clean2 a:focus,
+#btn-clean3, #btn-clean3 a, #btn-clean3:hover, #btn-clean3 a:active, #btn-clean3 a:focus #btn-clean4, #btn-clean4 a, #btn-clean4:hover, #btn-clean4 a:active, #btn-clean4 a:focus,
+#btn-clean5, #btn-clean5 a, #btn-clean5:hover, #btn-clean5 a:active, #btn-clean5 a:focus {
+    border: #e8a62d 1px solid;
+    color: #e8a62d;
+    min-width: 10em;
+}
+
+.myaccount {
+}
+
+.myaccountmenu {
+}
+
+.myaccount-need-help {
+}
+
+.myaccount-need-help-bg,
+.myaccount-account-summary-bg,
+.myaccount-account-history-payments-bg,
+.myaccount-manage-services-bg,
+.myaccount-edit-delivery-info-bg {
+    background-color: #f4f2ec;
+}
+
+.buffer-line {
+    min-height: 0.95em;
+}
+
+.account-summary-container,
+.manage-services-container,
+.edit-delivery-info-container {
+    padding: 2.0em 0;
+}
+
+.manage-services-panel-container {
+    background-color: #ffffff;
+    min-height: 33.0em;
+    margin: 2.0em 2.0em 0 2.0em;
+    padding: 1.5em;
+}
+
+.manage-services-panel-footer {
+    background-color: #faf9f7;
+    margin: 0 2.0em 3.0em 2.0em;
+    padding: 1.0em;
+    text-align: right;
+}
+
+.manage-services-panel-footer-link a,
+.manage-services-panel-footer-link a:hover,
+.manage-services-panel-footer-link a:hover,
+.manage-services-panel-footer-link a:active {
+    color: #e8a62d;
+    text-decoration: none;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    line-height: 2.0em;
+    display: inline-block;
+    min-width: 120px;
+}
+
+.circle-product {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 0.75em;
+    top: -80px;
+    left: -50%;
+    position: absolute;
+    z-index: 999;
+}
+
+#btn-solid2 {
+    margin: 0 1.0em;
+    color: #ffffff;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+}
+
+.suspend-link {
+    margin: 0.5em 1.0em 0.5em 0.5em;
+    display: inline-block;
+    min-width: 120px;
+    color: #e8a62d;
+    text-decoration: none;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    line-height: 2.0em;
+}
+
+.account-summary-container p,
+.manage-services-container p {
+    line-height: 0.95em;
+}
+
+.myaccount-need-help h2,
+.myaccount-account-summary-bg h2 .edit-delivery-info-bg h2 {
+    text-align: center;
+    color: #a6a668;
+    font-size: 3.0em;
+    line-height: 0.8em;
+    font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+}
+
+.bolder {
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+}
+
+.myaccount-need-help p {
+    text-align: center;
+    color: #362b13;
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 1.6em;
+    margin: 0.5em 15% 0.5em 15%;
+}
+
+.myaccount-link a, .myaccount-link a:hover, .myaccount-link a:focus {
+    text-align: center;
+    color: #e8a62d;
+    font-size: 1.0em;
+    font-weight: 300;
+    line-height: 1.6em;
+    margin: 0.5em 0 0.5em 0;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.myaccount-need-help .container {
+    padding: 2.5em 0em 3.5em 0em;
+}
+
+.green-dotted-line {
+    background-image: url(../../images/ffty/green-dotted-line.png);
+    background-repeat: repeat-x;
+    margin: 0em 0em -0.5em 0em;
+    padding: 2.0em 0em 0em 0em;
+    width: 100%;
+    text-align: center;
+    size: 80%;
+}
+
+.brown-dotted-line {
+    background-image: url(../../images/ffty/brown-dotted-line.png);
+    background-repeat: repeat-x;
+    margin: 0em 0em -0.5em 0em;
+    width: 100%;
+    text-align: center;
+    size: 80%;
+}
+
+.myaccount-header {
+    background-image: url(../../images/ffty/myaccount-header-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 250px;
+}
+
+    .myaccount-header h1 {
+        text-align: center;
+        padding-top: 125px;
+        color: #faf9f7;
+        font-size: 3.5em;
+        font-family: VinylOT-Regular, sans-serif;
+        text-transform: uppercase;
+    }
+
+.myaccountmenu ul li {
+    padding: 0.5em;
+    color: #333;
+}
+
+    .myaccountmenu ul li a:hover, .myaccountmenu ul li a:focus {
+        color: #555;
+        font-size: 1.5em;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+/*Freestanding Menu*/
+.navbar {
+    margin-bottom: 0px;
+}
+
+.nav {
+    margin-left: -15px;
+}
+
+.secondary-subnav .nav {
+    margin-left: 0px;
+}
+
+.product-navbar {
+    display: none;
+}
+
+.myfarmstand-freestanding-menu {
+    text-align: center;
+    background-image: url(../../images/ffty/myfarmstand-freestanding-menu-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 717px 73px;
+    padding-top: 8px;
+    margin-top: -35px;
+    right: auto;
+}
+
+.myfarmstand-freestanding-menu-bg2 {
+    background-color: #f4f2ec;
+}
+
+.myfarmstand-freestanding-menu-container {
+    margin-left: 13%;
+    display: none;
+}
+
+.myfarmstand-freestanding-menu ul {
+    display: inline-block;
+    padding: 0 0 0 0;
+    width: 90%;
+    min-width: 717px;
+    margin: auto;
+    text-align: center;
+}
+
+    .myfarmstand-freestanding-menu ul li {
+        padding: 2.75% 0.5% 1.5% 1%;
+        float: left;
+        list-style: none;
+        border-left: #cbcc98 1px solid;
+        height: 53px;
+        max-height: 58px;
+        text-transform: uppercase;
+        line-height: 1.2em;
+        width: 16.66%;
+    }
+
+        .myfarmstand-freestanding-menu ul li:first-child {
+            border-left: none;
+        }
+
+        .myfarmstand-freestanding-menu ul li:nth-child(1) {
+            width: 27.25%;
+        }
+
+        .myfarmstand-freestanding-menu ul li:nth-child(2) {
+            width: 16.25%;
+        }
+
+        .myfarmstand-freestanding-menu ul li:nth-child(3) {
+            width: 21.00%;
+        }
+
+        .myfarmstand-freestanding-menu ul li:nth-child(4) {
+            width: 15.00%;
+        }
+
+        .myfarmstand-freestanding-menu ul li:nth-child(5) {
+            width: 11.25%;
+        }
+
+        .myfarmstand-freestanding-menu ul li:nth-child(6) {
+            width: 8.25%;
+        }
+
+.myfarmstand-freestanding-menu a {
+    color: #ffffff;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.myfarmstand-freestanding-menu-on {
+    background-color: #cbcc98;
+}
+/* / Freestanding Menu end*/
+
+
+
+.myaccount-account-summary h2,
+.myaccount-edit-delivery-info h2 {
+    text-align: center;
+    color: #a6a668;
+    font-size: 3.0em;
+    line-height: 0.8em;
+    font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+}
+
+.myaccount-account-summary > .row,
+.myaccount-edit-delivery-info > .row {
+    line-height: 13.0em;
+}
+
+    .myaccount-account-summary > .row > div,
+    .edit-delivery-info > .row > div {
+        text-align: center;
+    }
+
+.myaccount-center-col {
+    min-width: 300px;
+}
+
+.myaccount-center-vert-div-left,
+.myaccount-center-vert-div-leftB {
+    background-image: url(../../images/ffty/dotted-vert-line-short.png);
+    background-repeat: repeat-y;
+    background-position: left;
+    background-size: 5px 54px;
+    width: 26px auto;
+    margin-right: 6%;
+    text-align: left;
+    /*	opacity: 0.8;*/
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    display: inline-block;
+    float: left;
+    min-height: 20em;
+    position: relative;
+}
+
+.myaccount-center-vert-div-left2,
+.myaccount-center-vert-div-leftB2 {
+    background-image: none;
+    background-repeat: repeat-y;
+    background-position: left;
+    background-size: 5px 54px;
+    width: 26px auto;
+    margin-right: 6%;
+    text-align: left;
+    /*	opacity: 0.8;
+*/ filter: alpha(opacity=80); /* For IE8 and earlier */
+    display: inline-block;
+    min-height: 23em;
+    position: relative;
+}
+
+.myaccount-center-vert-div-right {
+    background-image: url(../../images/ffty/dotted-vert-line-short.png);
+    background-repeat: repeat-y;
+    background-position: left;
+    background-size: 8px 54px;
+    width: 26px auto;
+    margin-left: 6%;
+    text-align: right;
+    /*	opacity: 0.8;
+*/ filter: alpha(opacity=80); /* For IE8 and earlier */
+    display: inline-block;
+    min-height: 23em;
+    position: relative;
+}
+
+.myaccount-center-vert-div-left3 {
+    background-image: url(../../images/ffty/dotted-vert-line-short.png);
+    background-repeat: repeat-y;
+    background-position: left;
+    background-size: 8px 54px;
+    width: 26px auto;
+    text-align: left;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    display: inline-block;
+    position: relative;
+    margin: 3.0em 0 0 0;
+    padding: 0 0 0 3.0em;
+}
+
+.myaccount-account-summary .action-set-right .action-group,
+.myaccount-edit-delivery-info .action-set-right .action-group {
+    max-width: 220px;
+    text-align: left;
+}
+
+.myaccount-account-summary .action-set-right,
+.myaccount-edit-delivery-info .action-set-right {
+}
+
+    .myaccount-account-summary .action-set-right div,
+    .myaccount-edit-delivery-info .action-set-right div {
+        display: inline-block;
+        float: left;
+        margin: 0.75em 0.25em;
+        vertical-align: middle;
+        height: 100%;
+    }
+
+.myaccount-account-summary .left-column, .middle-column,
+.myaccount-edit-delivery-info .left-column, .middle-column {
+    padding-left: 1.5em;
+}
+
+.middle-column-alt {
+    line-height: 4.0em;
+    padding-left: 0.5em;
+    margin: auto 0;
+    height: 100px;
+}
+
+.myaccount-account-summary .action-set-right .message1,
+.myaccount-account-summary .action-set-right .message1 a,
+.myaccount-account-summary .action-set-right .message1 a:hover,
+.myaccount-account-summary .action-set-right .message1 a:focus,
+.myaccount-edit-delivery-info .action-set-right .message1,
+.myaccount-edit-delivery-info .action-set-right .message1 a,
+.myaccount-edit-delivery-info .action-set-right .message1 a:hover,
+.myaccount-edit-delivery-info .action-set-right .message1 a:focus {
+    font-family: 'Avenir LT W01_55 Oblique', Helvetica, Arial, sans-serif;
+    font-style: oblique;
+    color: #e8a62d;
+    text-decoration: none;
+    font-size: 0.95em;
+    max-width: 130px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.myaccount-account-summary .action-set-right .message2,
+.myaccount-account-summary .action-set-right .message2 a,
+.myaccount-account-summary .action-set-right .message2 a:hover,
+.myaccount-account-summary .action-set-right .message2 a:focus,
+.myaccount-edit-delivery-info .action-set-right .message2,
+.myaccount-edit-delivery-info .action-set-right .message2 a,
+.myaccount-edit-delivery-info .action-set-right .message2 a:hover,
+.myaccount-edit-delivery-info .action-set-right .message2 a:focus {
+    padding-top: 0em;
+    font-family: 'Avenir LT W01_55 Oblique', Helvetica, Arial, sans-serif;
+    font-style: oblique;
+    color: #999;
+    text-decoration: none;
+    font-size: 0.95em;
+    max-width: 140px;
+    text-align: left;
+}
+
+.message3, .message3 a, .message3 a:hover, .message3 a:focus {
+    padding-top: 0.25em;
+    font-family: 'Avenir LT W01_55 Roman', Helvetica, Arial, sans-serif;
+    color: #872826;
+    text-decoration: none;
+    font-size: 0.95em;
+    max-width: 130px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.myaccount-account-summary hr,
+.myaccount-edit-delivery-info hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.myaccount-account-summary .myaccount-account-summary-warning {
+    color: #872826;
+    line-height: 1.5em;
+}
+
+.myaccount-account-summary-warning-container {
+    max-width: 200px;
+}
+
+.myaccount-myservices-section {
+    text-align: center;
+}
+
+    .myaccount-myservices-section h2 {
+        color: #ffffff;
+    }
+
+.inline-block-center {
+    text-align: center;
+}
+
+.payment-warning {
+    color: #872826;
+    line-height: 1.5em !important;
+    margin-top: 0.5em;
+}
+
+.myaccount-row-message {
+    background-color: #ebb95d;
+    color: #ffffff;
+    padding: 1.25em 0.5em 1.0em 0.5em;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+
+
+/* Modals */
+.modal-title {
+    text-align: left;
+    color: #362b13;
+    padding: 1.0em 0.75em 0px 0.75em;
+    margin: 0;
+    font-size: 1.5em;
+    line-height: 1.0em;
+    font-family: "VinylOT-Regular", Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+    border-bottom: 0px solid #ebebeb;
+}
+
+.modal-content {
+    border-radius: 0px;
+    padding: 2.0em;
+}
+
+    .modal-content h3 {
+        text-align: left;
+        color: #362b13;
+        text-transform: uppercase;
+        margin: -2px 0;
+        font-family: VinylOT-Regular, sans-serif;
+    }
+
+        .modal-content h3 em {
+            color: #e8a62d;
+            font-style: normal;
+        }
+
+    .modal-content .glyphicon-alert {
+        color: #e8a62d;
+        float: right;
+    }
+
+    .modal-content p {
+        font-size: 1.0em;
+        line-height: normal;
+        color: #362b13;
+        margin-top: 0.5em;
+    }
+
+.modal {
+    text-align: left;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    padding: 0 1.0em 1.5em 1.0em;
+}
+
+.calendar .modal {
+    text-align: left;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    padding: 0.75em 1.0em 1.5em 1.0em;
+    min-width: 250px;
+}
+/*.modal .question {
+	font-family: "Inter", Helvetica, Arial, sans-serif;
+	color: #a6a668;
+	font-size: 1.15em;
+	margin-bottom: 1.0em;
+	line-height: 1.25em
+}*/
+.modal .note {
+    color: #998d71;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    text-align: left;
+    line-height: 1.25em;
+    padding-right: 0.5em;
+    margin-bottom: 1.0em;
+    max-width: 18em;
+    text-decoration: none;
+}
+
+.modal .note-small {
+    font-size: 0.95em;
+    color: #998d71;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    text-align: left;
+    line-height: 1.25em;
+    padding-right: 0.5em;
+    margin: 0.7em auto;
+    max-width: 18em;
+    text-decoration: none;
+}
+
+.modal-backdrop.in {
+    filter: alpha(opacity=80);
+    opacity: .8;
+}
+/* /Modals*/
+
+
+
+.myfarmstand-freestanding-menu-bg3 {
+    background-color: #f4f2ec;
+}
+
+.myfarmstand-freestanding-menu-bg4 {
+    background-image: url(../../images/ffty/fabric-light-bg.jpg);
+}
+
+/*Popovers*/
+.popover-title {
+    text-align: left;
+    color: #362b13;
+    padding: 1.0em 0.75em 0px 0.6em;
+}
+
+.popover {
+    text-align: left;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    padding: 0 1.0em 1.5em 1.0em;
+    min-width: 250px;
+    z-index: 1029;
+}
+
+.calendar .popover {
+    text-align: left;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    padding: 0.75em 1.0em 1.5em 1.0em;
+    min-width: 250px;
+}
+
+.popover .question {
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    color: #a6a668;
+    font-size: 1.15em;
+    margin-bottom: 1.0em;
+    line-height: 1.25em;
+}
+
+.popover .note {
+    color: #998d71;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    text-align: left;
+    line-height: 1.25em;
+    padding-right: 0.5em;
+    margin-bottom: 1.0em;
+    max-width: 18em;
+    text-decoration: none;
+}
+
+.popover .note-small {
+    font-size: 0.95em;
+    color: #998d71;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    text-align: center;
+    line-height: 1.25em;
+    padding-right: 0.5em;
+    margin: 0.7em auto 1.9em auto;
+    max-width: 18em;
+    text-decoration: none;
+}
+
+.popover .product-item-add-on {
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-size: 0.90em;
+    line-height: 1.3em;
+}
+
+.calendar .popover .question {
+    font-size: 1.0em;
+    margin: 1.0em auto;
+}
+
+.popover .delivery-service strong {
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    color: #362b13;
+}
+
+.calendar .popover .delivery-service {
+    font-size: 1.0em;
+}
+
+.popover .delivery-service {
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    font-size: 1.15em;
+}
+
+.popover strong {
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    color: #92925b;
+}
+
+.popover .radio {
+    /*	padding: 0 2.0em;
+*/ padding: 0em;
+}
+
+.calendar .popover .radio {
+    padding: 0;
+}
+
+.popover .radio label {
+    text-align: left;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.popover .submit-btn {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.calendar .popover .submit-link-container {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: #faf9f7;
+    width: 100%;
+    padding: 0.75em 0.5em 0.75em 0.5em;
+}
+
+    .calendar .popover .submit-link-container .submit-link a,
+    .calendar .popover .submit-link-container .submit-link a:hover,
+    .calendar .popover .submit-link-container .submit-link a:focus,
+    .calendar .popover .submit-link-container .submit-link a:active {
+        position: relative;
+        color: #e8a62d;
+        text-decoration: none;
+        font-family: 'Inter', Helvetica, Arial, sans-serif;
+        font-size: 1.0em;
+        line-height: 1.0em;
+        width: 100%;
+        padding: 0.75em 0;
+        background-color: transparent;
+        text-transform: none;
+    }
+
+.btn-clean5, .btn-clean5 a, .btn-clean5 a:hover, .btn-clean5 a:active, .btn-clean5 a:focus, .btn-clean5:hover, .btn-clean5:active, .btn-clean5:focus {
+    background-color: #faf9f7;
+    color: #e8a62d;
+    font-size: 1.0em;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    border-radius: 0px;
+    border: 1px solid #e8a62d;
+    min-width: 100px;
+}
+
+
+/* / Popovers*/
+
+
+
+/*Responsive Tabs*/
+.myaccount-account-history-payments .nav-tabs:after, .nav-pills:after {
+    clear: both;
+}
+
+.myaccount-account-history-payments .nav-tabs > li, .nav-pills > li {
+    float: left;
+}
+
+    .myaccount-account-history-payments .nav-tabs > li > a, .nav-pills > li > a {
+        padding-right: 12px;
+        padding-left: 12px;
+        margin-right: 2px;
+        line-height: 14px;
+    }
+
+.myaccount-account-history-payments .nav-tabs {
+    border-bottom: 0px solid #ddd;
+    margin-bottom: 1.4em;
+}
+
+    .myaccount-account-history-payments .nav-tabs > li {
+        margin-bottom: 0px;
+        width: 33.3333%;
+        text-align: center;
+        border-right: 1px #cbcc98 solid;
+    }
+
+        .myaccount-account-history-payments .nav-tabs > li > a {
+            padding-top: 8px;
+            padding-bottom: 8px;
+            line-height: 20px;
+            border: 1px solid transparent;
+            background-color: #a6a668;
+        }
+
+        .myaccount-account-history-payments .nav-tabs > li > a {
+            margin-right: 0px;
+            line-height: 1.6em;
+            border: 0px solid transparent;
+            border-radius: 0 0 0 0;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+            /*.myaccount-account-history-payments .nav-tabs > li:nth-child(1) > a {   }
+.myaccount-account-history-payments .nav-tabs > li:nth-child(2) > a { padding: 3.0em;   }
+.myaccount-account-history-payments .nav-tabs > li:nth-child(3) > a {   }
+*/
+            .myaccount-account-history-payments .nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
+                border-color: #eeeeee #eeeeee #dddddd;
+            }
+
+.myaccount-account-history-payments .tab-row {
+    background-color: #a6a668;
+}
+
+.myaccount-account-history-payments .nav-tabs > li.active > a,
+.myaccount-account-history-payments .nav-tabs > li.active > a:hover,
+.myaccount-account-history-payments .nav-tabs > li.active > a:focus {
+    color: #ffffff;
+    cursor: default;
+    background-color: #cbcc98;
+    border: 0px solid #ddd;
+    border-bottom-color: transparent;
+}
+
+.myaccount-account-history-payments .nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
+    color: #555555;
+    background-color: #cbcc98;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    cursor: default;
+}
+
+.myaccount-account-history-payments .accordion {
+    margin-bottom: 20px;
+}
+
+.myaccount-account-history-payments .accordion-group {
+    margin-bottom: 2px;
+    border: 1px solid #e5e5e5;
+}
+
+.myaccount-account-history-payments .accordion-heading {
+    border-bottom: 0;
+}
+
+    .myaccount-account-history-payments .accordion-heading .accordion-toggle {
+        display: block;
+        padding: 1.1em 2.0em;
+        background-color: #a6a668;
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+        .myaccount-account-history-payments .accordion-heading .accordion-toggle a,
+        .myaccount-account-history-payments .accordion-heading .accordion-toggle a:hover,
+        .myaccount-account-history-payments .accordion-heading .accordion-toggle a:focus {
+            font-color: #ffffff;
+            text-decoration: none;
+        }
+
+    .myaccount-account-history-payments .accordion-heading a:active,
+    .myaccount-account-history-payments .accordion-heading a:focus {
+        font-color: #ffffff;
+        text-decoration: none;
+        background-color: #cbcc98;
+        text-transform: uppercase;
+    }
+
+.myaccount-account-history-payments .accordion-toggle {
+    cursor: pointer;
+}
+
+.myaccount-account-history-payments .accordion-inner {
+    /*	padding: 9px 15px; */
+    border-top: 1px solid #e5e5e5;
+}
+
+
+
+
+/* / Responsive Tabs End */
+
+
+
+/* Account History Payments -and-
+Never Send List*/
+.myaccount-account-history-payments-tabs,
+.neversend-list {
+    padding: 0 0 2.0em 0;
+}
+
+.myaccount-history-side-bar {
+    padding: 7.0em 1.0em 1.0em 0;
+}
+
+.myaccount-account-history-payments-tabs h2 {
+    text-align: center;
+    color: #a6a668;
+    font-size: 3.0em;
+    line-height: 0.8em;
+    font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+    margin-bottom: 0.75em;
+    margin-top: 1.0em;
+}
+
+.myaccount-account-history-payments .show-more-link {
+    color: #e8a62d;
+    text-decoration: none;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    line-height: 2.0em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+/* Zebra striping */
+/*tr:nth-of-type(odd) { 
+  background: #eee; 
+}*/
+th {
+    background: #faf9f7;
+    color: #362b13;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+}
+
+td, th {
+    padding: 1.0em 1.5em;
+    border-bottom: 1px dotted #ccc;
+    text-align: left;
+}
+
+th {
+    /*  height: 3.0em;
+*/ border-bottom: 0px solid #ccc;
+}
+
+#th-alt1 {
+    min-width: 10.0em;
+}
+
+tr {
+    /*  height: 4.5em;*/
+}
+
+.btn-clean1, .btn-clean1 a, .btn-clean1 a:linked, .btn-clean1 a:visited, .btn-clean1 a:hover, .btn-clean1 a:focus, .btn-clean1 a:active {
+    background-color: #ffffff;
+    color: #e8a62d;
+    font-size: 1.0em;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    border-radius: 0px;
+    border: 1px solid #e8a62d;
+}
+
+.skip-link a,
+.skip-link a:hover,
+.skip-link a:hover,
+.skip-link a:active,
+.view-print-link a,
+.view-print-link a:hover,
+.view-print-link a:hover,
+.view-print-link a:active,
+.promotion-link a,
+.promotion-link a:hover,
+.promotion-link a:hover,
+.promotion-link a:active {
+    color: #e8a62d;
+    text-decoration: none;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    padding-left: 1.0em;
+    cursor: pointer;
+}
+
+    .view-print-link a,
+    .view-print-link a:hover,
+    .view-print-link a:hover,
+    .view-print-link a:active,
+    .promotion-link a,
+    .promotion-link a:hover,
+    .promotion-link a:hover,
+    .promotion-link a:active {
+        padding-left: 0em;
+    }
+
+.myaccount-history-side-bar,
+.myaccount-neversend-side-bar {
+    text-align: center;
+}
+
+    .myaccount-history-side-bar .btn-group,
+    .myaccount-neversend-side-bar .btn-group {
+        margin: 2.0em 0 1.0em 0;
+    }
+
+    .myaccount-history-side-bar .price {
+        font-size: 1.5em;
+        font-family: "Avenir LT W01_55 Roman", Helvetica, Arial, sans-serif;
+    }
+
+    .myaccount-history-side-bar .account-balance {
+        font-family: "Inter", Helvetica, Arial, sans-serif;
+    }
+
+.payment-warning2,
+.payment-warning2 a,
+.payment-warning2 a:hover,
+.payment-warning2 a:focus,
+.payment-warning2 a:active {
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    color: #872826;
+    text-decoration: none;
+}
+
+.myaccount-history-side-bar h2,
+.myaccount-neversend-side-bar h2 {
+    font-family: "VinylOT-Regular", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+    .myaccount-neversend-side-bar h2 em {
+        font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+        text-transform: none;
+        font-size: 1.3em;
+        line-height: 0.8em;
+        font-style: normal;
+    }
+
+#btn-wide-solid-mod3,
+#btn-wide-solid-mod4,
+#btn-wide-solid-mod5 {
+    margin: 0.4em 0;
+}
+
+#margin-1em {
+    margin-top: 1.0em;
+    margin-bottom: 1.0em;
+}
+
+.neversend-list input[type="checkbox"] {
+    margin-right: 0.5em;
+}
+
+.neversend-list img {
+    margin: 0 1.0em 1.0em 0;
+}
+
+td {
+    background-color: #f4f2ec;
+}
+
+.clear-all-items-row,
+.clear-all-items-row a,
+.clear-all-items-row a:hover,
+.clear-all-items-row a:focus,
+.clear-all-items-row a:active {
+    background-color: #a6a668;
+    margin-top: 1.5em;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+    width: 100%;
+    text-decoration: none;
+}
+
+.clear-all-items-side {
+    display: inline-block;
+    padding: 0.80em 1.5em;
+}
+
+/* / Account History Payments End -and-
+Never Send List */
+
+
+
+
+
+/*My Account Features (Give & Save Programs)*/
+.myaccount-features {
+    margin-bottom: 2.0em;
+}
+
+    .myaccount-features ul {
+        margin-top: 1.0em;
+    }
+
+.myaccount-features-bg {
+    background-image: url(../../images/ffty/fabric-light-bg.jpg);
+    background-size: 95px 117px;
+    background-repeat: repeat;
+}
+
+.myaccount-account-summary .btn-wide-solid1 a,
+.myaccount-account-summary .btn-wide-solid1 a:active {
+    margin-top: 0.5em;
+}
+
+.myaccount-features .thumbnail {
+    margin-top: 2.0em;
+    border-radius: 0px;
+    max-width: 280px;
+    height: 430px;
+    background-color: #f4f2ec;
+    border: #ffffff 1px solid;
+    /*Chrome, Safari*/
+    -webkit-box-shadow: 0px 3px 4px #bcb6a2;
+    /*Firefox*/
+    -moz-box-shadow: 0px 3px 4px #bcb6a2;
+    /*Standard Syntax*/
+    box-shadow: 0px 3px 4px #bcb6a2;
+}
+
+.myaccount-features h3 {
+    text-align: center;
+    color: #362b13;
+    font-size: 0.90em;
+    line-height: 0.5em;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+    margin: -2px 0;
+}
+
+.myaccount-features h4,
+.myaccount-features h4 a,
+.myaccount-features h4 a:hover,
+.thumbnail .myaccount-features h4,
+.thumbnail .myaccount-features h4 a,
+.thumbnail .myaccount-features h4 a:hover {
+    text-align: center;
+    color: #a6a668;
+    font-size: 1.5em;
+    font-family: VinylOT-Regular, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.myaccount-account-summary h4,
+.myaccount-account-summary h4 .collapse-header a,
+.myaccount-account-summary h4 .collapse-header a:hover,
+.myaccount-account-summary h4 .collapse-header a:focus,
+.myaccount-account-summary h4 .collapse-header a:active,
+.myaccount-edit-delivery-info h4,
+.myaccount-edit-delivery-info h4 .collapse-header a,
+.myaccount-edit-delivery-info h4 .collapse-header a:hover,
+.myaccount-edit-delivery-info h4 .collapse-header a:focus,
+.myaccount-edit-delivery-info h4 .collapse-header a:active {
+    text-align: left;
+    color: #362b13;
+    font-size: 1.5em;
+    font-family: VinylOT-Regular, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 0 1.0em 0;
+}
+
+.myaccount-features p {
+}
+
+.myaccount-features img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.myaccount-features-img-1,
+.myaccount-features-img-2,
+.myaccount-features-img-3,
+.myaccount-features-img-4,
+.myaccount-features-img-5,
+.myaccount-features-img-6 {
+    max-height: 200px;
+    height: auto;
+    padding: 0px;
+    margin: 1px 2px 24px 2px;
+    overflow: hidden;
+    color: #777;
+    background-size: cover;
+}
+
+.myaccount-features-img-1 {
+    background-image: url(../../images/ffty/women-holding-box.jpg);
+}
+
+.myaccount-features-img-2 {
+    background-image: url(../../images/ffty/holding-radishes.jpg);
+}
+
+.myaccount-features-img-3 {
+    background-image: url(../../images/ffty/apple-heart-hands.jpg);
+}
+
+.myaccount-features .thumbnail a,
+.myaccount-features .thumbnail a:hover,
+.myaccount-features .thumbnail a:hover,
+.myaccount-features .thumbnail a:active {
+    color: #e8a62d;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+/* /My Account Features (Give & Save Programs)*/
+
+
+.myaccount-account-summary a,
+.myaccount-account-summary a:hover,
+.myaccount-account-summary a:hover,
+.myaccount-account-summary a:active,
+.myaccount-edit-delivery-info a,
+.myaccount-edit-delivery-info a:hover,
+.myaccount-edit-delivery-info a:hover,
+.myaccount-edit-delivery-info a:active {
+    color: #e8a62d;
+    text-decoration: none;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    line-height: 2.0em;
+}
+
+.myaccount-account-history-payments-tabs a,
+.myaccount-account-history-payments-tabs a:hover,
+.myaccount-account-history-payments-tabs a:focus,
+.myaccount-account-history-payments-tabs a:active {
+    color: #e8a62d;
+    text-decoration: none;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+}
+
+.myaccount h2 {
+    text-align: center;
+    color: #362b13;
+    font-size: 3.0em;
+    line-height: 0.8em;
+    font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+    padding-bottom: 0em;
+    margin-top: 0.125em;
+}
+
+.myaccount h1 {
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #362b13;
+    font-size: 1.0em;
+    line-height: 0.5em;
+    padding-top: 2.0em;
+    letter-spacing: 0.15em;
+}
+
+.myaccount-myservices-section {
+    background-image: url(../../images/ffty/watercolor-texture1.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* margin-bottom: 30px; */
+    background-color: #eee;
+}
+
+    .myaccount-myservices-section .product-row,
+    .myaccount-myservices-section .btn-row {
+        margin: 0.5em auto;
+        display: inline-block;
+    }
+
+    .myaccount-myservices-section .btn-row {
+        width: 100%;
+        margin: 0.5em auto;
+    }
+
+        .myaccount-myservices-section .btn-row p {
+            float: both;
+            margin: 0.5em auto;
+            width: 250px;
+            display: inline-block;
+            max-width: 80%;
+        }
+
+#btn-wide-solid-mod1, #btn-wide-solid-mod1 a, #btn-wide-solid-mod1:hover, #btn-wide-solid-mod1 a:active, #btn-wide-solid-mod1 a:focus,
+#btn-wide-solid-mod2, #btn-wide-solid-mod2 a, #btn-wide-solid-mod2:hover, #btn-wide-solid-mod2 a:active, #btn-wide-solid-mod2 a:focus {
+    margin: 0 0.5em;
+}
+
+.myaccount-myservices-section-message {
+    background-color: #ebb95d;
+    color: #ffffff;
+    padding: 1.5em 0.5em 1.125em 0.5em;
+    text-align: center;
+    margin: 0.75em auto 1.0em auto;
+    width: 70%;
+}
+
+    .myaccount-myservices-section-message .success-label {
+        text-align: left;
+        color: #ffffff;
+        font-size: 1.5em;
+        font-family: VinylOT-Regular, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        text-transform: uppercase;
+    }
+
+.myaccount-myservices-section .myaccount-myservices-link2,
+.myaccount-myservices-section .myaccount-myservices-link2 a,
+.myaccount-myservices-section .myaccount-myservices-link2 a:hover,
+.myaccount-myservices-section .myaccount-myservices-link2 a:focus,
+.myaccount-myservices-section .myaccount-myservices-link2 a:active {
+    color: #ffffff;
+    text-decoration: none;
+    font-style: oblique;
+    font-size: 1.0em;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+}
+
+.plus-icon-btn,
+.plus-icon-btn2 {
+    padding: 0.80em;
+    background-color: transparent;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 2.8em;
+    height: 2.8em;
+}
+
+.plus-icon-btn {
+    background-image: url(../../images/ffty/plus-circle-white-gold.png);
+}
+
+.plus-icon-btn2 {
+    background-image: url(../../images/ffty/plus-circle-gold.png);
+}
+
+.glyphicon-size-2 {
+    font-size: 1.5em;
+}
+
+/*[Same box styles ones used on checkout pages]*/
+.checkout .description-area a {
+    text-align: left;
+    font-family: 'Avenir LT W01_55 Oblique', Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #362b13;
+}
+
+.checkout .produce-service-box {
+    margin-bottom: 1.0em;
+    min-height: 0em;
+    max-width: 432px;
+    display: inline-block;
+    float: left;
+    margin: 1.0em 1.0em 0.25em 1.0em;
+}
+
+.checkout .thumbnail-area,
+.checkout .description-area {
+    margin-bottom: 0em;
+}
+
+.checkout h2 {
+    padding-top: 1.0em;
+}
+/*[ / Same box styles ones used on checkout pages]*/
+
+.required {
+    color: #e8a62d;
+    font-family: 'Avenir LT W01_85 Heavy', Helvetica, Arial, sans-serif;
+    font-size: 1.0em;
+}
+
+.btn-solid2-stacked, .btn-solid2-stacked:hover, .btn-solid2-stacked:focus, .btn-solid2-stacked:active:hover {
+    margin: 0 0 2.0em 0;
+}
+
+.btn-solid2B, .btn-solid2B:hover, .btn-solid2B:focus, .btn-solid2B:active:hover {
+    color: #ffffff !important;
+    font-family: 'Inter', Helvetica, Arial, sans-serif !important;
+    background-image: url(../../images/ffty/solid1-btn.png);
+    margin: 0 1.0em;
+    padding: 0.80em;
+    border-color: transparent;
+    background-color: transparent;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    background-position: center;
+    font-weight: 400;
+    font-size: 1.0em;
+    width: 10.25em;
+    height: auto;
+}
+
+.single-column-header h2,
+.single-column-header2 h2 {
+    text-align: center;
+    color: #a6a668;
+    font-size: 3.0em;
+    line-height: 0.8em;
+    margin: 1.0em 0 0.5em 0;
+    font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+}
+
+.single-column-header h2 {
+    color: #a6a668;
+}
+
+.single-column-header2 h2 {
+    color: #362b13;
+}
+
+.single-column-header p a,
+.single-column-header .boxShadow4 p a,
+.single-column-header .boxShadow4 p a:hover,
+.single-column-header .boxShadow4 p a:visited {
+    color: #e8a62d;
+    text-decoration: none;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+}
+
+.my-account-view-order {
+    background-color: #f5f4f1;
+}
+
+.dotted-line > img {
+    width: 150px;
+    height: auto;
+}
+
+.subtitle p,
+.subtitle2 p {
+    text-align: center;
+    color: #362b13;
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 1.6em;
+    margin: 0.5em 15% 1.3em 15%;
+}
+
+.manage-recurring-items .manage-services-subtitle h2 {
+    padding-bottom: -1em;
+    margin-top: .5em;
+}
+
+.manage-recurring-items .manage-services-subtitle {
+    padding-bottom: 1em;
+}
+
+.manage-services-subtitle,
+.neversend-list-subtitle {
+    margin-bottom: 3.0em;
+    padding-bottom: 1.75em;
+}
+
+.myaccount-manage-services-add-service h2 {
+    color: #362b13;
+    font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+    font-size: 3.0em;
+    line-height: 0.8em;
+    text-align: center;
+}
+
+.myaccount-manage-services-add-service p {
+    text-align: center;
+    color: #362b13;
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 1.6em;
+    margin: 0.5em 15% 0.5em 15%;
+}
+
+.myaccount-manage-services-add-service em {
+    color: #998d71;
+}
+
+.myaccount-manage-services-add-service .btn-solid2-stacked {
+    font-size: 0.75em;
+}
+
+#btn-add-a-service {
+    width: 14.0em;
+    margin: 1.0em 0 3.0em 0;
+}
+
+.myaccount-manage-services-manage-services-bg {
+    background-color: #b8af98;
+}
+
+.myaccount-manage-services-manage-services h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 3.0em;
+    line-height: 0.8em;
+    font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+    margin-bottom: 0.5em;
+    margin-top: 1.0em;
+}
+
+.myaccount-manage-services-manage-services-notes {
+    color: #998d71;
+    font-size: 0.90em;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    text-align: left;
+    line-height: 1.4em;
+    padding-right: 0.75em;
+    max-width: 18em;
+}
+
+.form-manage-services {
+    width: 13.0em;
+}
+
+.radio-checkbox-set1 {
+    margin-bottom: 1.0em;
+    text-transform: uppercase;
+}
+
+.horz-radio-checkbox-set a,
+.horz-radio-checkbox-set a:hover,
+.horz-radio-checkbox-set a:focus,
+.horz-radio-checkbox-set a:active {
+    color: #362b13;
+    text-transform: none;
+    font-weight: normal;
+}
+
+.edit-delivery-info-container h2 {
+    margin-bottom: 0.5em;
+}
+
+.edit-delivery-info-container #header-area p {
+    line-height: 1.5em;
+    margin-top: -0.5em;
+}
+
+#edit-delivery-left-column {
+    margin: 3.0em 0 0 0;
+}
+
+.saved-addresses-box {
+    min-height: 8.0em;
+}
+
+.checkout .box4 {
+    min-height: 14.0em;
+}
+
+.btn-wide-solid4, .btn-wide-solid4:hover, .btn-wide-solid4:focus, .btn-wide-solid4:active:hover {
+    color: #ffffff;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    background-image: url(../../images/ffty/wide-solid1-btn.png);
+    margin: 1.50em 0 3.0em 0;
+    padding: 0.80em;
+    border-color: transparent;
+    background-color: transparent;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    background-position: center;
+    font-weight: 400;
+    font-size: 1.0em;
+    width: 17.25em;
+    height: auto;
+}
+
+    .billing-type-tab .btn-wide-solid4, .btn-wide-solid4:hover, .btn-wide-solid4:focus, .btn-wide-solid4:active:hover {
+        color: #ffffff;
+        font-family: 'Inter', Helvetica, Arial, sans-serif;
+        background-image: url(../../images/ffty/btn-bg1.png);
+        margin: 0.25em 0 0 0.5em;
+        padding: 0.80em;
+        border-color: transparent;
+        background-color: transparent;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        border-radius: 0px;
+        background-position: center;
+        font-size: 1.0em;
+        width: 8.5em;
+        height: auto;
+    }
+
+.billing-type-tab .btn-wide-solid2, .btn-wide-solid2:hover, .btn-wide-solid2:focus, .btn-wide-solid2:active:hover {
+    margin: 0;
+    height: auto;
+}
+
+.checkout .box5 {
+    max-width: 500px;
+    padding: 1.75em 2.5em;
+}
+
+#promo-code-submit-btn {
+    margin-top: 1.0em;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+#gold {
+    color: #e8a62d;
+}
+
+#dark-brown {
+    color: #362b13;
+}
+
+/*SEARCH BAR*/
+.input-group.input-group-unstyled input.form-control {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.input-group-unstyled .input-group-addon {
+    border-radius: 4px;
+    border: 0px;
+    background-color: transparent;
+}
+
+/* /SEARCH BAR*/
+
+
+.btn-primary3, .btn-primary3:focus,
+.btn-primary3:hover {
+    color: #a6a668;
+    background-color: transparent;
+    background-image: url(../../images/ffty/handmade-btn3.png);
+    border-color: transparent;
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.0em;
+}
+
+    .btn-primary3:active {
+        color: #ffffff;
+        background-image: url(../../images/ffty/handmade-btn3b.png);
+    }
+
+.btn-primary3-on, .btn-primary3-on:focus,
+.btn-primary3-on:hover, .btn-primary3-on:hover {
+    color: #ffffff;
+    background-color: transparent;
+    background-image: url(../../images/ffty/handmade-btn3b.png);
+    border-color: transparent;
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.0em;
+}
+
+.btn-primary4, .btn-primary4:focus,
+.btn-primary4:hover {
+    color: #a6a668;
+    background-color: transparent;
+    background-image: url(../../images/ffty/handmade-btn4.png);
+    border-color: transparent;
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.0em;
+}
+
+    .btn-primary4:active {
+        color: #ffffff;
+        background-image: url(../../images/ffty/handmade-btn4b.png);
+    }
+
+.btn-primary4-on, .btn-primary4-on:focus,
+.btn-primary4-on:hover, .btn-primary4-on:active {
+    color: #ffffff;
+    background-color: transparent;
+    background-image: url(../../images/ffty/handmade-btn4b.png);
+    border-color: transparent;
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.0em;
+}
+
+.neversend-tab-btn {
+    min-width: 13.5em;
+    margin-top: 2.75em;
+}
+
+#neversend-list-selection {
+    margin-bottom: 0px;
+    max-width: 14.0em;
+}
+
+.back-to-top-container {
+    text-align: right;
+}
+
+.btn-back-to-top,
+.btn-back-to-top:hover,
+.btn-back-to-top:focus,
+.btn-back-to-top:active,
+.btn-back-to-top a,
+.btn-back-to-top a:hover,
+.btn-back-to-top a:focus,
+.btn-back-to-top a:active {
+    color: #e8a62d;
+    font-family: 'Avenir LT W01_85 Heavy Oblique', Helvetica, Arial, sans-serif;
+    background-image: url(../../images/ffty/arrow-up-circle-gold.png);
+    margin: 0 -2.0em;
+    padding: 0.80em;
+    border-color: transparent;
+    background-color: transparent;
+    background-size: 25px auto;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    background-position: left;
+    font-size: 1.0em;
+    width: 10.0em;
+    height: auto;
+}
+
+#btn-no-margin {
+    margin: 0em;
+}
+
+
+/* Email Preferences Page */
+.email-preferences-page {
+}
+
+    .email-preferences-page h3 {
+        font-size: 20px;
+        line-height: 0.5em;
+        margin-bottom: 2.0em;
+    }
+
+    .email-preferences-page .form-container {
+        text-align: left;
+        margin: 3.0em 0 0 0;
+        padding: 0 0 0 3.0em;
+    }
+
+    .email-preferences-page .boxShadow4 {
+        /*Chrome, Safari*/
+        -webkit-box-shadow: 0px 2px 2px #ebebeb;
+        /*Firefox*/
+        -moz-box-shadow: 0px 2px 2px #ebebeb;
+        /*Standard Syntax*/
+        box-shadow: 0px 4px 4px #cccccc;
+    }
+
+.form-description {
+    color: #998d71;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    margin-bottom: 1.5em;
+    line-height: 1.35em;
+}
+
+    .form-description em {
+        color: #736357;
+        font-family: "Inter", Helvetica, Arial, sans-serif;
+    }
+
+.email-preferences-page form {
+    position: relative;
+}
+
+.email-preferences-page .form-description {
+    position: relative;
+    left: 1.7em;
+}
+
+.email-preferences-page label {
+    position: relative;
+    left: 0.85em;
+    text-transform: uppercase;
+    line-height: 1.25em;
+    padding-bottom: 0.25em;
+}
+
+.email-preferences-page .form-group {
+    margin-bottom: 1.5em;
+}
+
+.email-preferences-page input[type="radio"],
+.email-preferences-page input[type="checkbox"] {
+    vertical-align: top;
+}
+
+.email-preferences-page .horz-radio-checkbox-set {
+    margin-bottom: 0.15em;
+}
+
+.email-preferences-page .call-to-action {
+    margin: auto;
+}
+
+    .email-preferences-page .call-to-action a {
+        margin: auto 0.6em;
+    }
+
+.email-preferences-page .btn-solid2-stacked,
+.email-preferences-page .btn-solid2-stacked:hover,
+.email-preferences-page .btn-solid2-stacked:focus,
+.email-preferences-page .btn-solid2-stacked:active:hover {
+    margin: 0 0 0.25em 0;
+}
+/* / Email Preferences Page */
+
+
+/*  Info Preferences Page */
+.dotted-line {
+    text-align: center;
+    align-content: center;
+    display: block;
+    size: 70%;
+    overflow-x: hidden;
+    margin: 1.0em 0;
+}
+
+.info-preferences-page {
+}
+
+    .info-preferences-page .form-container {
+        text-align: left;
+        margin: 3.0em 0 0 0;
+        padding: 0 0 0 3.0em;
+    }
+
+    .info-preferences-page .boxShadow4 {
+        /*Chrome, Safari*/
+        -webkit-box-shadow: 0px 2px 2px #ebebeb;
+        /*Firefox*/
+        -moz-box-shadow: 0px 2px 2px #ebebeb;
+        /*Standard Syntax*/
+        box-shadow: 0px 4px 4px #cccccc;
+    }
+
+    .info-preferences-page h3 {
+        font-size: 1.25em;
+        line-height: 1.5em;
+        margin-bottom: 1.0em;
+    }
+
+        .info-preferences-page h3 em {
+            font-family: "Inter", Helvetica, Arial, sans-serif;
+        }
+
+    .info-preferences-page form {
+    }
+
+    .info-preferences-page h5 {
+        text-transform: uppercase;
+        font-family: 'Inter', Helvetica, Arial, sans-serif;
+        letter-spacing: 0.055em;
+        margin: 1.75em 0 0.75em 0;
+        font-weight: normal;
+    }
+
+    .info-preferences-page label {
+        line-height: 1.45em;
+        color: #998d71;
+        font-family: "Inter", Helvetica, Arial, sans-serif;
+        display: block;
+        margin-bottom: 0.5em;
+        margin-left: 0em;
+        letter-spacing: 0.005em;
+    }
+
+    .info-preferences-page .form-group {
+        margin-top: 0.5em;
+        margin-bottom: 1.75em;
+    }
+
+    .info-preferences-page input[type="radio"],
+    .info-preferences-page input[type="checkbox"] {
+        vertical-align: top;
+        margin-right: 0.75em;
+        margin-bottom: 0.50em;
+    }
+
+    .info-preferences-page .horz-radio-checkbox-set {
+        margin-bottom: 0.10em;
+    }
+
+    .info-preferences-page .call-to-action {
+        margin: auto;
+        color: #999999;
+    }
+
+        .info-preferences-page .call-to-action a {
+            margin: auto 0.6em;
+        }
+
+    .info-preferences-page .btn-solid2-stacked,
+    .info-preferences-page .btn-solid2-stacked:hover,
+    .info-preferences-page .btn-solid2-stacked:focus,
+    .info-preferences-page .btn-solid2-stacked:active:hover {
+        margin: 0 0 0.25em 0;
+    }
+/* / Info Preferences Page */
+
+
+/*  Address Book and Payment Options Page */
+
+.address-book-payment-options {
+    background-color: #f4f2ec;
+}
+
+    .address-book-payment-options .radio-group {
+        margin-bottom: 3.75em;
+    }
+
+    .address-book-payment-options #btn-update {
+        width: 14.0em;
+        margin: 1.0em 0 0.5em 0;
+    }
+
+    .address-book-payment-options #cancel-link {
+        margin-bottom: 8em;
+    }
+
+.address-book-payment-options-subtitle {
+    margin-bottom: 0.5em;
+    padding-bottom: 2.0em;
+}
+
+.address-book-payment-options .notes {
+    color: #998d71;
+    font-size: 0.90em;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    text-align: left;
+    line-height: 1.4em;
+    padding-right: 0.75em;
+}
+
+.address-book-payment-options .form-header {
+    border-bottom: 1px #dad6c5 solid;
+    float: left;
+    width: 100%;
+    margin-bottom: 0.75em;
+}
+/* / Address Book and Payment Options Page */
+
+
+
+/*Apply EGift Card*/
+.apply-egift-card .call-to-action {
+    margin: 1em auto;
+    color: #999999;
+}
+
+    .apply-egift-card .call-to-action a {
+        margin: 0.75em;
+    }
+
+.apply-egift-card .btn-solid2-stacked,
+.apply-egift-card .btn-solid2-stacked:hover,
+.apply-egift-card .btn-solid2-stacked:focus,
+.apply-egift-card .btn-solid2-stacked:active:hover {
+    margin: 0 0 -1.2em 0;
+}
+
+.apply-egift-card .form-container {
+    text-align: left;
+    padding: 0 1em 3.0em 1em;
+}
+/* / Apply EGift Card*/
+
+
+
+/* Make One Time Payment */
+.make-one-time-payment-page .make-one-time-payment-page-options-subtitle h3 {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    margin: 0 auto 2.0em auto;
+    max-width: 30em;
+}
+
+.make-one-time-payment-page .call-to-action {
+    margin: 1em auto;
+    color: #999999;
+}
+
+    .make-one-time-payment-page .call-to-action a {
+        margin: 0.75em;
+    }
+
+.make-one-time-payment-page .btn-solid2-stacked,
+.make-one-time-payment-page .btn-solid2-stacked:hover,
+.make-one-time-payment-page .btn-solid2-stacked:focus,
+.make-one-time-payment-page .btn-solid2-stacked:active:hover {
+    margin: 0 0 -1.2em 0;
+}
+
+.make-one-time-payment-page .form-container {
+    text-align: left;
+    padding: 0 1em 3.0em 1em;
+}
+
+.make-one-time-payment-page {
+    background-color: #f4f2ec;
+}
+
+    .make-one-time-payment-page .radio-group {
+        margin-bottom: 3.0em;
+    }
+
+    .make-one-time-payment-page #btn-update {
+        width: 14.0em;
+        margin: 1.0em 0 0.5em 0;
+    }
+
+    .make-one-time-payment-page #cancel-link {
+        margin-bottom: 8em;
+    }
+
+.make-one-time-payment-page-subtitle {
+    margin-bottom: 0.5em;
+    padding-bottom: 2.0em;
+}
+
+.make-one-time-payment-page .notes {
+    color: #998d71;
+    font-size: 0.90em;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    text-align: left;
+    line-height: 1.4em;
+    padding-right: 0.75em;
+}
+
+.make-one-time-payment-page-body-bg {
+    background-image: url(../../images/ffty/fabric-light-bg.jpg);
+    background-size: 95px 117px;
+    background-repeat: repeat;
+}
+
+.make-one-time-payment-page .saved-payment-method-box {
+    background-color: #f4f2ec;
+}
+
+.make-one-time-payment-page .form-header {
+    border-bottom: 1px #dad6c5 solid;
+    float: left;
+    width: 100%;
+    margin-bottom: 0.75em;
+}
+
+.radio label,
+.checkbox label {
+    margin-bottom: 0.25em;
+}
+
+.account-balance-amount {
+    color: #872826;
+    font-size: 1.5em;
+    font-family: VinylOT-Regular, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    margin: -0.6em 0 1.0em 0.9em;
+}
+
+.make-one-time-payment-page .radio-second {
+    margin-top: 0.75em;
+}
+/* / Make One Time Payment */
+
+
+
+/* MyAccount Manage Services Section */
+
+.myaccount-manage-services-section {
+    background-image: url(../../images/ffty/watercolor-texture1.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: cover;
+    height: 562px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #eee;
+    text-align: center;
+}
+
+    .myaccount-manage-services-section h1 {
+        text-align: center;
+        color: #362b13;
+        font-family: "VinylOT-Regular", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        margin-top: 1.5em;
+        margin-bottom: 0.125em;
+    }
+
+    .myaccount-manage-services-section h2 {
+        text-align: center;
+        color: #362b13;
+        margin-top: 0em;
+        margin-bottom: 1em;
+        font-size: 3.0em;
+        line-height: 0.8em;
+        font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+    }
+
+    .myaccount-manage-services-section h4 {
+        color: #362b13;
+        font-size: 1.5em;
+        font-family: VinylOT-Regular, sans-serif;
+        text-align: auto;
+    }
+
+    .myaccount-manage-services-section p {
+        text-align: auto;
+    }
+
+    .myaccount-manage-services-section img {
+        text-align: auto;
+        width: 100px;
+    }
+
+#btn-wide-solid-mod1, #btn-wide-solid-mod1 a, #btn-wide-solid-mod1:hover, #btn-wide-solid-mod1 a:active, #btn-wide-solid-mod1 a:focus,
+#btn-wide-solid-mod2, #btn-wide-solid-mod2 a, #btn-wide-solid-mod2:hover, #btn-wide-solid-mod2 a:active, #btn-wide-solid-mod2 a:focus {
+    margin: 0 0.5em;
+}
+
+.myaccount-manage-services-section .col-md-4 p,
+.myaccount-manage-services-section .col-md-3 p {
+    max-width: 12em;
+    margin: 0 auto;
+}
+
+.delivery-help-subtitle .boxShadow4 {
+    padding-bottom: 1em;
+    background-color: #f4f2ec;
+}
+
+.alert-paragraph {
+    color: #a94442;
+    margin: 0.25em 0 -0.25em 0;
+    padding: 1em;
+}
+
+    .alert-paragraph b {
+        font-family: "Inter", Helvetica, Arial, sans-serif;
+    }
+
+.my-account-view-order .table-responsive .table th:nth-child(3),
+.my-account-view-order .table-responsive .table td:nth-child(3) {
+    max-width: none;
+    min-width: 7em;
+}
+
+.my-account-view-order .table-responsive .table th:nth-child(2),
+.my-account-view-order .table-responsive .table td:nth-child(2) {
+    text-align: left;
+}
+
+/* / MyAccount Manage Services Section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------- 3. MEDIA SIZE STYLES ---------------------------------*/
+
+
+@media (max-width: 480px) {
+
+    /*Features - 480 max*/
+    .myaccount-account-summary .action-set-right div,
+    .myaccount-edit-delivery-info .action-set-right div {
+        margin: 0.15em 0.25em;
+    }
+
+    .myaccount-account-summary .action-set-right .message2,
+    .myaccount-account-summary .action-set-right .message2 a,
+    .myaccount-account-summary .action-set-right .message2 a:hover,
+    .myaccount-account-summary .action-set-right .message2 a:focus,
+    .myaccount-edit-delivery-info .action-set-right .message2,
+    .myaccount-edit-delivery-info .action-set-right .message2 a,
+    .myaccount-edit-delivery-info .action-set-right .message2 a:hover,
+    .myaccount-edit-delivery-info .action-set-right .message2 a:focus {
+        max-width: none;
+    }
+
+    .myaccount-account-summary .action-set-right,
+    .myaccount-edit-delivery-info .action-set-right {
+        margin-top: 0.25em;
+    }
+
+    .btn-wide-solid1, .btn-wide-solid1:hover, .btn-wide-solid1:focus, .btn-wide-solid1:active:hover {
+        margin: 1.0em 0 2.0em 0;
+    }
+
+    .btn-features {
+        width: 8.0em;
+    }
+
+        .btn-features:hover, .btn-features:focus, .btn-features:active:hover {
+            color: #ffffff;
+            background-image: url(../../images/ffty/features-btn.png);
+            margin: 0.5em 0 -1.7em 0;
+            padding: 0.75em 0.60em 0.60em 0.60em;
+            border-color: transparent;
+            background-color: transparent;
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            border-radius: 0px;
+            background-position: center;
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+            font-size: 1.0em;
+            width: 8.0em;
+            max-width: 240px;
+            height: auto;
+        }
+
+    .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+        max-height: none;
+    }
+
+    .secondary-navbar {
+        display: block;
+        margin-top: -38px !important;
+    }
+
+    #product-row-mod {
+        max-width: 540px;
+    }
+
+    .myaccount-myservices-section .btn-row {
+        margin: 0em auto;
+    }
+
+    .checkout .produce-service-box {
+        margin: 0.75em;
+    }
+    /*[Same box styles ones used on checkout pages]*/
+    .checkout .cart-contents-service,
+    .checkout .current-services-service {
+        margin: 0em auto;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        padding: 1.0em;
+    }
+
+    .checkout .cart-contents-service2 {
+        margin: 0em auto;
+        display: inline-block;
+        text-align: center;
+        padding: 1.0em;
+        width: 230px;
+    }
+
+    .checkout .product-image-thumbnail {
+        width: auto;
+        height: 50px;
+        margin-right: 1em;
+    }
+
+    .checkout .thumbnail-area,
+    .checkout .description-area {
+        margin-right: 0em;
+    }
+
+    .myaccount-myservices-section {
+        background-size: auto 100%;
+        height: auto;
+    }
+
+    .account-summary-container,
+    .manage-services-container,
+    .edit-delivery-info-container {
+        padding: 2.0em 0 0 0;
+    }
+
+    .myaccount-myservices-section .btn-row p {
+        margin-top: 0.5em;
+        max-width: 100%;
+    }
+
+    .myaccount-myservices-section-message {
+        width: 100%;
+    }
+
+    .form-manage-services {
+        width: 13.0em;
+    }
+
+    .modal-content p {
+        font-size: 1.12em;
+    }
+
+    .checkout .product-image-thumbnail {
+        width: 210px;
+        height: auto;
+        margin-right: 1em;
+    }
+
+    .neversend-list thead th {
+        max-width: 9.0em;
+    }
+
+    .clear-all-items-side {
+        border-top: 1px solid #92925b;
+        width: 100%;
+        text-align: center;
+    }
+
+    .back-to-top-container {
+        text-align: center;
+    }
+
+    .email-preferences-page .form-container {
+        padding: 0em;
+    }
+
+    .email-preferences-page .call-to-action p,
+    .info-preferences-page .call-to-action p {
+        margin: 1em 0.5em 2em 0.5em;
+    }
+
+    .info-preferences-page .form-container {
+        padding: 0;
+    }
+
+    .info-preferences-page label {
+        margin-top: 0.5em;
+    }
+
+    .spawn-block {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .spawn-block2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hide-mobile2 {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .myaccount-header {
+        height: 150px;
+    }
+
+        .myaccount-header h1 {
+            padding-top: 57px;
+            font-size: 2.5em;
+        }
+
+    .myaccount-manage-services-section {
+        height: 1110px;
+    }
+
+        .myaccount-manage-services-section p {
+            margin-bottom: 2em;
+        }
+
+    .myfarmstand-freestanding-menu {
+        text-align: center;
+        background-image: url(../../images/ffty/myfarmstand-freestanding-menu-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 73px;
+        padding-top: 8px;
+        margin-top: -65px;
+        right: auto;
+    }
+
+    .myaccountmenu ul li {
+        padding: 0.0em;
+        color: #333;
+    }
+
+    .myaccount-features div .thumbnail {
+        max-width: 280px;
+        margin: 0 auto 1.25em auto;
+    }
+
+    .nav .secondary-navbar {
+        margin-left: 15px;
+    }
+
+    .nav > li > a {
+        text-align: center;
+    }
+
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+        background-color: transparent;
+    }
+
+    .secondary-navbar {
+        display: block;
+        margin-top: -12px;
+    }
+
+        .secondary-navbar ul li {
+            margin-left: -2.0em;
+        }
+
+        .secondary-navbar .navbar-toggle {
+            background-image: none;
+            width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+            padding: 8px 30px;
+        }
+
+        .secondary-navbar .toggle-label {
+            color: #ffffff;
+            font-size: 1.3em;
+        }
+
+        .secondary-navbar .navbar-default .navbar-nav > li,
+        .secondary-navbar .navbar-default .navbar-nav > li > a {
+            background-color: #a6a668;
+        }
+
+            .secondary-navbar .navbar-default,
+            .secondary-navbar .navbar-default .navbar-nav > li,
+            .secondary-navbar .navbar-default .navbar-nav > li > a,
+            .collapsed-secondary-menu a {
+                color: #ffffff;
+                font-size: 1.0205em;
+                font-family: 'Inter', Helvetica, Arial, sans-serif;
+                background-color: #a6a668 !important;
+            }
+
+                .secondary-navbar .navbar-default .navbar-collapse,
+                .secondary-navbar .navbar-default .navbar-form {
+                    border-color: #cbcc98;
+                }
+
+    .myaccount-center-vert-div-left,
+    .myaccount-center-vert-div-left2,
+    .myaccount-center-vert-div-leftB,
+    .myaccount-center-vert-div-leftB2 {
+        min-height: 0px;
+        height: 0;
+    }
+
+    .underline-section-mobile {
+        background-image: url(../../images/ffty/dottedline-gold.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 0.7em;
+        min-height: 0.7em;
+    }
+
+    #btn-wide-solid-mod2, #btn-wide-solid-mod2 a, #btn-wide-solid-mod2:hover, #btn-wide-solid-mod2 a:active, #btn-wide-solid-mod2 a:focus {
+        margin: 0 0.5em 1.7em 0.5em;
+    }
+
+    .myaccount-myservices-section .btn-row p {
+        display: block;
+    }
+
+    .myaccount-account-summary a,
+    .myaccount-account-summary a:hover,
+    .myaccount-account-summary a:hover,
+    .myaccount-account-summary a:active,
+    .myaccount-myservices-section .myaccount-myservices-link2,
+    .myaccount-myservices-section .myaccount-myservices-link2 a,
+    .myaccount-myservices-section .myaccount-myservices-link2 a:hover,
+    .myaccount-myservices-section .myaccount-myservices-link2 a:focus,
+    .myaccount-myservices-section .myaccount-myservices-link2 a:active,
+    .myaccount-edit-delivery-info a,
+    .myaccount-edit-delivery-info a:hover,
+    .myaccount-edit-delivery-info a:hover,
+    .myaccount-edit-delivery-info a:active,
+    .myaccount-edit-delivery-info .myaccount-myservices-link2,
+    .myaccount-edit-delivery-info .myaccount-myservices-link2 a,
+    .myaccount-edit-delivery-info .myaccount-myservices-link2 a:hover,
+    .myaccount-edit-delivery-info .myaccount-myservices-link2 a:focus,
+    .myaccount-edit-delivery-info .myaccount-myservices-link2 a:active {
+        font-family: 'Inter', Helvetica, Arial, sans-serif;
+    }
+
+    .manage-services-panel-container {
+        background-color: #ffffff;
+        min-height: 81.0em;
+        margin: 2.0em 2.0em 0 2.0em;
+        padding: 2.0em 2.0em 2.0em 0.75em;
+    }
+
+    .manage-services-panel {
+        margin: 0 auto;
+        width: 17em;
+    }
+
+    .manage-services-panel-footer {
+        text-align: center;
+    }
+
+    #column-height {
+        min-height: 8.0em;
+    }
+
+    .neversend-tab-btn {
+        min-width: 13.5em;
+        margin-top: 0.1em;
+        margin-bottom: 0.5em;
+    }
+
+    #neversend-list-selection {
+        margin: auto;
+    }
+
+    .buffer-line-mobile {
+        min-height: 0.95em;
+    }
+
+    .produce-thumbnail-area-xs {
+        display: inline-block;
+        min-width: 100%;
+    }
+
+    .email-preferences-page label {
+        width: 85%;
+    }
+
+    .info-preferences-page .horz-radio-checkbox-set {
+        margin-bottom: 0.20em;
+    }
+
+    .myaccount-account-history-payments .nav-tabs > li > a {
+        line-height: 1.1em;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .myfarmstand-freestanding-menu-container {
+        margin-left: 2%;
+        margin-top: -50px;
+    }
+
+    .myaccount-center-vert-div-left,
+    .myaccount-center-vert-div-left2,
+    .myaccount-center-vert-div-leftB,
+    .myaccount-center-vert-div-left2B {
+        background-image: none;
+        background-repeat: repeat-y;
+        background-position: left;
+        background-size: 5px 54px;
+        width: 26px auto;
+        margin-right: 6%;
+        text-align: left;
+        /*	opacity: 0.8;
+*/ filter: alpha(opacity=80); /* For IE8 and earlier */
+        display: inline-block;
+        margin: 30px 0;
+        min-height: 21em;
+        position: relative;
+    }
+
+    .myaccount-center-vert-div-right,
+    .myaccount-center-vert-div-right2 {
+        background-image: none;
+        background-repeat: repeat-y;
+        background-position: left;
+        background-size: 5px 54px;
+        width: 26px auto;
+        margin-right: 6%;
+        text-align: left;
+        /*	opacity: 0.8;
+*/ filter: alpha(opacity=80); /* For IE8 and earlier */
+        display: inline-block;
+        margin: 20px 0;
+        min-height: 23em;
+        position: relative;
+    }
+
+    .checkout h2 {
+        padding-top: 0em;
+    }
+
+    .myaccount-myservices-section {
+        height: auto;
+    }
+
+        .myaccount-myservices-section .product-row {
+            max-width: 540px;
+        }
+
+        .myaccount-myservices-section .btn-row {
+            max-width: 540px;
+        }
+    /*[Same box style(s) ones used on checkout pages]*/
+    .checkout .produce-service-box {
+        min-width: 250px;
+        float: none;
+    }
+
+    .view-print-link a,
+    .view-print-link a:hover,
+    .view-print-link a:hover,
+    .view-print-link a:active,
+    .promotion-link a,
+    .promotion-link a:hover,
+    .promotion-link a:hover,
+    .promotion-link a:active {
+        padding-left: 0em;
+    }
+
+    .myaccount-history-side-bar,
+    .myaccount-neversend-side-bar {
+        padding: 0em 1.0em 1.0em 0;
+    }
+
+        .myaccount-calendar-side-bar p,
+        .myaccount-neversend-side-bar p {
+            max-width: 300px;
+            margin: auto auto;
+        }
+
+    .myaccount-center-vert-div-left3,
+    .myaccount-center-vert-div-left4,
+    .myaccount-center-vert-div-right3,
+    .myaccount-center-vert-div-right4 {
+        background-size: 0px 0px;
+        padding: 0em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+
+    .myaccount-account-summary .left-column, .middle-column,
+    .myaccount-edit-delivery-info .left-column, .middle-column {
+        line-height: 1.75em;
+    }
+
+    .myaccount-account-summary .action-set-right div,
+    .myaccount-edit-delivery-info .action-set-right div {
+        display: inline-block;
+        float: none;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+}
+
+
+@media (min-width: 0px) {
+    .myaccount-center-vert-div-left,
+    .myaccount-center-vert-div-left2,
+    .myaccount-center-vert-div-right,
+    .myaccount-center-vert-div-right2 {
+        padding-left: 13.5%;
+    }
+}
+
+@media (min-width: 480px) {
+    .myaccount-center-vert-div-left,
+    .myaccount-center-vert-div-left2,
+    .myaccount-center-vert-div-right,
+    .myaccount-center-vert-div-right2 {
+        padding-left: 33%;
+    }
+
+    #promo-code-notice {
+        max-width: 100%;
+        padding: 0 2.0em 2.0em 2.0em;
+    }
+
+    .neversend-list img {
+        float: left;
+    }
+
+    .clear-all-items-side-right {
+        float: right;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .myaccountmenu {
+        display: none !important;
+    }
+
+    .myfarmstand-freestanding-menu-container {
+        display: inline-block !important;
+    }
+
+    .myaccount-center-col {
+    }
+
+    .nav > li > a {
+        position: relative;
+        display: block;
+        padding: 14px 12px 10px 12px;
+    }
+
+    .myaccount-account-history-payments .nav > li > a,
+    .myaccount-account-history-payments .nav-tabs > li.active > a,
+    .myaccount-account-history-payments .nav-tabs > li.active > a:hover,
+    .myaccount-account-history-payments .nav-tabs > li.active > a:focus {
+        position: relative;
+        display: block;
+        padding: 6.0% 0 5.0% 0;
+        font-size: 1.125em;
+        font-family: 'Inter', Helvetica, Arial, sans-serif;
+    }
+
+    .navbar-hide-desktop-view {
+        display: none;
+    }
+
+    .myaccount-center-vert-div-left,
+    .myaccount-center-vert-div-leftB {
+        background-image: url(../../images/ffty/dotted-vert-line-short.png);
+        background-repeat: repeat-y;
+        background-position: left;
+        background-size: 5px 54px;
+        width: 26px auto;
+        margin-right: 6%;
+        text-align: left;
+        /*	opacity: 0.8;
+*/ filter: alpha(opacity=80); /* For IE8 and earlier */
+        display: inline-block;
+        padding-left: 9%;
+        margin: 20px 0;
+        height: 24.7em;
+        position: relative;
+    }
+
+    .myaccount-center-vert-div-left2,
+    .myaccount-center-vert-div-left2B {
+        background-image: non;
+        background-repeat: repeat-y;
+        background-position: left;
+        background-size: 5px 54px;
+        width: 26px auto;
+        margin-right: 6%;
+        text-align: left;
+        /*	opacity: 0.8;
+*/ filter: alpha(opacity=80); /* For IE8 and earlier */
+        display: inline-block;
+        padding-left: 12%;
+        margin: 20px 0;
+        min-height: 24.7em;
+        position: relative;
+    }
+
+    .myaccount-center-vert-div-right,
+    .myaccount-center-vert-div-right2 {
+        background-image: url(../../images/ffty/dotted-vert-line-short.png);
+        background-repeat: repeat-y;
+        background-position: left;
+        background-size: 5px 54px;
+        width: 26px auto;
+        margin-right: 6%;
+        text-align: left;
+        /*	opacity: 0.8;
+*/ filter: alpha(opacity=80); /* For IE8 and earlier */
+        display: inline-block;
+        padding-left: 9%;
+        margin: 20px 0;
+        min-height: 24.7em;
+        position: relative;
+    }
+
+    .myaccount-account-summary .btn-container,
+    .myaccount-edit-delivery-info .btn-container {
+        margin: 0;
+        /*margin-top: 1.0em;
+        position: absolute;*/
+        bottom: 0px;
+    }
+
+    .add-recurring-items .manage-recurring-items .manage-services-subtitle {
+        padding-top: 110px;
+    }
+
+    .subtitle p {
+        margin: 0.5em auto;
+        max-width: 24em;
+    }
+
+    .subtitle2 p {
+        margin: 0.5em auto;
+        max-width: 32em;
+    }
+
+    .clear-all-items-row {
+        display: inline-block;
+        /*	float: left; */
+    }
+}
+
+@media (min-width: 992px) {
+    .alert-promo-myfarmstand, .alert-top-bar-danger-myfarmstand {
+        padding: 16px;
+    }
+
+    .myaccount-center-vert-div-left,
+    .myaccount-center-vert-div-left2,
+    .myaccount-center-vert-div-leftB,
+    .myaccount-center-vert-div-leftB2,
+    .myaccount-center-vert-div-right,
+    .myaccount-center-vert-div-right2 {
+        padding-left: 14%;
+    }
+
+    .form-manage-services {
+        width: 15.0em;
+    }
+
+    #edit-delivery-left-column {
+        padding-left: 25%;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .myaccount-center-col > div {
+        display: inline-block;
+        float: left;
+    }
+    /*Freestanding menu (1200+)*/
+    .myfarmstand-freestanding-menu-container {
+        margin-left: 9%;
+        display: none;
+    }
+
+    .myfarmstand-freestanding-menu {
+        text-align: center;
+        background-image: url(../../images/ffty/myfarmstand-freestanding-menu-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 980px 73px;
+        padding-top: 8px;
+        margin-top: -35px;
+        right: auto;
+    }
+
+    .myfarmstand-freestanding-menu-first-li {
+        border-left: none;
+        margin-left: -0.12em;
+    }
+
+    .myfarmstand-freestanding-menu ul {
+        display: inline-block;
+        padding: 0 0 0 0;
+        width: 90%;
+        min-width: 975px;
+        margin: auto;
+        text-align: center;
+    }
+
+        .myfarmstand-freestanding-menu ul li {
+            padding: 2% 3.0%;
+            float: left;
+            list-style: none;
+            border-left: #cbcc98 1px solid;
+            height: 53px;
+            max-height: 58px;
+            text-transform: uppercase;
+            vertical-align: middle;
+        }
+
+            .myfarmstand-freestanding-menu ul li:nth-child(1) {
+                width: 23.50%;
+            }
+
+            .myfarmstand-freestanding-menu ul li:nth-child(2) {
+                width: 16.70%;
+            }
+
+            .myfarmstand-freestanding-menu ul li:nth-child(3) {
+                width: 20.60%;
+            }
+
+            .myfarmstand-freestanding-menu ul li:nth-child(4) {
+                width: 16.00%;
+            }
+
+            .myfarmstand-freestanding-menu ul li:nth-child(5) {
+                width: 12.70%;
+            }
+
+            .myfarmstand-freestanding-menu ul li:nth-child(6) {
+                width: 10.50%;
+            }
+
+    .myaccount-center-vert-div-left,
+    .myaccount-center-vert-div-left2,
+    .myaccount-center-vert-div-leftB,
+    .myaccount-center-vert-div-leftB2,
+    .myaccount-center-vert-div-right,
+    .myaccount-center-vert-div-right2 {
+        padding-left: 5.0em;
+    }
+
+    .circle-product {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        background-color: #e8a62d;
+        border: #ffffff 1px solid;
+        color: #ffffff;
+        font-family: "VinylOT-Regular", Helvetica, Arial, sans-serif;
+        font-size: 2.0em;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 1.13em;
+        top: -30px;
+        left: -40px;
+        position: absolute;
+        z-index: 999;
+    }
+
+    .circle-label {
+        position: relative;
+    }
+
+    .myaccount-neversend-side-bar {
+        text-align: center;
+        margin-top: 7.0em;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .circle-product {
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        background-color: #e8a62d;
+        border: #ffffff 1px solid;
+        color: #ffffff;
+        font-family: "VinylOT-Regular", Helvetica, Arial, sans-serif;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 0.85em;
+        top: -27px;
+        left: -15px;
+        position: absolute;
+        z-index: 999;
+    }
+
+    .circle-label {
+        position: relative;
+    }
+}
+
+@media (max-width: 405px) {
+    .myaccount-account-history-payments td:before {
+        white-space: inherit;
+        width: 35%;
+        margin: auto 0;
+    }
+
+    .myaccount-account-history-payments #transaction-statements td {
+        min-height: 5.0em;
+    }
+
+    .myaccount-account-history-payments #promotion-history td {
+        min-height: 5.0em;
+    }
+
+    .skip-link a,
+    .skip-link a:hover,
+    .skip-link a:hover,
+    .skip-link a:active {
+        padding-left: 0em;
+        min-width: 5.5em;
+        display: inline-block;
+        width: 7.0em;
+        line-height: 3.0em;
+    }
+
+    .myaccount-account-history-payments td { /* Behave  like a "row" */
+        padding-left: 40%;
+    }
+
+    .myaccount-center-vert-div-left,
+    .myaccount-center-vert-div-left2,
+    .myaccount-center-vert-div-leftB,
+    .myaccount-center-vert-div-left2B {
+        min-height: 22em;
+    }
+    /*.myaccount-center-vert-div-left > h4,
+.myaccount-center-vert-div-left2 > h4,
+.myaccount-center-vert-div-leftB > h4,
+.myaccount-center-vert-div-left2B > h4 {
+	margin-top: 3.7em;
+}*/
+}

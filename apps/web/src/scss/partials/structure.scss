@@ -1,0 +1,16 @@
+:root {
+	interpolate-size: allow-keywords;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+
+	app {
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+		height: 100vh;
+		height: 100dvh;
+	}
+}

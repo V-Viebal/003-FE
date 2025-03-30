@@ -1,0 +1,1573 @@
+/*!
+ * This file is the custom styles that overwrite the base Bootstrap settings were needed
+ */
+
+
+
+
+/*------------------------------- EVENTS PAGES---------------------------------*/
+
+.pgwSlideshow .ps-current > ul > li img {
+    display: block;
+    /* max-width: 100%; */
+    margin: auto;
+    /* height: 100%; */
+    width: 100%;
+}
+
+/* featured events area*/
+.events-body-bg {
+    background-color: #f6f5f0;
+    box-shadow: 3px 3px 3px #999999;
+    z-index: 3;
+    /*	position: relative; */
+}
+
+.buffer-line-tall {
+    min-height: 2.0em;
+}
+
+.events-feature-mobile {
+    display: none;
+}
+
+.events-feature {
+    /*margin-top: 50px;*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: visible;
+    background-color: #362b13;
+}
+
+.events-feature-textblock-bg {
+    width: 38%;
+    min-width: 36em;
+    height: 100%;
+    margin: -34em auto 0em auto;
+    background-image: url(../../images/ffty/events-text-box.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    overflow: visible;
+    position: relative;
+    z-index: 500;
+    top: -50px;
+}
+
+.events-feature-textblock {
+    text-align: center;
+    vertical-align: central;
+    padding: 10% 10% 5% 10%;
+}
+
+    .events-feature-textblock h1 {
+        text-align: center;
+        color: #cbcc98;
+        font-size: 3.5em;
+        line-height: 0.9em;
+        font-family: VinylOT-Regular, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        text-transform: uppercase;
+        opacity: 1.0;
+        margin-top: 0.1em;
+        filter: alpha(opacity=100); /* For IE8 and earlier */
+    }
+
+    .events-feature-textblock h2 {
+        text-align: center;
+        color: #ffffff;
+        font-size: 2.9em;
+        line-height: 1.0em;
+        margin-top: -0.15em;
+        font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+    }
+
+    .events-feature-textblock p {
+        text-align: center;
+        color: #ffffff;
+        font-size: 1.38em;
+        line-height: 1.2em;
+        margin-bottom: -0.2em;
+        font-family: 'Inter', Arial, sans-serif;
+    }
+
+    .events-feature-textblock img {
+        width: 22%;
+        height: auto;
+    }
+/* / featured events area*/
+.events-page {
+    min-height: 800px;
+}
+
+.featured-bg-color {
+    background-color: #362b13;
+}
+
+
+.events-page-background {
+    width: auto;
+    min-height: 500px;
+    background-image: url(../../images/ffty/farm_event_picking_field.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.events-page h2 {
+    text-align: center;
+    color: #362b13;
+    font-size: 3.0em;
+    line-height: 0.8em;
+    font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+}
+
+.events-page .remember-me {
+    display: inline-block;
+    float: left;
+    text-align: left;
+    list-style: none;
+    list-style-image: none;
+    list-style-type: none;
+    margin-right: 1.0em;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+}
+
+.events-panel {
+    max-width: 80%;
+    margin: 35% auto 70px auto;
+    padding-bottom: 2.0em;
+    background-color: #f4f2ec;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    /*Chrome, Safari*/
+    -webkit-box-shadow: 0px 2px 6px #ebebeb;
+    /*Firefox*/
+    -moz-box-shadow: 0px 2px 6px #ebebeb;
+    /*Standard Syntax*/
+    box-shadow: 0px 2px 6px #666666;
+}
+
+.events-panel-body {
+    padding: 6px 1.0em 0px 1.0em;
+}
+
+.events-panel-heading {
+    padding: 0 15px 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+/* white-gold button */
+.events-page btn {
+    text-align: center;
+    width: 100%;
+    height: 1.5em;
+}
+
+.events-page-button-row {
+    width: 150px;
+}
+
+.event-calendar-icon {
+    padding: 1.0em 1.0em 0 1.0em;
+    margin: auto;
+    text-align: center;
+    max-width: 320px;
+    max-height: 320px;
+}
+
+.events-select-btn-container {
+    margin-bottom: 2.5em;
+    margin: 2.0 auto;
+}
+
+.events-select-btn,
+.events-select-btn:hover,
+.events-select-btn:focus,
+.events-select-btn:active .events-select-btn a,
+.events-select-btn a:hover,
+.events-select-btn a:focus,
+.events-select-btn a:active {
+    color: #e8a62d;
+    padding: 1.0em 14%;
+    height: 3.0em;
+    width: 55em;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    border: 1px solid #e8a62d;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+/* / white-gold button */
+
+
+
+
+
+/* showing events header bar */
+.showing-events-header-bar-bg {
+    background-image: url(../../images/ffty/fabric-dark-bg.jpg);
+    background-size: 95px 117px;
+    background-repeat: repeat;
+    position: relative;
+}
+
+.showing-events-header-bar-bg2 {
+    background-image: url(../../images/ffty/fabric-light-bg.jpg);
+    background-size: 95px 117px;
+    background-repeat: repeat;
+    box-shadow: 6px 6px 6px #333333;
+    z-index: 2;
+    /*	position: relative;*/
+}
+
+.showing-events-header-bar-bg2,
+.showing-events-header-bar-arrow-bg2 {
+    background-image: url(../../images/ffty/fabric-light-bg.jpg);
+    background-size: 95px 117px;
+    background-repeat: repeat;
+}
+
+.showing-events-header-bar-arrow-bg3 {
+    background-image: url(../../images/ffty/fabric-light-bg.jpg);
+    background-size: 95px 117px;
+    background-repeat: repeat;
+    z-index: -3;
+    position: relative;
+}
+
+.showing-events-header-bar-arrow {
+    text-align: center;
+}
+
+    .showing-events-header-bar-arrow > .container > .row > img {
+        margin-top: -2px;
+        z-index: 1;
+        position: relative;
+    }
+
+.showing-events-header-bar h2 {
+    text-align: center;
+    color: #362b13;
+    font-size: 3.0em;
+    line-height: 0.8em;
+    font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+    padding-top: 0.25em;
+    margin-bottom: -0.25em;
+}
+
+.showing-events-header-bar em {
+    font-family: VinylOT-Regular, sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: .70em;
+}
+
+.no-events-toggle-bar-bg {
+    background-color: #f6f5f0;
+    position: relative;
+    max-height: 50px;
+    border-bottom: 1px solid #cccd91;
+}
+
+.showing-events-header-bar a,
+.showing-events-header-bar a:hover,
+.showing-events-header-bar a:focus,
+.showing-events-header-bar a:active,
+.events-feature a,
+.events-feature a:hover,
+.events-feature a:focus,
+.events-feature a:active {
+    text-align: center;
+    color: #e8a62d;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 3.5em;
+    text-decoration: none;
+    font-style: italic;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    display: block;
+}
+
+.min-row-height {
+    min-height: 8.5em;
+}
+
+.buffer-line {
+    min-height: 0.95em;
+}
+/* / showing events header bar */
+.event-image {
+    width: 100%;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1400px;
+    margin: 2em auto 0 auto;
+}
+
+.featured-hero-container {
+    max-height: 48em;
+    overflow: hidden;
+}
+
+
+/* event-listing-box */
+
+.event-listing-box {
+    max-width: 22em;
+    min-height: 37em;
+    padding: 0.5em;
+    margin: 2.0em auto 0.5em auto;
+    background-color: #f4f2ec;
+    display: block;
+}
+
+.date-strip {
+    margin-right: 0.5em;
+    background-color: #a6a668;
+    width: 7.0em;
+    height: 16em;
+    padding: 0.5em;
+    display: inline-block;
+    float: left;
+    vertical-align: central;
+}
+
+    .date-strip .date {
+        vertical-align: central;
+        margin: auto 0;
+        height: 4.0em;
+        position: relative;
+        top: 30%;
+    }
+
+    .date-strip p {
+        text-align: center;
+        color: #ffffff;
+        font-size: 2.0em;
+        line-height: 1.1em;
+        font-family: VinylOT-Regular, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        text-transform: uppercase;
+        vertical-align: central;
+        margin: auto;
+    }
+
+.date-strip-special-event-item {
+    margin-right: 0.5em;
+    background-color: #e8a62d;
+    width: 7.0em;
+    height: 16em;
+    padding: 0.5em;
+    display: inline-block;
+    float: left;
+    vertical-align: central;
+}
+
+    .date-strip-special-event-item .date {
+        vertical-align: central;
+        margin: auto 0;
+        height: 4.0em;
+        position: relative;
+        top: 30%;
+    }
+
+    .date-strip-special-event-item p {
+        text-align: center;
+        color: #ffffff;
+        font-size: 2.0em;
+        line-height: 1.1em;
+        font-family: VinylOT-Regular, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        text-transform: uppercase;
+        vertical-align: central;
+        margin: auto;
+    }
+
+.event-listing-box .thumbnail-area {
+    width: auto;
+    height: 100%;
+    max-width: 295px;
+    max-height: 222px;
+    margin-right: 0em;
+    background-color: #f4f2ec;
+    display: inline-block;
+    float: left;
+}
+
+.event-listing-box .summary {
+    padding-left: 31.25em;
+    padding-right: 5%;
+    /*	position: absolute;
+    top: 20%;*/
+    max-height: 222px;
+}
+
+    .event-listing-box .summary p {
+        margin-bottom: -0.5em;
+    }
+
+    .event-listing-box .summary h4 {
+        color: #362b13;
+        font-size: 1.45em;
+        font-family: VinylOT-Regular, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        text-transform: uppercase;
+    }
+
+    .event-listing-box .summary h3,
+    .event-listing-box .summary h3 a,
+    .event-listing-box .summary h3 a:hover,
+    .event-listing-box .summary h3 a:focus,
+    .event-listing-box .summary h3 a:active {
+        color: #a6a668;
+        font-size: 1.6em;
+        line-height: 0.8em;
+        font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+        padding-top: 0.25em;
+        margin-top: -0.4em;
+        font-style: normal;
+        text-align: left;
+    }
+
+    .event-listing-box .summary .special-event {
+        color: #e8a62d;
+    }
+
+    .event-listing-box .summary p a {
+        text-align: left;
+    }
+/* /event-listing-box */
+
+.btn-bottom-list-container {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto 3.0em auto;
+    max-width: 100%;
+}
+
+.btn-bottom-list,
+.btn-bottom-list a,
+.btn-bottom-list a:hover,
+.btn-bottom-list a:focus,
+.btn-bottom-list a:active {
+    display: inline-block;
+    float: left;
+    color: #ffffff;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+}
+
+.buffer-side {
+    margin-left: 2.0em;
+}
+
+
+/*Host Your Own Event Teaser */
+.events-host-your-own {
+}
+
+.events-host-your-own-bg, .myfarmstand-upcoming-deliveries-bg {
+    background-color: #f4f2ec;
+}
+
+    .events-host-your-own h2, .myfarmstand-upcoming-deliveries-bg h2 {
+        text-align: center;
+        color: #a6a668;
+        font-size: 3.0em;
+        line-height: 0.8em;
+        padding: 0 1.0em;
+        font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+    }
+
+.bolder {
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+}
+
+.events-host-your-own p {
+    text-align: center;
+    color: #362b13;
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 1.6em;
+    margin: 0.5em 15% 0.5em 15%;
+}
+
+.myfarmstand-link a, .myfarmstand-link a:hover, .myfarmstand-link a:focus {
+    text-align: center;
+    color: #e8a62d;
+    font-size: 1.0em;
+    font-weight: 300;
+    line-height: 1.6em;
+    margin: 0.5em 0 0.5em 0;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.events-host-your-own .container {
+    padding: 2.5em 0em 2.5em 0em;
+}
+
+.green-dotted-line {
+    background-image: url(../../images/ffty/green-dotted-line.png);
+    background-repeat: repeat-x;
+    margin: 0em 0em -0.5em 0em;
+    padding: 2.0em 0em 0em 0em;
+    width: 100%;
+    text-align: center;
+    size: 80%;
+}
+
+#btn-clean2,
+#btn-clean2 a:hover,
+#btn-clean2 a:focus,
+#btn-clean2 a:active {
+    color: #e8a62d;
+    border: #e8a62d 1px solid;
+    font-family: 'Inter',Helvetica, Arial, sans-serif;
+}
+
+#btn-clean3,
+#btn-clean3 a:hover,
+#btn-clean3 a:focus,
+#btn-clean3 a:active {
+    color: #e8a62d;
+    border: #e8a62d 1px solid;
+    font-family: 'Inter',Helvetica, Arial, sans-serif;
+    line-height: 1.5em;
+    margin: 1.0em 0 4.0em 0;
+}
+/* / Host Your Own Event Teaser */
+
+
+/* Host Your Own Event - page */
+.host-own-events {
+    margin: 1.5em 0 3.5em 0;
+}
+
+    .host-own-events h2 {
+        color: #a6a668;
+        font-size: 2.7em;
+        line-height: 1.0em;
+        font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+        padding-top: 0.25em;
+        margin-top: -0.4em;
+    }
+
+     .events-host-your-own h4 {
+        color: #362b13;
+        font-size: 1.45em;
+        font-family: VinylOT-Regular, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        text-transform: uppercase;
+	    text-align: center;
+        margin: 1.45em 0.25em 0 0.25em;
+    }
+
+     .events-host-your-own h4 .spacer {
+	    margin: 0 0.5em;
+    }
+
+
+     .host-own-events .events-center-vert-div-left3 .buffer-line{
+    margin: 3.5em 0;
+}
+
+    .host-own-events p {
+        font-size: 1.25em;
+        padding-top: 0.25em;
+    }
+
+.host-own-events-sidebar {
+    margin: 2.0em 0;
+    /*padding: 2.0em;*/
+    /*	width: 18em;*/
+}
+
+    .host-own-events-sidebar h3 {
+        color: #362b13;
+        font-size: 1.45em;
+        font-family: VinylOT-Regular, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        text-transform: uppercase;
+    }
+
+    .host-own-events-sidebar p {
+        font-family: 'Avenir LT W01_55 Roman', Helvetica, Arial, sans-serif;
+        font-size: 1.0em;
+    }
+
+.btn-host-own-events-sidebar,
+.btn-host-own-events-sidebar:hover,
+.btn-host-own-events-sidebar:focus,
+.btn-host-own-events-sidebar:active:hover {
+    color: #ffffff;
+    background-image: url(../../images/ffty/features-btn.png);
+    margin: 0.5em 0 -1.7em 0;
+    padding: 1.1em 0.40em 1.0em 0.40em;
+    border-color: transparent;
+    background-color: transparent;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    background-position: center;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 0.95em;
+    width: 12.0em;
+    max-width: 240px;
+    height: auto;
+}
+/* / Host Your Own Event - page */
+
+
+
+
+/* Event Detail - page */
+.event-charity {
+}
+
+.media-heading {
+    color: #362b13;
+    font-size: 1.45em;
+    font-family: VinylOT-Regular, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.media-left {
+    padding-right: 1.5em;
+}
+
+.event-detail {
+    margin: 1.5em 0 3.5em 0;
+}
+
+    .event-detail h2 {
+        color: #a6a668;
+        font-size: 2.7em;
+        line-height: 1.0em;
+        font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+        padding-top: 0.25em;
+        margin-top: -0.4em;
+        max-width: 12em;
+    }
+
+.event-charity h2 {
+    color: #a6a668;
+    font-size: 2.7em;
+    line-height: 1.0em;
+    font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+    padding-top: 0.25em;
+    margin-top: 0.75em;
+    max-width: 12em;
+}
+
+.event-detail p {
+    font-size: 1.25em;
+    padding-top: 0.25em;
+}
+
+.event-detail-sidebar {
+    margin: 2.0em 0;
+    /* padding: 2.0em; */
+    /* width: 18em; */
+}
+
+    .event-detail-sidebar .text-link a {
+        color: #E8A62D;
+        text-decoration: none;
+    }
+
+    .event-detail-sidebar h3 {
+        color: #362b13;
+        font-size: 1.45em;
+        font-family: VinylOT-Regular, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        text-transform: uppercase;
+    }
+
+    .event-detail-sidebar p {
+        font-family: 'Avenir LT W01_55 Roman', Helvetica, Arial, sans-serif;
+        font-size: 1.0em;
+    }
+
+.btn-event-detail-sidebar,
+.btn-event-detail-sidebar:hover,
+.btn-event-detail-sidebar:focus,
+.btn-event-detail-sidebar:active:hover {
+    color: #ffffff !important;
+    background-image: url(../../images/ffty/features-btn.png);
+    margin: 0.5em 0 -1.7em 0;
+    padding: 1.1em 0.40em 1.0em 0.40em;
+    border-color: transparent;
+    background-color: transparent;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    background-position: center;
+    font-family: 'Inter', Helvetica, Arial, sans-serif !important;
+    font-weight: 400;
+    font-size: 0.95em;
+    width: 12.0em;
+    max-width: 240px;
+    height: auto;
+}
+
+.event-description a,
+.event-description a:hover,
+.event-description a:focus,
+.event-description a:active {
+    color: #e8a62d;
+    font-family: 'Inter',Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+.display-mobile {
+    display: none;
+}
+
+.event-social-icons img {
+    width: 2.5em;
+    height: 2.5em;
+    margin: 0 0.5em;
+}
+
+.event-detail-sidebar hr {
+    max-width: 280px;
+}
+
+.add-to-my-calendar-box {
+    width: 13em;
+    margin: 1.5em auto 3.0em auto;
+}
+
+    .add-to-my-calendar-box a {
+        color: #e8a62d;
+        font-family: 'Inter',Helvetica, Arial, sans-serif;
+        text-decoration: none;
+        padding-top: 0.5em;
+    }
+
+    .add-to-my-calendar-box img {
+        width: 1.5em;
+        height: 1.5em;
+        margin: 0 0.5em 0.20em 0.5em;
+    }
+
+.event-detail h3 {
+    color: #362b13;
+    font-size: 1.45em;
+    font-family: VinylOT-Regular, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+}
+/* / Event Detail - page */
+
+
+/* Event Detail Directions- popup */
+.event-directions-popup {
+    padding: 1.5em 8%;
+    text-align: left;
+}
+
+    .event-directions-popup stronger,
+    .event-directions-popup b {
+        font-family: "Inter", Helvetica, Arial, sans-serif;
+    }
+
+    .event-directions-popup h2 {
+        text-align: center;
+        color: #362b13;
+        font-size: 3.0em;
+        line-height: 0.8em;
+        font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+
+    .event-directions-popup h3 {
+        font-family: VinylOT-Regular, sans-serif;
+        font-style: normal;
+        color: #A6A668;
+        text-transform: uppercase;
+        font-size: 2.0em;
+        margin: 0.75em 0;
+    }
+
+    .event-directions-popup h4 {
+        font-family: 'Inter',Helvetica, Arial, sans-serif;
+        color: #A6A668;
+        font-size: 1.0em;
+        line-height: 1.65em;
+        margin: auto;
+        margin-bottom: 2.0em;
+        text-align: center;
+        max-width: 80%;
+    }
+
+    .event-directions-popup h5 {
+        font-family: VinylOT-Regular, sans-serif;
+        color: #362b13;
+        font-size: 1.5em;
+        line-height: 2.0em;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+.event-directions-popup-hr {
+    background-image: url(../../images/ffty/green-dotted-line.png);
+    background-repeat: repeat-x;
+    height: 1.75em;
+    margin: 2.0 20px;
+}
+
+.event-directions-popup p {
+    margin: 1.5em 5%;
+}
+
+    .event-directions-popup p a {
+        margin-left: 0em;
+        margin-right: 1.0em;
+        color: #E8A62D;
+        font-family: 'Inter',Helvetica, Arial, sans-serif;
+        text-decoration: none;
+    }
+
+.event-directions-popup .vert-div-line {
+    color: #ffffff;
+}
+
+.event-directions-popup .modal-header {
+    border-bottom: 0px;
+}
+
+.event-directions-popup .modal-title {
+    background-color: #ebeae6;
+}
+
+.event-directions-popup a,
+.event-directions-popup a:hover,
+.event-directions-popup a:active,
+.event-directions-popup a:focus {
+    color: #e8a62d;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+}
+
+.modal-print-close {
+    max-width: 600px;
+    text-align: right;
+    margin: auto;
+}
+
+    .modal-print-close a,
+    .modal-print-close a:hover,
+    .modal-print-close a:focus,
+    .modal-print-close a:active {
+        color: #E8A62D;
+        font-family: 'Avenir LT W01_85 Heavy Oblique',Helvetica, Arial, sans-serif;
+        text-decoration: none;
+        margin-left: 1.0em;
+        text-shadow: 0px 0px 4px #000000;
+    }
+
+.map-print-links-container {
+    width: 13em;
+    display: block;
+    margin: 0 0 1.5em 0;
+}
+
+.modal-content {
+    background-color: #ebeae6;
+}
+/* / Event Detail Directions- popup */
+
+
+/* No Event - popup */
+.no-events-sidebar {
+    margin: 2.0em 0;
+}
+
+    .no-events-sidebar p {
+        font-size: 1.0em;
+    }
+/* / No Event - popup */
+
+
+
+
+
+/*---- Event Feature Listing ----*/
+
+.event-features {
+}
+
+.event-features-posting-bg {
+    background-image: url(../../images/ffty/feature-bg1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 405px;
+    max-width: 308px;
+    padding: 0.5em 2.0em;
+    margin: 2.0em 0.2em;
+    background-size: 100% 100%;
+}
+
+.event-features h1 {
+    text-align: center;
+    color: #362b13;
+    font-size: 1.0em;
+    line-height: 0.5em;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin: 4.0em 0 -0.5em 0;
+}
+
+.event-features h2 {
+    text-align: center;
+    color: #362b13;
+    font-size: 3.0em;
+    line-height: 0.8em;
+    font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+}
+
+.event-features h3 {
+    text-align: center;
+    color: #362b13;
+    font-size: 1.0em;
+    line-height: 0.5em;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin: -2px 0;
+}
+
+.event-features h4, .home-features h4 a, .home-features h4 a:hover {
+    text-align: center;
+    color: #a6a668;
+    font-size: 1.5em;
+    font-family: VinylOT-Regular, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.event-features p {
+    text-align: center;
+}
+
+.event-features-icon {
+    background-image: url(../../images/ffty/circle-small.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2.0em;
+    margin: 1.0em;
+}
+
+.event-features-btn {
+    background-image: url(../../images/ffty/features-btn.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.event-features-main-bg {
+    background-image: url(../../images/ffty/fabric-light-bg.jpg);
+    background-size: 95px 117px;
+    background-repeat: repeat;
+    padding-bottom: 20px;
+}
+
+.event-feature-column1-bg-img {
+    width: 100%;
+    height: 194px;
+    background-image: url(../../images/ffty/broccoli-pasta2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    margin: 16px 0 0 0;
+    background-position-y: -30px;
+}
+
+.event-feature-column2-bg-img {
+    width: 100%;
+    height: 194px;
+    background-image: url(../../images/ffty/banquet2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    margin: 16px 0 0 0;
+    background-position-y: -30px;
+}
+
+.event-feature-column3-bg-img {
+    width: 100%;
+    height: 194px;
+    background-image: url(../../images/ffty/bee2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    margin: 16px 0 0 0;
+    background-position-y: -30px;
+}
+
+.event-feature-column-overlay {
+    width: 100%;
+    /*	width: 255px;*/
+    position: absolute; /*You may also use fixed depending on your needs.*/
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+}
+
+.feature-container {
+    text-align: center;
+    display: table;
+    margin: 0px auto 1.0em auto;
+}
+
+    .feature-container .btn-features,
+    .feature-container .btn-features a,
+    .feature-container .btn-features:hover,
+    .feature-container .btn-features:focus,
+    .feature-container .btn-features:active {
+        margin: -9em 0 -1.7em 0;
+    }
+
+.feature-listing {
+}
+
+.feature-listing-bg {
+    background-image: url(../../images/ffty/feature-bg1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 450px;
+    max-width: 307px;
+    padding: 0.01em 2.0em 0.5em 2.0em;
+    margin: 2.0em -0.2em;
+    background-size: 100% 100%;
+}
+
+.feature-listing h1 {
+    text-align: center;
+    color: #362b13;
+    font-size: 1.0em;
+    line-height: 0.5em;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin: 4.0em 0 -0.5em 0;
+}
+
+.feature-listing h2 {
+    text-align: center;
+    color: #362b13;
+    font-size: 3.0em;
+    line-height: 0.8em;
+    font-family: 'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+    padding: 0 0.5em;
+}
+
+.feature-listing h3 {
+    text-align: center;
+    color: #362b13;
+    font-size: 1.0em;
+    line-height: 0.5em;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin: 0.5em 0 0 0;
+}
+
+.feature-listing p a {
+    color: #e8a62d;
+    text-decoration: none;
+}
+
+.feature-listing h4, .feature-listing h4 a, .feature-listing h4 a:hover {
+    text-align: center;
+    color: #a6a668;
+    font-size: 1.25em;
+    font-family: VinylOT-Regular, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.feature-listing p {
+    text-align: center;
+    line-height: 1.4em;
+    margin-top: -0.25em;
+}
+
+.feature-listing-icon {
+    background-image: url(../../images/ffty/circle-small.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2.0em;
+    margin: 1.0em;
+}
+
+.feature-listing-main-bg {
+    background-image: url(../../images/ffty/fabric-light-bg.jpg);
+    background-size: 95px 117px;
+    background-repeat: repeat;
+    padding-bottom: 20px;
+}
+
+.recipe-filter-settings-bg {
+    background-image: url(../../images/ffty/fabric-light-bg.jpg);
+    background-size: 95px 117px;
+    background-repeat: repeat;
+    padding: 20px 0;
+}
+
+.feature-listing-column {
+    position: relative;
+    height: 149px;
+    height: 195px;
+    overflow: hidden;
+    margin: .75em auto 1.25em auto;
+    width: 253px;
+}
+
+    .feature-listing-column .recipe-thumbnail {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -moz-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 100%;
+        /*height: 195px;*/
+    }
+
+.icon-overlay {
+    width: 225px;
+    position: absolute; /*You may also use fixed depending on your needs.*/
+    left: 0;
+    bottom: -15px;
+    z-index: 999;
+}
+
+
+.btn-features, .btn-features a, .btn-features:hover, .btn-features:focus, .btn-features:active {
+    color: #ffffff;
+    background-image: url(../../images/ffty/features-btn.png);
+    margin: -5.0em 0 -1.7em 0;
+    padding: 0.75em 0.60em 0.60em 0.60em;
+    border-color: transparent;
+    background-color: transparent;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    background-position: center;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.0em;
+    min-width: 180px;
+    max-width: 240px;
+    height: auto;
+}
+
+/*---- / Feature Listing ----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------- 3. MEDIA SIZE STYLES ---------------------------------*/
+
+@media (max-width: 480px) {
+
+    /* event-listing-box */
+    .event-listing-box {
+        max-width: 22em;
+        min-height: 37em;
+        padding: 0.5em;
+        margin: 2.0em auto 0.5em auto;
+        background-color: #f4f2ec;
+        display: block;
+    }
+
+
+    .feature-listing-bg {
+    height: 450px;
+    max-width: 280px;
+}
+.feature-listing-column {
+    height: 160px;
+    width: 225px;
+    margin: 1.45em auto;
+}
+.feature-listing-column .recipe-thumbnail {
+    height: auto;
+}
+
+
+        /*#image-phone {
+    height: auto;
+    max-width: 255px;
+}
+#event-box-phone {
+    max-width: 270px;
+    min-height: 36em;
+    padding: 0.5em;
+}
+#event-summary-phone {
+    padding-top: 12em;
+    padding-left: 0.7em;
+    padding-right: 1.7em;
+    max-width: 20em;
+}*/
+        .event-listing-box .summary {
+            padding-right: 25%;
+            /*	position: absolute;
+    top: 14%;*/
+            max-height: 522px;
+        }
+
+            .event-listing-box .summary p {
+                margin-bottom: -0.5em;
+            }
+
+    .date-strip,
+    .date-strip-special-event-item {
+        display: none;
+    }
+
+    .buffer-side {
+        display: none;
+    }
+
+    .btn-bottom-list-container {
+        max-width: 220px;
+    }
+
+    .showing-events-header-bar h2 {
+        padding-left: 1.0em;
+        padding-right: 1.0em;
+    }
+
+    .event-detail h2 {
+        text-align: center;
+    }
+
+    .event-directions-popup p a {
+        margin-left: 0em;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        font-family: 'Inter', sans-serif;
+    }
+
+    .event-image {
+        display: none;
+    }
+
+    .display-mobile {
+        display: inline-block;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    .events-feature-mobile {
+        display: inline-block;
+        width: 100%;
+        height: 80%;
+    }
+
+        .events-feature-mobile img {
+            width: 100%;
+        }
+
+    .events-feature {
+        /*	margin-top: 80px;*/
+        background-image: none; /*	background-size: 100% auto;*/
+        /*	min-height: 40.0em;*/
+    }
+
+    .events-feature-textblock-bg {
+        width: 100% !important;
+        height: 100%;
+        margin: 0 0 0 0 !important;
+        background-image: none;
+        background-color: #362b13;
+        opacity: 1.0;
+        filter: alpha(opacity=100); /* For IE8 and earlier */
+    }
+
+    .events-feature-textblock {
+        padding: 8% 10% 4% 10%;
+         margin-top: 4em; 
+    }
+
+        .events-feature-textblock h1 {
+            color: #cbcc98;
+            font-size: 3.5em;
+            line-height: 1.0em;
+            font-family: VinylOT-Regular, sans-serif;
+            font-weight: normal;
+            font-style: normal;
+            text-transform: uppercase;
+        }
+
+        .events-feature-textblock p {
+            text-align: center;
+            color: #ffffff;
+            font-size: 1.38em;
+            line-height: 1.2em;
+            margin-bottom: -0.2em;
+            font-family: 'Inter', Arial, sans-serif;
+        }
+
+            .events-feature-textblock p img {
+                max-height: 4.0em;
+            }
+
+        .events-feature-textblock img {
+            width: 25%;
+            height: 25%;
+        }
+
+    .events-feature-textblock-bg {
+        min-width: 0;
+    }
+
+    .btn-bottom-list-container {
+        max-width: 220px;
+    }
+
+    .gold-dotted-line {
+        background-image: url(../../images/ffty/gold-dotted-line.png);
+        background-repeat: repeat-x;
+        margin: 0em 0em -0.5em 0em;
+        width: 100%;
+        text-align: center;
+        size: 80%;
+        margin-top: 2.0em;
+    }
+
+    .event-description h2 {
+        padding-top: 0.5em;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .events-features-textblock-bg {
+        width: 45%;
+        margin: 7.5% 0 0 5%;
+    }
+
+    .event-listing-box {
+        max-width: 416px;
+        max-height: 237px;
+        padding: 0.5em;
+        margin: 2.0em auto 0em auto;
+        background-color: #f4f2ec;
+        display: block;
+    }
+
+        .event-listing-box .summary {
+            padding-left: 1.6em;
+            padding-top: 1.0em;
+            /*	padding-right: 26%; */
+            max-height: 522px;
+            float: left;
+        }
+
+            .event-listing-box .summary p {
+                margin-bottom: -0.5em;
+            }
+
+        .event-listing-box .thumbnail-area {
+            width: auto;
+            height: 100%;
+            max-width: 295px;
+            max-height: 222px;
+            margin-right: 0em;
+            background-color: #f4f2ec;
+            display: inline-block;
+            float: left;
+        }
+
+    .host-own-events-sidebar {
+        margin: 2.0em 0;
+        /*	width: 100%; */
+    }
+
+        .host-own-events-sidebar p {
+            max-width: 80%;
+            margin: auto;
+        }
+
+    .host-own-events h2 {
+        padding-top: 0.5em;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .host-own-events {
+        margin: 0em 0 3.5em 0;
+        background-color: f6f5f0;
+    }
+
+    .buffer-line-tall {
+        min-height: 1.75em;
+    }
+}
+
+@media (max-width: 1200px) {
+}
+
+
+@media (min-width: 0px) {
+}
+
+
+@media (min-width: 480px) {
+}
+
+
+@media (min-width: 768px) {
+    .events-feature {
+        padding-bottom: 1.0em;
+    }
+
+        .events-feature img {
+            display: block;
+        }
+
+    .events-center-vert-div-left3 {
+        background-image: url(../../images/ffty/dotted-vert-line-short-gold.png);
+        background-repeat: repeat-y;
+        background-position: left;
+        background-size: 4px 45px;
+        width: 26px auto;
+        text-align: left;
+        filter: alpha(opacity=80); /* For IE8 and earlier */
+        display: inline-block;
+        position: relative;
+        margin: 3.0em 0 0 0;
+        padding: 0 0 0 3.0em;
+    }
+
+    .event-directions-popup .modal-dialog {
+        width: 600px;
+        margin: 40px auto;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .event-listing-box {
+        max-width: 920px;
+        min-height: 237px;
+        max-height: 237px;
+        padding: 0.5em;
+        margin: 2.5em auto 0.25em auto;
+        background-color: #f4f2ec;
+        display: block;
+    }
+
+        .event-listing-box .thumbnail-area {
+            width: auto;
+            height: 100%;
+            max-width: 295px;
+            max-height: 222px;
+            margin-right: 1.5em;
+            background-color: #f4f2ec;
+            display: inline-block;
+            float: left;
+        }
+
+    .no-events-sidebar,
+    .host-own-events-sidebar {
+        width: 18em;
+    }
+}
+
+
+@media (min-width: 1200px) {
+
+    .events-feature-textblock-bg {
+        max-width: 40em;
+    }
+
+    .events-feature {
+        padding-bottom: 3.0em;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* event-listing-box */
+    .image-phone {
+        height: auto;
+        max-width: 255px;
+    }
+
+    .event-box-phone {
+        max-width: 270px;
+        min-height: 40em;
+        padding: 0.5em;
+    }
+
+    .event-summary-phone {
+        padding-top: 12em;
+        padding-left: 0.7em;
+        padding-right: 1.7em;
+        max-width: 20em;
+    }
+
+    .event-listing-box .summary {
+        padding-left: 7%;
+        padding-right: 10%;
+        padding-top: 1.0em;
+    }
+
+    .host-own-events-sidebar p {
+        max-width: none;
+    }
+
+    .media-object {
+        max-width: 3.5em;
+    }
+}
