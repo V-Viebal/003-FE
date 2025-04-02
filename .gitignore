@@ -54,3 +54,4 @@ Thumbs.db
 /.nx/cache
 
 /apps/web/.env
+package-lock.json
