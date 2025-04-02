@@ -58,7 +58,15 @@
 					"node_modules/swiper/swiper-bundle.min.js",
 					"node_modules/jquery/dist/jquery.min.js",
 					"apps/web/preload-font.js",
-					"node_modules/@lottiefiles/dotlottie-wc/dist/dotlottie-wc.js"
+					"node_modules/@lottiefiles/dotlottie-wc/dist/dotlottie-wc.js",
+					"apps/web/src/assets/js/modernizr.js",
+					"apps/web/src/assets/js/polyfill.js",
+					"apps/web/src/assets/js/jscookie.js",
+					"apps/web/src/assets/js/jqueryval.js",
+					"apps/web/src/assets/js/jquery.js",
+					"apps/web/src/assets/js/fonts-com.js",
+					"apps/web/src/assets/js/fieldera.js",
+					"apps/web/src/assets/js/bootstrap.js"
 				],
 				"stylePreprocessorOptions": {
 					"includePaths": ["apps/web"]

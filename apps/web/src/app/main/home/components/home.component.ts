@@ -3,11 +3,7 @@ import {
 	ChangeDetectionStrategy,
 	OnInit,
 } from '@angular/core';
-import {
-	Unsubscriber
-} from '@core';
 
-@Unsubscriber()
 @Component({
 	selector: 'home',
 	templateUrl: '../templates/home.pug',

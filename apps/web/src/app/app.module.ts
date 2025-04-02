@@ -4,7 +4,6 @@ import {
 	ModuleWithProviders,
 	NgModule,
 	PLATFORM_ID,
-	inject,
 } from '@angular/core';
 import {
 	BrowserModule,
@@ -18,8 +17,8 @@ import {
 	provideAnimationsAsync
 } from '@angular/platform-browser/animations/async';
 import {
-	HTTP_INTERCEPTORS,
-	HttpClient
+	HttpClient,
+	HttpClientModule
 } from '@angular/common/http';
 import {
 	TranslateLoader,
@@ -27,35 +26,7 @@ import {
 	TranslateService
 } from '@ngx-translate/core';
 
-import {
-	CONSTANT,
-	CoreModule,
-	ServiceWorkerService
-} from '@core';
 
-import {
-	CUB_FILE_SERVICE,
-	CUB_LOCAL_FILE_SIZE_LIMIT
-} from '@cub/material/file-picker';
-import {
-	CUBImageModule,
-	CUBLoadingModule,
-	CUBScrollBarModule
-} from '@cub/material';
-
-import {
-	ErrorModule
-} from '@error/error.module';
-
-import {
-	FileService
-} from '@main/common/shared/services';
-import {
-	AuthModule
-} from '@main/auth/auth.module';
-import {
-	AuthInterceptor
-} from '@main/auth/interceptors';
 import {
 	HomeComponent
 } from '@main/home/components';
@@ -69,6 +40,8 @@ import {
 import {
 	TranslateLoaderService
 } from './translate-loader.factory';
+import { CookieService } from 'ngx-cookie-service';
+import { FormsModule } from '@angular/forms';
 
 // eslint-disable-next-line @typescript-eslint/naming-convention
 const ServiceWorkerModule: ModuleWithProviders<SWModule>
@@ -86,8 +59,9 @@ export function initializeTranslateService(translate: TranslateService) {
 
 @NgModule({
 	imports: [
-		CoreModule,
+		FormsModule,
 		BrowserModule,
+		HttpClientModule,
 
 		TranslateModule.forRoot({
 			loader: {
@@ -96,13 +70,6 @@ export function initializeTranslateService(translate: TranslateService) {
 				deps: [ HttpClient, TransferState, PLATFORM_ID ],
 			},
 		}),
-
-		CUBImageModule,
-		CUBLoadingModule,
-		CUBScrollBarModule,
-
-		ErrorModule,
-		AuthModule,
 
 		AppRoutingModules,
 
@@ -113,6 +80,7 @@ export function initializeTranslateService(translate: TranslateService) {
 		HomeComponent,
 	],
 	providers: [
+		CookieService,
 		{
 			provide: APP_ID,
 			useValue: 'serverApp'
@@ -125,30 +93,7 @@ export function initializeTranslateService(translate: TranslateService) {
 		},
 		provideClientHydration(),
 		provideAnimationsAsync(),
-		{
-			provide: CUB_FILE_SERVICE,
-			useClass: FileService,
-		},
-		{
-			provide: CUB_LOCAL_FILE_SIZE_LIMIT,
-			useValue: CONSTANT.ALLOW_FILE_SIZE,
-		},
-		{
-			provide: HTTP_INTERCEPTORS,
-			useClass: AuthInterceptor,
-			multi: true,
-		},
 	],
 	bootstrap: [ AppComponent ],
 })
-export class AppModule {
-
-	private _serviceWorkerService: ServiceWorkerService
-		= inject( ServiceWorkerService );
-
-	constructor() {
-		// Update available version
-		this._serviceWorkerService.updateAvailableVersion();
-	}
-
-}
+export class AppModule {}

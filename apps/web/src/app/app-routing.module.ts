@@ -8,10 +8,6 @@ import {
 } from '@angular/router';
 
 import {
-	ErrorComponent
-} from '@error/components';
-
-import {
 	HomeComponent
 } from '@main/home/components';
 
@@ -23,10 +19,6 @@ const routes: Routes = [
 	{
 		path		: '',
 		component	: HomeComponent,
-	},
-	{
-		path		: '**',
-		component	: ErrorComponent,
 	},
 ];
 
