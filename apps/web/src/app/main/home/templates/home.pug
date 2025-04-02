@@ -43,10 +43,10 @@ nav.navbar.navbar-exception.navbar-default.navbar-fixed-top.boxShadow.row(role='
 						li
 							a([routerLink]="['/contact']") Đặt Hàng Theo Yêu Cầu
 				li
-					a([routerLink]="['/events']") Sự Kiện & Khuyến Mãi
+					a([routerLink]="['/combo-box']") Gói Thực Phẩm
 				li.dropdown
 					a.dropdown-toggle(href='#' data-toggle='dropdown' role='button' aria-expanded='false')
-						| Tin Tức & Mẹo Hay
+						| Liên Hệ
 						span.caret2
 					ul.dropdown-menu(role='menu')
 						li
@@ -56,7 +56,7 @@ nav.navbar.navbar-exception.navbar-default.navbar-fixed-top.boxShadow.row(role='
 						li
 							a([routerLink]="['/storage-tips']") Mẹo Bảo Quản Thực Phẩm
 				li
-					a([routerLink]="['/wholesale-order']") Đặt Hàng Sỉ
+					a([routerLink]="['/wholesale-order']") Đăng Ký Nhập Hàng
 				li.dropdown
 					a#cartHeaderImage([routerLink]="['/checkout']" style='display: none')
 						img.basket-cart-icon.basket([ngSrc]="'/assets/images/ffty/icon-basket.png'" width='30' height='30' alt='Giỏ Hàng - Đồng Quê')
@@ -201,7 +201,9 @@ footer.row.text-center.copyright
 		.col-xs-12
 			.copyright-block
 				.copyright-elements
-					| Copyright 2024 Đồng Quê - Thực Phẩm Tươi Sống Quy Nhơn
+					| Copyright 2024 Đồng Quê
+					br
+					| Thực Phẩm Tươi Sống Quy Nhơn
 			.copyright-block-wide
 				.copyright-elements
 					span

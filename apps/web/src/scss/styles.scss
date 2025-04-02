@@ -6637,11 +6637,6 @@ pre code {
 	margin-right: auto;
 	margin-left: auto;
 }
-@media (min-width: 768px) {
-	.container {
-		width: 750px;
-	}
-}
 @media (min-width: 992px) {
 	.container {
 		width: 970px;
@@ -6657,10 +6652,6 @@ pre code {
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
-}
-.row {
-	margin-right: -15px;
-	margin-left: -15px;
 }
 .col-lg-1,
 .col-lg-10,
