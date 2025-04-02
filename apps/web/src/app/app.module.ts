@@ -42,6 +42,7 @@ import {
 } from './translate-loader.factory';
 import { CookieService } from 'ngx-cookie-service';
 import { FormsModule } from '@angular/forms';
+import { NgOptimizedImage } from '@angular/common';
 
 // eslint-disable-next-line @typescript-eslint/naming-convention
 const ServiceWorkerModule: ModuleWithProviders<SWModule>
@@ -72,6 +73,7 @@ export function initializeTranslateService(translate: TranslateService) {
 		}),
 
 		AppRoutingModules,
+		NgOptimizedImage,
 
 		ServiceWorkerModule,
 	],

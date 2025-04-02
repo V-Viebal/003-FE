@@ -9,213 +9,203 @@ nav.navbar.navbar-exception.navbar-default.navbar-fixed-top.boxShadow.row(role='
 				span.icon-bar
 				span.icon-bar
 				span.icon-bar
-			a.navbar-brand(href='index.htm')
-				img.nav-bar-brand-logo.boxShadow2(src='/assets/images/ffty/logo.png' alt='Logo Đồng Quê')
+			a.navbar-brand([routerLink]="['/']")
+				img([ngSrc]="'/assets/images/ffty/logo.png'" width='150' height='50' alt='Logo Đồng Quê - Thực Phẩm Tươi Sống')
 			a.sr-only.sr-only-focusable(href='#main') Chuyển đến nội dung chính
 		#myDefaultNavbar1.collapse.navbar-collapse
 			ul.nav.navbar-nav.navbar-right
 				li.dropdown
 					a.dropdown-toggle(href='#' data-toggle='dropdown' role='button' aria-expanded='false')
-						| Về Chúng Tôi
+						| Về Đồng Quê
 						span.caret2
 					ul.dropdown-menu(role='menu')
 						li
-							a(href='/about/our-farm') Nông Trại Của Chúng Tôi
+							a([routerLink]="['/about/our-farm']") Nông Trại & Trang Trại
 						li
-							a(href='/about/our-family') Gia Đình Chúng Tôi
+							a([routerLink]="['/about/our-family']") Đội Ngũ Đồng Quê
 						li
-							a(href='/about/organic-explained') Tại Sao Chọn Thực Phẩm Sạch
+							a([routerLink]="['/about/organic-explained']") Thực Phẩm Sạch Là Gì?
 						li
-							a(href='/about/fieldtrue') Chứng Nhận Chất Lượng
+							a([routerLink]="['/about/certifications']") Chứng Nhận Chất Lượng
 						li
-							a(href='/about/careers') Tuyển Dụng
+							a([routerLink]="['/about/partners']") Hợp Tác Với Chúng Tôi
 				li.dropdown
 					a.dropdown-toggle(href='#' data-toggle='dropdown' role='button' aria-expanded='false')
 						| Sản Phẩm
 						span.caret2
 					ul.dropdown-menu(role='menu')
 						li
-							a(href='/compare') Rau Củ Quả Sạch
+							a([routerLink]="['/products/vegetables']") Rau Củ Quả Tươi
 						li
-							a(href='/product/farm-product-list#featured') Thực Phẩm Khác
+							a([routerLink]="['/products/meat-seafood']") Thịt & Hải Sản
 						li
-							a(href='/gift-cards') Thẻ Quà Tặng
+							a([routerLink]="['/products/wholesale']") Cung Cấp Sỉ
 						li
-							a(href='/donate') Quyên Góp
+							a([routerLink]="['/contact']") Đặt Hàng Theo Yêu Cầu
 				li
-					a(href='events.html') Sự Kiện
+					a([routerLink]="['/events']") Sự Kiện & Khuyến Mãi
 				li.dropdown
 					a.dropdown-toggle(href='#' data-toggle='dropdown' role='button' aria-expanded='false')
-						| Ẩm Thực & Sức Khỏe
+						| Tin Tức & Mẹo Hay
 						span.caret2
 					ul.dropdown-menu(role='menu')
 						li
-							a(href='recipes.html') Công Thức Nấu Ăn
+							a([routerLink]="['/recipes']") Công Thức Từ Thực Phẩm Sạch
 						li
-							a(href='http://blog.dongque.com/' target='_blank') Blog Của Chúng Tôi
+							a(href='http://blog.dongque.com/' target='_blank') Blog Đồng Quê
 						li
-							a(href='/storage-tips') Mẹo Bảo Quản
+							a([routerLink]="['/storage-tips']") Mẹo Bảo Quản Thực Phẩm
+				li
+					a([routerLink]="['/wholesale-order']") Đặt Hàng Sỉ
 				li.dropdown
-					a.dropdown-toggle(href='#' data-toggle='dropdown' role='button' aria-expanded='false')
-						| Đặt Hàng
-						span.caret2
-					ul.dropdown-menu(role='menu')
-						li
-							a(href='/compare') Rau Củ Quả Sạch
-						li
-							a(href='/product/farm-product-list#featured') Thực Phẩm Khác
-						li
-							a(href='/gift-cards') Thẻ Quà Tặng
-						li
-							a(href='/donate') Quyên Góp
-				li.dropdown
-					a#cartHeaderImage(href='/checkout' style='display: none')
-						img.basket-cart-icon.basket(src='/assets/images/ffty/icon-basket.png' alt='giỏ hàng')
+					a#cartHeaderImage([routerLink]="['/checkout']" style='display: none')
+						img.basket-cart-icon.basket([ngSrc]="'/assets/images/ffty/icon-basket.png'" width='30' height='30' alt='Giỏ Hàng - Đồng Quê')
 						span.navbar-hide-desktop-view Giỏ Hàng
 
 main#main.home-container(role='main')
 	section.row.home-welcome(style='background-image: url(/assets/images/ffty/banner.png)')
 		.col-xs-12.text(style='padding: 0')
 			.welcome-mobile
-				img(src='/assets/images/ffty/banner.png' alt='nông trại và sản phẩm')
+				img([ngSrc]="'/assets/images/ffty/banner.png'" width='1200' height='400' alt='Thực Phẩm Tươi Sống Từ Đồng Quê')
 			.home-welcome-textblock-bg
 				.home-welcome-textblock
 					p
-						img(src='/assets/images/ffty/wheelbarrow.png' alt='biểu tượng xe đẩy')
+						img([ngSrc]="'/assets/images/ffty/wheelbarrow.png'" width='80' height='80' alt='Biểu tượng chất lượng từ nông trại')
 					h1#solid-color
-						| Tươi Sạch Từ
+						| Thực Phẩm
 						br
-						| Nông Trại
-					p Chúng tôi cung cấp rau củ quả sạch từ nông trại đến tận tay bạn.
+						| Tươi Sống
+					p Đồng Quê - Nhà cung cấp thực phẩm sạch, an toàn cho nhà hàng, doanh nghiệp và gia đình tại Quy Nhơn.
 
 	.row
 		section.home-how-it-works-bg.boxShadow3
 			.container
 				.row
 					.col-xs-12.text-center.home-how-it-works
-						h4 CÁCH CHÚNG TÔI HOẠT ĐỘNG
-						h2 Thực Phẩm Sạch Giao Tận Nơi
+						h4 TẦM NHÌN & SỨ MỆNH
+						h2 Thực Phẩm Chất Lượng
+						h2 Giao Hàng Tận Nơi
 		section.home-how-it-works-arrow.home-how-it-works-bg2.boxShadow3
 			.container
 				.row
-					img(src='/assets/images/ffty/fabric-down-arrow2.png' alt='mũi tên xuống')
+					img([ngSrc]="'/assets/images/ffty/fabric-down-arrow2.png'" width='50' height='50' alt='Mũi tên xuống')
 		section.home-how-it-works-bg2
 			.container.marketing.home-how-it-works
 				.row
 					.col-lg-3.col-sm-6.text-center
 						.home-how-it-works-steps
-							img(src='/assets/images/ffty/how-it-works-step1.png' alt='sản phẩm' height='120')
+							img([ngSrc]="'/assets/images/ffty/how-it-works-step1.png'" width='150' height='150' alt='Chọn thực phẩm tươi sống')
 							h3
-								| Chọn Sản Phẩm
+								| Chọn Thực Phẩm
 								br
-								| Phù Hợp
+								| Chất Lượng
 							.home-how-it-works-description
-								| Dù bạn cần rau củ, thịt hay hải sản, chúng tôi đều có đầy đủ các loại sản phẩm tươi sạch cho bạn lựa chọn.
+								| Rau củ, thịt, hải sản tươi sạch từ trang trại đạt tiêu chuẩn kiểm định.
 					.col-lg-3.col-sm-6.text-center
 						.home-how-it-works-steps
-							img(src='/assets/images/ffty/how-it-works-step2.png' alt='tùy chỉnh' height='120')
+							img([ngSrc]="'/assets/images/ffty/how-it-works-step2.png'" width='150' height='150' alt='Đặt hàng linh hoạt')
 							h3
-								| Tùy Chỉnh
+								| Đặt Hàng
 								br
-								| Đơn Hàng
+								| Linh Hoạt
 							.home-how-it-works-description
-								| Dễ dàng thay đổi số lượng và loại sản phẩm theo nhu cầu của bạn thông qua hệ thống đặt hàng trực tuyến.
+								| Dễ dàng tùy chỉnh đơn hàng sỉ/lẻ, giao tận nơi nhanh chóng.
 					.col-lg-3.col-sm-6.text-center
 						.home-how-it-works-steps
-							img(src='/assets/images/ffty/how-it-works-step3.png' alt='sản phẩm nông trại' height='120')
+							img([ngSrc]="'/assets/images/ffty/how-it-works-step3.png'" width='150' height='150' alt='Nguồn gốc minh bạch')
 							h3
-								| Thêm Sản Phẩm
+								| Nguồn Gốc
 								br
-								| Khác
+								| Minh Bạch
 							.home-how-it-works-description
-								| Bổ sung thêm các sản phẩm khác như gia vị, thực phẩm khô và các mặt hàng đặc biệt khác.
+								| Sản phẩm từ nông dân, ngư dân uy tín tại miền Trung.
 					.col-lg-3.col-sm-6.text-center
 						.home-how-it-works-steps
-							img(src='/assets/images/ffty/how-it-works-step4.png' alt='giao hàng' height='120')
+							img([ngSrc]="'/assets/images/ffty/how-it-works-step4.png'" width='150' height='150' alt='Giao hàng bền vững')
 							h3
-								| Giao Hàng &
+								| Giao Hàng
 								br
-								| Hưởng Thụ
+								| Bền Vững
 							.home-how-it-works-description
-								| Giao hàng tận nơi 24/7! Linh hoạt thay đổi lịch giao hàng phù hợp với lịch trình của bạn.
+								| Giao hàng 24/7, giảm thiểu rác thải nhựa, thân thiện môi trường.
 
 	.home-features-main-bg.row
 		.marketing
 			.feature-listing
-				h1 Ẩm Thực & Sức Khỏe
-				h2 Công Thức, Tin Tức & Blog
+				h1 Giá Trị Cốt Lõi Của Đồng Quê
+				h2 Chất Lượng - Minh Bạch - Tiện Lợi
 				.row.row-centered
 					.col-lg-4.col-md-4.col-sm-12
 						.feature-container
 							.feature-listing.feature-listing-bg.col-centered
 								.feature-listing-column
-									a(href='https://blog.dongque.com/2025/03/crafted-in-utah-creminelli-fine-meats.html')
-										img.recipe-thumbnail(src='/assets/images/ffty/cont/933/2/350/0/3.2025CreminelliFineMeats.jpg' alt='Crafted in Utah: Creminelli Fine Meats')
-									img.icon-overlay(src='/assets/images/ffty/conversation-icon-bar.png' alt='conversation-icon-bar.png')
-								h3 Chuyên Mục
+									a([routerLink]="['/about/certifications']")
+										img.recipe-thumbnail([ngSrc]="'/assets/images/ffty/cont/933/2/350/0/3.2025CreminelliFineMeats.jpg'" width='350' height='200' alt='Chứng nhận chất lượng thực phẩm')
+									img.icon-overlay([ngSrc]="'/assets/images/ffty/conversation-icon-bar.png'" width='50' height='50' alt='Biểu tượng chất lượng')
+								h3 Chất Lượng
 								h4
-									a(href='https://blog.dongque.com/2025/03/crafted-in-utah-creminelli-fine-meats.html') Cách Chọn Thực Phẩm Chất Lượng
+									a([routerLink]="['/about/certifications']") Thực Phẩm Đạt Chuẩn
 								p.description
-									| Cùng với việc mang đến sản phẩm tươi sạch cho khách hàng, chúng tôi cũng hợp tác với các nhà sản xuất uy tín.
+									| Cam kết cung cấp thực phẩm sạch, an toàn cho nhà hàng và gia đình.
 							.row.text-center
-								a.btn.btn-features(href='https://blog.dongque.com/2025/03/crafted-in-utah-creminelli-fine-meats.html' role='button') TÌM HIỂU THÊM
+								a.btn.btn-features([routerLink]="['/about/certifications']" role='button') TÌM HIỂU THÊM
 					.col-lg-4.col-md-4.col-sm-12
 						.feature-container
 							.feature-listing.feature-listing-bg.col-centered
 								.feature-listing-column
-									a(href='/product/farm-product-list#spring-celebrations')
-										img.recipe-thumbnail(src='/assets/images/ffty/cont/632/8/350/0/little-raes-bakery_bunny-treats-cookies.jpg' alt='Sản Phẩm Mùa Xuân')
-									img.icon-overlay(src='/assets/images/ffty/calendar-icon-bar.png' alt='calendar-icon-bar.png')
-								h3 NỔI BẬT
+									a([routerLink]="['/products/wholesale']")
+										img.recipe-thumbnail([ngSrc]="'/assets/images/ffty/cont/632/8/350/0/little-raes-bakery_bunny-treats-cookies.jpg'" width='350' height='200' alt='Cung cấp sỉ thực phẩm')
+									img.icon-overlay([ngSrc]="'/assets/images/ffty/calendar-icon-bar.png'" width='50' height='50' alt='Biểu tượng tiện lợi')
+								h3 Tiện Lợi
 								h4
-									a(href='/product/farm-product-list#spring-celebrations') Sản Phẩm Mùa Xuân
+									a([routerLink]="['/products/wholesale']") Đặt Hàng Sỉ Dễ Dàng
 								p.description
-									| Từ sản phẩm tươi sạch đến các món ăn và món tráng miệng được chọn lọc kỹ lưỡng.
+									| Hỗ trợ doanh nghiệp, nhà hàng với hệ thống giao hàng linh hoạt.
 							.row.text-center
-								a.btn.btn-features(href='/product/farm-product-list#spring-celebrations' role='button') MUA SẮM
+								a.btn.btn-features([routerLink]="['/products/wholesale']" role='button') ĐẶT HÀNG NGAY
 					.col-lg-4.col-md-4.col-sm-12
 						.feature-container
 							.feature-listing.feature-listing-bg.col-centered
 								.feature-listing-column
-									a(href='recipes/544/creamy-green-garlic-and-potato-soup.html')
-										img.recipe-thumbnail(src='/assets/images/ffty/cont/858/2/350/0/Myproject-1.png' alt='Súp Tỏi Xanh và Khoai Tây')
-									img.icon-overlay(src='/assets/images/ffty/fork-icon-bar.png' alt='fork-icon-bar.png')
-								h3 Công Thức
+									a([routerLink]="['/about/our-farm']")
+										img.recipe-thumbnail([ngSrc]="'/assets/images/ffty/cont/858/2/350/0/Myproject-1.png'" width='350' height='200' alt='Nguồn gốc từ nông trại')
+									img.icon-overlay([ngSrc]="'/assets/images/ffty/fork-icon-bar.png'" width='50' height='50' alt='Biểu tượng minh bạch')
+								h3 Minh Bạch
 								h4
-									a(href='recipes/544/creamy-green-garlic-and-potato-soup.html') Súp Tỏi Xanh và Khoai Tây
+									a([routerLink]="['/about/our-farm']") Nguồn Gốc Rõ Ràng
 								p.description
-									| Món súp này đặc và béo ngậy với hương vị tỏi thơm ngon.
+									| Hợp tác với nông dân, ngư dân để đảm bảo chất lượng từ nguồn.
 							.row.text-center
-								a.btn.btn-features(href='recipes/544/creamy-green-garlic-and-potato-soup.html' role='button') XEM CÔNG THỨC
+								a.btn.btn-features([routerLink]="['/about/our-farm']" role='button') XEM THÊM
 
-.row.section.social.social-bg
-	.container
-		.footer
-			.col-xs-12.col-sm-12
-				.social-group-left
-					ul
-						li
-							a(href='https://www.facebook.com/raucuquasachdatphusa' target='_blank')
-								img(src='/assets/images/ffty/social-facebook.png' alt='facebook')
-				.social-group-right
-					ul
-						li
-							a(href='contact-us.html')
-								img(src='/assets/images/ffty/social-email.png' alt='email')
-						li
-							a(href='http://blog.dongque.com/' target='_blank')
-								img(src='/assets/images/ffty/social-blogger.png' alt='blogger')
+	.row.section.social.social-bg
+		.container
+			.footer
+				.col-xs-12.col-sm-12
+					.social-group-left
+						ul
+							li
+								a(href='https://www.facebook.com/raucuquasachdatphusa' target='_blank')
+									img([ngSrc]="'/assets/images/ffty/social-facebook.png'" width='40' height='40' alt='Facebook Đồng Quê')
+					.social-group-right
+						ul
+							li
+								a([routerLink]="['/contact']")
+									img([ngSrc]="'/assets/images/ffty/social-email.png'" width='40' height='40' alt='Email Đồng Quê')
+							li
+								a(href='http://blog.dongque.com/' target='_blank')
+									img([ngSrc]="'/assets/images/ffty/social-blogger.png'" width='40' height='40' alt='Blog Đồng Quê')
 
 footer.row.text-center.copyright
 	.container
 		.col-xs-12
 			.copyright-block
 				.copyright-elements
-					| Copyright 2024 Đồng Quê
+					| Copyright 2024 Đồng Quê - Thực Phẩm Tươi Sống Quy Nhơn
 			.copyright-block-wide
 				.copyright-elements
 					span
 						a(href='mailto:thucphamdongque@gmail.com') thucphamdongque&#64;gmail.com
 					span |
 					span
-						a.bolder(href='tel:+84352505589') +84 0000 000 000
+						a.bolder(href='tel:+84352505589') +84 352 505 589

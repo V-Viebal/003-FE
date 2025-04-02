@@ -1,11 +1,11 @@
-import { NgModule } from '@angular/core';
+import { importProvidersFrom, NgModule } from '@angular/core';
 import { ServerModule } from '@angular/platform-server';
 import { provideHttpClient, withFetch } from '@angular/common/http';
 
 import { AppModule } from './app.module';
 import { AppComponent } from './app.component';
 import { provideClientHydration } from '@angular/platform-browser';
-import { APP_BASE_HREF } from '@angular/common';
+import { APP_BASE_HREF, NgOptimizedImage } from '@angular/common';
 
 @NgModule({
 	imports: [
@@ -14,6 +14,7 @@ import { APP_BASE_HREF } from '@angular/common';
 	],
 	providers: [
 		provideClientHydration(),
+		importProvidersFrom(NgOptimizedImage),
 		{ provide: APP_BASE_HREF, useValue: '/' },
 		provideHttpClient(withFetch()), // Optimize HTTP requests for server
 	],
