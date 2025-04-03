@@ -43,7 +43,6 @@
 					},
 					"apps/web/src/robots.txt",
 					"apps/web/src/sitemap.xml",
-					"apps/web/src/manifest.webmanifest"
 				],
 				"styles": [
 					"node_modules/swiper/swiper-bundle.min.css",

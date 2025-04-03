@@ -1,5 +1,5 @@
 # Stage 1: Build Stage (Node.js)
-FROM node:22 AS build-web
+FROM node:18 AS build-web
 ENV GENERATE_SOURCEMAP=false
 ENV NODE_OPTIONS=--max-old-space-size=8192
 WORKDIR /app
