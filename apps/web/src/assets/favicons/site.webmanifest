@@ -1,6 +1,6 @@
 {
-  "name": "KhoaHocTot",
-  "short_name": "KHT",
+  "name": "Đồng Quê",
+  "short_name": "Đồng Quê",
   "icons": [
     {
       "src": "/assets/favicons/web-app-manifest-192x192.png",
@@ -18,4 +18,4 @@
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "standalone"
-} 
+}
