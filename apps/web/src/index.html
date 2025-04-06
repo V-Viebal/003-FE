@@ -15,8 +15,6 @@
 		<meta name="description" content="Đồng Quê tại Quy Nhơn, Bình Định cung cấp thực phẩm tươi sạch, an toàn cho nhà hàng, khách sạn, quán ăn, trường học và trung tâm tiệc cưới. Giao hàng linh hoạt 24/7, giá sỉ cạnh tranh, dịch vụ chuyên nghiệp." />
 		<meta name="keywords" content="cung cấp thực phẩm Quy Nhơn, thực phẩm tươi sạch Bình Định, rau củ sạch, thịt hải sản, giao hàng 24/7, Đồng Quê, giá sỉ, hợp tác lâu dài" />
 
-		<link rel="preload" href="assets/images/icons/splash-icon.lottie" as="fetch" type="application/json" crossorigin />
-
 		<!-- Canonical URL for SEO (avoid duplicate content) -->
 		<link rel="canonical" href="https://dongque.viebal.top" />
 
@@ -75,6 +73,7 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Moon+Dance&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 	</head>
 	<body style="position: relative" class="home-landing">
 		<style>
@@ -103,7 +102,14 @@
 
 		<!-- Splash Screen with Optimized LCP Animation -->
 		<div class="splash-screen">
-			<dotlottie-wc src="assets/images/icons/splash-icon.lottie" autoplay style="width: 350px; height: 350px;" loop></dotlottie-wc>
+			<lottie-player
+				id="splash-animation"
+				src="/assets/images/icons/splash.json"
+				autoplay
+				loop="false"
+				speed="1"
+				style="width: 400px; height: 400px;"
+			></lottie-player>
 		</div>
 
 		<script>

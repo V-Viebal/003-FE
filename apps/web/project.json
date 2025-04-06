@@ -42,7 +42,7 @@
 						"output": "/"
 					},
 					"apps/web/src/robots.txt",
-					"apps/web/src/sitemap.xml",
+					"apps/web/src/sitemap.xml"
 				],
 				"styles": [
 					"node_modules/swiper/swiper-bundle.min.css",
@@ -57,7 +57,6 @@
 					"node_modules/swiper/swiper-bundle.min.js",
 					"node_modules/jquery/dist/jquery.min.js",
 					"apps/web/preload-font.js",
-					"node_modules/@lottiefiles/dotlottie-wc/dist/dotlottie-wc.js",
 					"apps/web/src/assets/js/modernizr.js",
 					"apps/web/src/assets/js/polyfill.js",
 					"apps/web/src/assets/js/jscookie.js",
@@ -105,7 +104,6 @@
 					"xlsx",
 					"leader-line-new",
 					"core-js",
-					"dotlottie-wc",
 					"aos",
 					"swiper",
 					"jquery"
