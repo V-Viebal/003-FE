@@ -199,10 +199,11 @@
 			},
 			"configurations": {
 				"production": {
-					"optimization": false,
 					"sourceMap": false,
 					"namedChunks": false,
 					"extractLicenses": true,
+					"buildOptimizer": true,
+					"vendorChunk": false,
 					"outputPath": "dist/production/server",
 					"fileReplacements": [
 						{
@@ -220,10 +221,11 @@
 					]
 				},
 				"staging": {
-					"optimization": false,
 					"sourceMap": false,
 					"namedChunks": false,
 					"extractLicenses": true,
+					"buildOptimizer": true,
+					"vendorChunk": false,
 					"outputPath": "dist/production/server",
 					"fileReplacements": [
 						{

@@ -14,7 +14,7 @@
 		"build-prod": "nx build --configuration production && nx server --configuration=production",
 		"prerender": "nx prerender --configuration=develop",
 		"prerender-prod": "nx prerender --configuration=production",
-		"build-prerender": "nx run build-prod && nx run prerender-prod && node ../../dist/production/server/main.js"
+		"build-prerender": "nx run build-prod --verbose && nx run prerender-prod --verbose && node ../../dist/production/server/main.js"
 	},
 	"dependencies": {
 		"@angular/animations": "^17.3.11",

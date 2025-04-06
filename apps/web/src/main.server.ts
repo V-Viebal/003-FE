@@ -36,13 +36,6 @@ export function app(): express.Express {
 	// Serve static files (e.g., /assets/i18n/*.json) with a long cache
 	server.get('*.*', express.static(distFolder, { maxAge: '1y' }));
 
-	const prerenderedRoutes = [''];
-	prerenderedRoutes.forEach((route) => {
-		server.get(route, (_req, res) => {
-			res.sendFile(join(distFolder, 'index.html'));
-		});
-	});
-
 	// SSR route with language detection
 	server.get('*', (req, res, next) => {
 		const { protocol, headers, originalUrl } = req;

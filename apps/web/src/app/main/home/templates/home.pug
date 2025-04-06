@@ -4,73 +4,73 @@ nav.navbar.navbar-exception.navbar-default.navbar-fixed-top.boxShadow.row(role='
 			.login-nav-bar
 	.container
 		.navbar-header
-			button.navbar-toggle.collapsed.navbar-right(type='button' data-toggle='collapse' data-target='#myDefaultNavbar1')
+			button.navbar-toggle.collapsed.navbar-right(type='button', data-toggle='collapse', data-target='#myDefaultNavbar1')
 				span.sr-only Chuyển đổi điều hướng
 				span.icon-bar
 				span.icon-bar
 				span.icon-bar
-			a.navbar-brand([routerLink]="['/']")
-				img([ngSrc]="'/assets/images/ffty/logo.png'" width='150' height='50' alt='Logo Đồng Quê - Thực Phẩm Tươi Sống')
+			a.navbar-brand(routerLink='/')
+				img([ngSrc]='"/assets/images/ffty/logo.png"', width='150', height='50', alt='Logo Đồng Quê - Thực Phẩm Tươi Sống')
 			a.sr-only.sr-only-focusable(href='#main') Chuyển đến nội dung chính
 		#myDefaultNavbar1.collapse.navbar-collapse
 			ul.nav.navbar-nav.navbar-right
 				li.dropdown
-					a.dropdown-toggle(href='#' data-toggle='dropdown' role='button' aria-expanded='false')
+					a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-expanded='false')
 						| Về Đồng Quê
 						span.caret2
 					ul.dropdown-menu(role='menu')
 						li
-							a([routerLink]="['/about/our-farm']") Nông Trại & Trang Trại
+							a(routerLink='/about/our-farm') Nông Trại & Trang Trại
 						li
-							a([routerLink]="['/about/our-family']") Đội Ngũ Đồng Quê
+							a(routerLink='/about/our-family') Đội Ngũ Đồng Quê
 						li
-							a([routerLink]="['/about/organic-explained']") Thực Phẩm Sạch Là Gì?
+							a(routerLink='/about/organic-explained') Thực Phẩm Sạch Là Gì?
 						li
-							a([routerLink]="['/about/certifications']") Chứng Nhận Chất Lượng
+							a(routerLink='/about/certifications') Chứng Nhận Chất Lượng
 						li
-							a([routerLink]="['/about/partners']") Hợp Tác Với Chúng Tôi
+							a(routerLink='/about/partners') Hợp Tác Với Chúng Tôi
 				li.dropdown
-					a.dropdown-toggle(href='#' data-toggle='dropdown' role='button' aria-expanded='false')
+					a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-expanded='false')
 						| Sản Phẩm
 						span.caret2
 					ul.dropdown-menu(role='menu')
 						li
-							a([routerLink]="['/products/vegetables']") Rau Củ Quả Tươi
+							a(routerLink='/products/vegetables') Rau Củ Quả Tươi
 						li
-							a([routerLink]="['/products/meat-seafood']") Thịt & Hải Sản
+							a(routerLink='/products/meat-seafood') Thịt & Hải Sản
 						li
-							a([routerLink]="['/products/wholesale']") Cung Cấp Sỉ
+							a(routerLink='/products/wholesale') Cung Cấp Sỉ
 						li
-							a([routerLink]="['/contact']") Đặt Hàng Theo Yêu Cầu
+							a(routerLink='/contact') Đặt Hàng Theo Yêu Cầu
 				li
-					a([routerLink]="['/combo-box']") Gói Thực Phẩm
+					a(routerLink='/combo-box') Gói Thực Phẩm
 				li.dropdown
-					a.dropdown-toggle(href='#' data-toggle='dropdown' role='button' aria-expanded='false')
+					a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-expanded='false')
 						| Liên Hệ
 						span.caret2
 					ul.dropdown-menu(role='menu')
 						li
-							a([routerLink]="['/recipes']") Công Thức Từ Thực Phẩm Sạch
+							a(routerLink='/recipes') Công Thức Từ Thực Phẩm Sạch
 						li
-							a(href='http://blog.dongque.viebal.top/' target='_blank') Blog Đồng Quê
+							a(href='http://blog.dongque.viebal.top/', target='_blank') Blog Đồng Quê
 						li
-							a([routerLink]="['/storage-tips']") Mẹo Bảo Quản Thực Phẩm
+							a(routerLink='/storage-tips') Mẹo Bảo Quản Thực Phẩm
 				li
-					a([routerLink]="['/wholesale-order']") Đăng Ký Nhập Hàng
+					a(routerLink='/wholesale-order') Đăng Ký Nhập Hàng
 				li.dropdown
-					a#cartHeaderImage([routerLink]="['/checkout']" style='display: none')
-						img.basket-cart-icon.basket([ngSrc]="'/assets/images/ffty/icon-basket.png'" width='30' height='30' alt='Giỏ Hàng - Đồng Quê')
+					a#cartHeaderImage(routerLink='/checkout', style='display: none')
+						img.basket-cart-icon.basket([ngSrc]='"/assets/images/ffty/icon-basket.png"', width='30', height='30', alt='Giỏ Hàng - Đồng Quê')
 						span.navbar-hide-desktop-view Giỏ Hàng
 
 main#main.home-container(role='main')
 	section.row.home-welcome(style='background-image: url(/assets/images/ffty/banner.png)')
 		.col-xs-12.text(style='padding: 0')
 			.welcome-mobile
-				img([ngSrc]="'/assets/images/ffty/banner.png'" width='1200' height='400' alt='Thực Phẩm Tươi Sống Từ Đồng Quê')
+				img([ngSrc]='"/assets/images/ffty/banner.png"', width='1200', height='400', alt='Thực Phẩm Tươi Sống Từ Đồng Quê')
 			.home-welcome-textblock-bg
 				.home-welcome-textblock
 					p
-						img([ngSrc]="'/assets/images/ffty/wheelbarrow.png'" width='80' height='80' alt='Biểu tượng chất lượng từ nông trại')
+						img([ngSrc]='"/assets/images/ffty/wheelbarrow.png"', width='80', height='80', alt='Biểu tượng chất lượng từ nông trại')
 					h1#solid-color
 						| Thực Phẩm
 						br
@@ -88,13 +88,13 @@ main#main.home-container(role='main')
 		section.home-how-it-works-arrow.home-how-it-works-bg2.boxShadow3
 			.container
 				.row
-					img([ngSrc]="'/assets/images/ffty/fabric-down-arrow2.png'" width='50' height='50' alt='Mũi tên xuống')
+					img([ngSrc]='"/assets/images/ffty/fabric-down-arrow2.png"', width='50', height='50', alt='Mũi tên xuống')
 		section.home-how-it-works-bg2
 			.container.marketing.home-how-it-works
 				.row
 					.col-lg-3.col-sm-6.text-center
 						.home-how-it-works-steps
-							img([ngSrc]="'/assets/images/ffty/how-it-works-step1.png'" width='150' height='150' alt='Chọn thực phẩm tươi sống')
+							img([ngSrc]='"/assets/images/ffty/how-it-works-step1.png"', width='150', height='150', alt='Chọn thực phẩm tươi sống')
 							h3
 								| Chọn Thực Phẩm
 								br
@@ -103,7 +103,7 @@ main#main.home-container(role='main')
 								| Rau củ, thịt, hải sản tươi sạch từ trang trại đạt tiêu chuẩn kiểm định.
 					.col-lg-3.col-sm-6.text-center
 						.home-how-it-works-steps
-							img([ngSrc]="'/assets/images/ffty/how-it-works-step2.png'" width='150' height='150' alt='Đặt hàng linh hoạt')
+							img([ngSrc]='"/assets/images/ffty/how-it-works-step2.png"', width='150', height='150', alt='Đặt hàng linh hoạt')
 							h3
 								| Đặt Hàng
 								br
@@ -112,7 +112,7 @@ main#main.home-container(role='main')
 								| Dễ dàng tùy chỉnh đơn hàng sỉ/lẻ, giao tận nơi nhanh chóng.
 					.col-lg-3.col-sm-6.text-center
 						.home-how-it-works-steps
-							img([ngSrc]="'/assets/images/ffty/how-it-works-step3.png'" width='150' height='150' alt='Nguồn gốc minh bạch')
+							img([ngSrc]='"/assets/images/ffty/how-it-works-step3.png"', width='150', height='150', alt='Nguồn gốc minh bạch')
 							h3
 								| Nguồn Gốc
 								br
@@ -121,7 +121,7 @@ main#main.home-container(role='main')
 								| Sản phẩm từ nông dân, ngư dân uy tín tại miền Trung.
 					.col-lg-3.col-sm-6.text-center
 						.home-how-it-works-steps
-							img([ngSrc]="'/assets/images/ffty/how-it-works-step4.png'" width='150' height='150' alt='Giao hàng bền vững')
+							img([ngSrc]='"/assets/images/ffty/how-it-works-step4.png"', width='150', height='150', alt='Giao hàng bền vững')
 							h3
 								| Giao Hàng
 								br
@@ -139,44 +139,44 @@ main#main.home-container(role='main')
 						.feature-container
 							.feature-listing.feature-listing-bg.col-centered
 								.feature-listing-column
-									a([routerLink]="['/about/certifications']")
-										img.recipe-thumbnail([ngSrc]="'/assets/images/ffty/cont/933/2/350/0/3.2025CreminelliFineMeats.jpg'" width='350' height='200' alt='Chứng nhận chất lượng thực phẩm')
-									img.icon-overlay([ngSrc]="'/assets/images/ffty/conversation-icon-bar.png'" width='50' height='50' alt='Biểu tượng chất lượng')
+									a(routerLink='/about/certifications')
+										img.recipe-thumbnail([ngSrc]='"/assets/images/ffty/cont/933/2/350/0/3.2025CreminelliFineMeats.jpg"', width='350', height='200', alt='Chứng nhận chất lượng thực phẩm')
+									img.icon-overlay([ngSrc]='"/assets/images/ffty/conversation-icon-bar.png"', width='50', height='50', alt='Biểu tượng chất lượng')
 								h3 Chất Lượng
 								h4
-									a([routerLink]="['/about/certifications']") Thực Phẩm Đạt Chuẩn
+									a(routerLink='/about/certifications') Thực Phẩm Đạt Chuẩn
 								p.description
 									| Cam kết cung cấp thực phẩm sạch, an toàn cho nhà hàng và gia đình.
 							.row.text-center
-								a.btn.btn-features([routerLink]="['/about/certifications']" role='button') TÌM HIỂU THÊM
+								a.btn.btn-features(routerLink='/about/certifications', role='button') TÌM HIỂU THÊM
 					.col-lg-4.col-md-4.col-sm-12
 						.feature-container
 							.feature-listing.feature-listing-bg.col-centered
 								.feature-listing-column
-									a([routerLink]="['/products/wholesale']")
-										img.recipe-thumbnail([ngSrc]="'/assets/images/ffty/cont/632/8/350/0/little-raes-bakery_bunny-treats-cookies.jpg'" width='350' height='200' alt='Cung cấp sỉ thực phẩm')
-									img.icon-overlay([ngSrc]="'/assets/images/ffty/calendar-icon-bar.png'" width='50' height='50' alt='Biểu tượng tiện lợi')
+									a(routerLink='/products/wholesale')
+										img.recipe-thumbnail([ngSrc]='"/assets/images/ffty/cont/632/8/350/0/little-raes-bakery_bunny-treats-cookies.jpg"', width='350', height='200', alt='Cung cấp sỉ thực phẩm')
+									img.icon-overlay([ngSrc]='"/assets/images/ffty/calendar-icon-bar.png"', width='50', height='50', alt='Biểu tượng tiện lợi')
 								h3 Tiện Lợi
 								h4
-									a([routerLink]="['/products/wholesale']") Đặt Hàng Sỉ Dễ Dàng
+									a(routerLink='/products/wholesale') Đặt Hàng Sỉ Dễ Dàng
 								p.description
 									| Hỗ trợ doanh nghiệp, nhà hàng với hệ thống giao hàng linh hoạt.
 							.row.text-center
-								a.btn.btn-features([routerLink]="['/products/wholesale']" role='button') ĐẶT HÀNG NGAY
+								a.btn.btn-features(routerLink='/products/wholesale', role='button') ĐẶT HÀNG NGAY
 					.col-lg-4.col-md-4.col-sm-12
 						.feature-container
 							.feature-listing.feature-listing-bg.col-centered
 								.feature-listing-column
-									a([routerLink]="['/about/our-farm']")
-										img.recipe-thumbnail([ngSrc]="'/assets/images/ffty/cont/858/2/350/0/Myproject-1.png'" width='350' height='200' alt='Nguồn gốc từ nông trại')
-									img.icon-overlay([ngSrc]="'/assets/images/ffty/fork-icon-bar.png'" width='50' height='50' alt='Biểu tượng minh bạch')
+									a(routerLink='/about/our-farm')
+										img.recipe-thumbnail([ngSrc]='"/assets/images/ffty/cont/858/2/350/0/Myproject-1.png"', width='350', height='200', alt='Nguồn gốc từ nông trại')
+									img.icon-overlay([ngSrc]='"/assets/images/ffty/fork-icon-bar.png"', width='50', height='50', alt='Biểu tượng minh bạch')
 								h3 Minh Bạch
 								h4
-									a([routerLink]="['/about/our-farm']") Nguồn Gốc Rõ Ràng
+									a(routerLink='/about/our-farm') Nguồn Gốc Rõ Ràng
 								p.description
 									| Hợp tác với nông dân, ngư dân để đảm bảo chất lượng từ nguồn.
 							.row.text-center
-								a.btn.btn-features([routerLink]="['/about/our-farm']" role='button') XEM THÊM
+								a.btn.btn-features(routerLink='/about/our-farm', role='button') XEM THÊM
 
 	.row.section.social.social-bg
 		.container
@@ -185,16 +185,16 @@ main#main.home-container(role='main')
 					.social-group-left
 						ul
 							li
-								a(href='https://www.facebook.com/raucuquasachdatphusa' target='_blank')
-									img([ngSrc]="'/assets/images/ffty/social-facebook.png'" width='40' height='40' alt='Facebook Đồng Quê')
+								a(href='https://www.facebook.com/raucuquasachdatphusa', target='_blank')
+									img([ngSrc]='"/assets/images/ffty/social-facebook.png"', width='40', height='40', alt='Facebook Đồng Quê')
 					.social-group-right
 						ul
 							li
-								a([routerLink]="['/contact']")
-									img([ngSrc]="'/assets/images/ffty/social-email.png'" width='40' height='40' alt='Email Đồng Quê')
+								a(routerLink='/contact')
+									img([ngSrc]='"/assets/images/ffty/social-email.png"', width='40', height='40', alt='Email Đồng Quê')
 							li
-								a(href='http://blog.dongque.viebal.top/' target='_blank')
-									img([ngSrc]="'/assets/images/ffty/social-blogger.png'" width='40' height='40' alt='Blog Đồng Quê')
+								a(href='http://blog.dongque.viebal.top/', target='_blank')
+									img([ngSrc]='"/assets/images/ffty/social-blogger.png"', width='40', height='40', alt='Blog Đồng Quê')
 
 footer.row.text-center.copyright
 	.container
