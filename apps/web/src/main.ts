@@ -30,16 +30,18 @@ function addGoogleScripts() {
 }
 
 const afterBootstrap = () => {
-	if ( 'serviceWorker' in navigator &&  process.env.ENV_NAME === 'prod' ) {
-		navigator.serviceWorker.register('./ngsw-worker.js');
-	}
+	// if ( 'serviceWorker' in navigator &&  process.env.ENV_NAME === 'prod' ) {
+	// 	navigator.serviceWorker.register('./ngsw-worker.js');
+	// }
+	navigator.serviceWorker.register('./ngsw-worker.js');
 
 	addGoogleScripts();
 };
 
-if ( process.env.ENV_NAME === 'prod' ) {
-	enableProdMode();
-}
+// if ( process.env.ENV_NAME === 'prod' ) {
+// 	enableProdMode();
+// }
+enableProdMode();
 
 /**
  * Bootstrap the Angular application in the browser.

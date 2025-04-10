@@ -73,6 +73,7 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Moon+Dance&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
 		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 	</head>
 	<body style="position: relative" class="home-landing">
@@ -80,21 +81,27 @@
 			body {
 				margin: 0;
 				padding: 0;
-				overflow: hidden; /* Prevent scrolling while splash is visible */
+			}
+			app {
+				opacity: 0;
+				transition: opacity .3s ease-in-out;
 			}
 			.splash-screen {
 				position: fixed;
 				top: 0;
 				left: 0;
-				z-index: 9999; /* High z-index to ensure it overlays everything */
+				z-index: 9999;
 				display: flex;
 				flex-direction: column;
 				align-items: center;
 				justify-content: center;
 				width: 100vw;
+				width: 100dvw;
 				height: 100vh;
-				background-color: #F3EEE6;
-				transition: opacity 0.3s ease; /* Smooth fade-out */
+				height: 100dvh;
+				background-color: #000;
+				opacity: 1;
+				transition: opacity .3s ease-in-out;
 			}
 		</style>
 
@@ -113,15 +120,24 @@
 		</div>
 
 		<script>
-			document.addEventListener('DOMContentLoaded', () => {
+			if (!localStorage.getItem('isLoaded')) {
 				setTimeout(() => {
-					const splashScreen = document.querySelector('.splash-screen');
-					if (splashScreen) {
-						splashScreen.classList.add('hidden');
-						document.body.style.overflow = 'auto';
-					}
-				}, 2500);
-			});
+					document.styleSheets[0].insertRule('app[ng-version] + .splash-screen { opacity: 0 !important }', 0);
+					document.styleSheets[0].insertRule('app[ng-version] { opacity: 1 !important }', 0);
+					localStorage.setItem('isLoaded', 'true');
+					setTimeout(() => {
+						document.styleSheets[0].insertRule('app[ng-version] + .splash-screen { display: none !important }', 0);
+					}, 300);
+				}, 4500);
+			} else {
+				setTimeout(() => {
+					document.styleSheets[0].insertRule('app[ng-version] + .splash-screen { opacity: 0 !important }', 0);
+					document.styleSheets[0].insertRule('app[ng-version] { opacity: 1 !important }', 0);
+					setTimeout(() => {
+						document.styleSheets[0].insertRule('app[ng-version] + .splash-screen { display: none !important }', 0);
+					}, 300);
+				}, 1000);
+			}
 		</script>
 	</body>
 </html>

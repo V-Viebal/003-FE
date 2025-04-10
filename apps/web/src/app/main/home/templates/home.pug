@@ -14,53 +14,19 @@ nav.navbar.navbar-exception.navbar-default.navbar-fixed-top.boxShadow.row(role='
 			a.sr-only.sr-only-focusable(href='#main') Chuyển đến nội dung chính
 		#myDefaultNavbar1.collapse.navbar-collapse
 			ul.nav.navbar-nav.navbar-right
-				li.dropdown
-					a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-expanded='false')
-						| Về Đồng Quê
-						span.caret2
-					ul.dropdown-menu(role='menu')
-						li
-							a(routerLink='/about/our-farm') Nông Trại & Trang Trại
-						li
-							a(routerLink='/about/our-family') Đội Ngũ Đồng Quê
-						li
-							a(routerLink='/about/organic-explained') Thực Phẩm Sạch Là Gì?
-						li
-							a(routerLink='/about/certifications') Chứng Nhận Chất Lượng
-						li
-							a(routerLink='/about/partners') Hợp Tác Với Chúng Tôi
-				li.dropdown
-					a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-expanded='false')
-						| Sản Phẩm
-						span.caret2
-					ul.dropdown-menu(role='menu')
-						li
-							a(routerLink='/products/vegetables') Rau Củ Quả Tươi
-						li
-							a(routerLink='/products/meat-seafood') Thịt & Hải Sản
-						li
-							a(routerLink='/products/wholesale') Cung Cấp Sỉ
-						li
-							a(routerLink='/contact') Đặt Hàng Theo Yêu Cầu
 				li
-					a(routerLink='/combo-box') Gói Thực Phẩm
-				li.dropdown
-					a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-expanded='false')
+					a.dropdown-toggle(routerLink='/products')
+						| Sản Phẩm
+				li
+					a.dropdown-toggle(routerLink='/about-us')
+						| Về Đồng Quê
+				//- li
+				//- 	a(disabled, routerLink='/combo-box') Gói Thực Phẩm
+				li
+					a.dropdown-toggle(routerLink='/contact')
 						| Liên Hệ
-						span.caret2
-					ul.dropdown-menu(role='menu')
-						li
-							a(routerLink='/recipes') Công Thức Từ Thực Phẩm Sạch
-						li
-							a(href='http://blog.dongque.viebal.top/', target='_blank') Blog Đồng Quê
-						li
-							a(routerLink='/storage-tips') Mẹo Bảo Quản Thực Phẩm
 				li
 					a(routerLink='/wholesale-order') Đăng Ký Nhập Hàng
-				li.dropdown
-					a#cartHeaderImage(routerLink='/checkout', style='display: none')
-						img.basket-cart-icon.basket([ngSrc]='"/assets/images/ffty/icon-basket.png"', width='30', height='30', alt='Giỏ Hàng - Đồng Quê')
-						span.navbar-hide-desktop-view Giỏ Hàng
 
 main#main.home-container(role='main')
 	section.row.home-welcome(style='background-image: url(/assets/images/ffty/banner.png)')
@@ -74,8 +40,8 @@ main#main.home-container(role='main')
 					h1#solid-color
 						| Thực Phẩm
 						br
-						| Tươi Sống
-					p Đồng Quê - Nhà cung cấp thực phẩm sạch, an toàn cho nhà hàng, doanh nghiệp và gia đình tại Quy Nhơn.
+						| Đồng Quê
+					p Hơn 30 năm đồng hành cùng nhà hàng, doanh nghiệp và gia đình tại Quy Nhơn – Bình Định với nguồn thực phẩm sạch, an toàn và tươi mỗi ngày.
 
 	.row
 		section.home-how-it-works-bg.boxShadow3

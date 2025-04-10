@@ -189,6 +189,7 @@
 					"includePaths": ["apps/web"]
 				},
 				"tsConfig": "apps/web/src/tsconfig.server.json",
+				"buildOptimizer": false,
 				"optimization": false,
 				"sourceMap": true,
 				"extractLicenses": false,

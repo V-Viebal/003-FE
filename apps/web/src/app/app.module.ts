@@ -48,7 +48,8 @@ import { NgOptimizedImage } from '@angular/common';
 const ServiceWorkerModule: ModuleWithProviders<SWModule>
 	= SWModule.register(
 		'ngsw-worker.js',
-		{ enabled:  process.env.ENV_NAME === 'prod'  }
+		// { enabled:  process.env.ENV_NAME === 'prod'  }
+		{ enabled:  true  }
 	);
 
 export function initializeTranslateService(translate: TranslateService) {
