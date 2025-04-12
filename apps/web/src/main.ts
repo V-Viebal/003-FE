@@ -33,7 +33,9 @@ const afterBootstrap = () => {
 	// if ( 'serviceWorker' in navigator &&  process.env.ENV_NAME === 'prod' ) {
 	// 	navigator.serviceWorker.register('./ngsw-worker.js');
 	// }
-	navigator.serviceWorker.register('./ngsw-worker.js');
+	if ( 'serviceWorker' in navigator ) {
+		navigator.serviceWorker.register('./ngsw-worker.js');
+	}
 
 	addGoogleScripts();
 };
