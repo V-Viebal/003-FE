@@ -51,7 +51,8 @@
 					"node_modules/swiper/modules/scrollbar.min.css",
 					"node_modules/lenis/dist/lenis.css",
 					"apps/web/src/scss/libs.scss",
-					"apps/web/src/scss/styles.scss"
+					"apps/web/src/scss/styles.scss",
+					"node_modules/@flaticon/flaticon-uicons/css/all/all.css"
 				],
 				"scripts": [
 					"node_modules/swiper/swiper-bundle.min.js",

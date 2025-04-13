@@ -43,6 +43,8 @@ import {
 import { CookieService } from 'ngx-cookie-service';
 import { FormsModule } from '@angular/forms';
 import { NgOptimizedImage } from '@angular/common';
+import { ProductService } from '@main/products/services';
+import { ProductComponent } from '@main/products/components';
 
 // eslint-disable-next-line @typescript-eslint/naming-convention
 const ServiceWorkerModule: ModuleWithProviders<SWModule>
@@ -81,6 +83,7 @@ export function initializeTranslateService(translate: TranslateService) {
 	declarations: [
 		AppComponent,
 		HomeComponent,
+		ProductComponent
 	],
 	providers: [
 		CookieService,
@@ -96,6 +99,8 @@ export function initializeTranslateService(translate: TranslateService) {
 		},
 		provideClientHydration(),
 		provideAnimationsAsync(),
+
+		ProductService
 	],
 	bootstrap: [ AppComponent ],
 })

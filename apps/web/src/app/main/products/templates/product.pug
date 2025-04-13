@@ -1,0 +1,140 @@
+nav.navbar.navbar-exception.navbar-default.navbar-fixed-top.boxShadow.row(role='navigation')
+	.login-background
+		.login-container
+			.login-nav-bar
+	.container
+		.navbar-header
+			button.navbar-toggle.collapsed.navbar-right(type='button', data-toggle='collapse', data-target='#myDefaultNavbar1')
+				span.sr-only Chuyển đổi điều hướng
+				span.icon-bar
+				span.icon-bar
+				span.icon-bar
+			a.navbar-brand(routerLink='/')
+				img([ngSrc]='"/assets/images/ffty/logo.png"', width='150', height='50', alt='Logo Đồng Quê - Thực Phẩm Tươi Sống')
+			a.sr-only.sr-only-focusable(href='#main') Chuyển đến nội dung chính
+		#myDefaultNavbar1.collapse.navbar-collapse
+			ul.nav.navbar-nav.navbar-right
+				li
+					a.dropdown-toggle(routerLinkActive='navbar-default--active', routerLink='/products')
+						| Sản Phẩm
+				li
+					a.dropdown-toggle(routerLinkActive='navbar-default--active', routerLink='/about-us')
+						| Về Đồng Quê
+				//- li
+				//- 	a(disabled, routerLink='/combo-box') Gói Thực Phẩm
+				li
+					a.dropdown-toggle(routerLinkActive='navbar-default--active', routerLink='/contact')
+						| Liên Hệ
+				li
+					a(routerLinkActive='navbar-default--active', routerLink='/wholesale-order')
+						| Đăng Ký Nhập Hàng
+
+main#main.home-container(role='main')
+	section.row.featured-bg-color
+		.recipes-hero
+			.hero-feature-mobile
+				img(src='/assets/images/ffty/vegetables-on-table-looking-down.jpg', alt='organic fruit vegtable home delivery - how it works')
+			// Appears only 767px or less screens
+			.text-align-center.featured-hero-container.recipe-image(style='background-image:url(/assets/images/ffty/vegetables-on-table-looking-down.jpg); min-height: 50em;')
+			.recipes-hero-textblock-bg.text-center
+				.recipes-hero-textblock
+					p
+						img(src='/assets/images/ffty/fork-icon-white-lines.png', alt='crossed forks icon')
+					h2 Thực Phẩm Đồng Quê
+					h1#solid-color Các Sản Phẩm Của Chúng Tôi
+					div
+						a.btn.btn-primary.btn-lg(href='recipes/772/homemade-corned-beef-and-cabbage.html', role='button') XEM NGAY
+
+	.row.recipe-filter-settings-bg
+		.col-lg-12.col-md-12.col-sm-12
+			.container
+				// <div class="col-lg-1 col-md-1"></div>
+				.col-lg-11.col-lg-push-1.col-sm-12.col-xs-12
+					.centering-block.center-text
+						.filter-btns-group.btn-group
+							.btn-group-item
+								button.btn.btn-clean5(name='filter', type='button')
+									| Hải sản tươi sống
+									i.fi.fi-rr-caret-down.ml-4
+							.btn-group-item
+								button.btn.btn-clean5(name='filter', type='button')
+									| Rau củ quả tươi
+									i.fi.fi-rr-caret-down.ml-4
+							.btn-group-item
+								button.btn.btn-clean5(name='filter', type='button')
+									| Thịt tươi sống
+									i.fi.fi-rr-caret-down.ml-4
+							span.search-group
+								.filter-btns-group2.text-center
+									form
+										// navbar-form
+										input.form-control.search-bar-icon-base(type='text', placeholder='Tìm kiếm', name='search')
+										span.search-bar-icon
+											a#search-bar-icon-link(href='javascript:void(0);')
+												i.fi.fi-rr-search
+								#clear-all-btn.filter-btns-group2
+									.btn.btn-clean6((click)='search()') Tìm kiếm
+						.filter-btns-group.btn-group
+							.btn-group-item
+								button.btn.btn-clean5(name='filter', type='button')
+									| Hoa quả tươi
+									i.fi.fi-rr-caret-down.ml-4
+							.btn-group-item
+								button.btn.btn-clean5(name='filter', type='button')
+									| Thực phẩm khô
+									i.fi.fi-rr-caret-down.ml-4
+							.btn-group-item
+								button.btn.btn-clean5(name='filter', type='button')
+									| Gia vị các loại
+									i.fi.fi-rr-caret-down.ml-4
+				#ingredientsChosen(style='display:block;clear:both;')
+	.shadow-bg.row &nbsp;
+
+	.row.recipe-listing-main-bg(name='recipe-container')
+		.container
+			.col-lg-12.col-md-12.col-sm-12.recipe-listing
+				.row.row-centered
+					+for('product of productService.products(); track product; let index = $index')
+						.col-lg-4.col-md-4.col-sm-12
+							.feature-container
+								.recipe-listing.recipe-listing-bg.col-centered([class]='"bg-" + ( (index + 1) % 9 )')
+									.recipe-listing-column
+										a(href='javascript:void(0);')
+											img.recipe-thumbnail(src='//contenthandler.azureedge.net/recp/772/225/0/787.jpg' alt='Homemade Corned Beef and Cabbage')
+									h4.text-truncate([title]='product.name')
+										a(href='javascript:void(0);', [class]='"color-" + ( (index + 1) % 9 )')
+											| {{ product.name }}
+
+.row.section.social.social-bg
+	.container
+		.footer
+			.col-xs-12.col-sm-12
+				.social-group-left
+					ul
+						li
+							a(href='https://www.facebook.com/raucuquasachdatphusa', target='_blank')
+								img([ngSrc]='"/assets/images/ffty/social-facebook.png"', width='40', height='40', alt='Facebook Đồng Quê')
+				.social-group-right
+					ul
+						li
+							a(routerLink='/contact')
+								img([ngSrc]='"/assets/images/ffty/social-email.png"', width='40', height='40', alt='Email Đồng Quê')
+						li
+							a(href='http://blog.dongque.viebal.top/', target='_blank')
+								img([ngSrc]='"/assets/images/ffty/social-blogger.png"', width='40', height='40', alt='Blog Đồng Quê')
+
+footer.row.text-center.copyright
+	.container
+		.col-xs-12
+			.copyright-block
+				.copyright-elements
+					| Copyright 2024 Đồng Quê
+					br
+					| Thực Phẩm Tươi Sống Quy Nhơn
+			.copyright-block-wide
+				.copyright-elements
+					span
+						a(href='mailto:thucphamdongque@gmail.com') thucphamdongque&#64;gmail.com
+					span |
+					span
+						a.bolder(href='tel:+84352505589') +84 352 505 589

@@ -10,6 +10,9 @@ import {
 import {
 	HomeComponent
 } from '@main/home/components';
+import {
+	ProductComponent
+} from '@main/products/components';
 
 import {
 	CustomPreloadingStrategy
@@ -20,6 +23,10 @@ const routes: Routes = [
 		path		: '',
 		component	: HomeComponent,
 	},
+	{
+		path		: 'products',
+		component	: ProductComponent,
+	}
 ];
 
 @NgModule({

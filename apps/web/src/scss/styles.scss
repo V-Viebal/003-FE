@@ -205,8 +205,9 @@ btn-default pull-right btn-nav-login > a:hover {
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-	color: #e8a62d;
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default--active {
+	color: #e8a62d !important;
 	background-image: url(../assets/images/ffty/nav-highlight-line2.png);
 	background-size: 175px;
 	overflow-x: hidden !important;
