@@ -7,6 +7,11 @@
 	min-width: 0;
 	max-width: 100%;
 
+
+	.navbar {
+		width: 100vw;
+	}
+
 	.bg-1 {
 		&::before {
 			background-color: #C86622; /* Slightly lighter dark brown */
@@ -351,7 +356,6 @@
 			text-align: center;
 			color: #cbcc98;
 			font-size: 2.9em;
-			line-height: 0.9em;
 			font-family: Oswald, sans-serif;
 			font-weight: normal;
 			font-style: normal;
@@ -437,7 +441,7 @@
 		text-align: center;
 		color: #362b13;
 		font-size: 1.0em;
-		line-height: 0.5em;
+		line-height: 1.2em;
 		letter-spacing: 0.15em;
 		text-transform: uppercase;
 		margin: 4.0em 0 -0.5em 0;
@@ -455,7 +459,7 @@
 		text-align: center;
 		color: #362b13;
 		font-size: 1.0em;
-		line-height: 0.5em;
+		line-height: 1.2em;
 		letter-spacing: 0.15em;
 		text-transform: uppercase;
 		margin: 0.5em 0 0 0;
@@ -763,7 +767,6 @@
 			text-align: left;
 			color: #cbcc98;
 			font-size: 2.9em;
-			line-height: 0.9em;
 			font-family: Oswald, sans-serif;
 			font-weight: normal;
 			font-style: normal;
@@ -1315,7 +1318,6 @@
 
 			.recipe-hero-bar h1 {
 				font-size: 2.9em;
-				line-height: 0.9em;
 				max-height: 3.5em;
 				text-align: center;
 			}
