@@ -45,49 +45,43 @@ main#main.home-container(role='main')
 					div
 						a.btn.btn-primary.btn-lg(href='recipes/772/homemade-corned-beef-and-cabbage.html', role='button') XEM NGAY
 
-	.row.recipe-filter-settings-bg
-		.col-lg-12.col-md-12.col-sm-12
-			.container
-				// <div class="col-lg-1 col-md-1"></div>
-				.col-lg-11.col-lg-push-1.col-sm-12.col-xs-12
-					.centering-block.center-text
-						.filter-btns-group.btn-group
-							.btn-group-item
-								button.btn.btn-clean5(name='filter', type='button')
-									| Hải sản tươi sống
-									i.fi.fi-rr-caret-down.ml-4
-							.btn-group-item
-								button.btn.btn-clean5(name='filter', type='button')
-									| Rau củ quả tươi
-									i.fi.fi-rr-caret-down.ml-4
-							.btn-group-item
-								button.btn.btn-clean5(name='filter', type='button')
-									| Thịt tươi sống
-									i.fi.fi-rr-caret-down.ml-4
-							span.search-group
-								.filter-btns-group2.text-center
-									form
-										// navbar-form
-										input.form-control.search-bar-icon-base(type='text', placeholder='Tìm kiếm', name='search')
-										span.search-bar-icon
-											a#search-bar-icon-link(href='javascript:void(0);')
-												i.fi.fi-rr-search
-								#clear-all-btn.filter-btns-group2
-									.btn.btn-clean6((click)='search()') Tìm kiếm
-						.filter-btns-group.btn-group
-							.btn-group-item
-								button.btn.btn-clean5(name='filter', type='button')
-									| Hoa quả tươi
-									i.fi.fi-rr-caret-down.ml-4
-							.btn-group-item
-								button.btn.btn-clean5(name='filter', type='button')
-									| Thực phẩm khô
-									i.fi.fi-rr-caret-down.ml-4
-							.btn-group-item
-								button.btn.btn-clean5(name='filter', type='button')
-									| Gia vị các loại
-									i.fi.fi-rr-caret-down.ml-4
-				#ingredientsChosen(style='display:block;clear:both;')
+	.recipe-filter-settings-bg
+		.filter-btns-group.btn-group
+			.btn-group-item
+				button.btn.btn-clean5(name='filter', type='button')
+					| Hải sản tươi sống
+					i.fi.fi-rr-caret-down.ml-4
+			.btn-group-item
+				button.btn.btn-clean5(name='filter', type='button')
+					| Rau củ quả tươi
+					i.fi.fi-rr-caret-down.ml-4
+			.btn-group-item
+				button.btn.btn-clean5(name='filter', type='button')
+					| Thịt tươi sống
+					i.fi.fi-rr-caret-down.ml-4
+			span.search-group
+				.filter-btns-group2.text-center
+					form
+						// navbar-form
+						input.form-control.search-bar-icon-base(type='text', placeholder='Tìm kiếm', name='search')
+						span.search-bar-icon
+							a#search-bar-icon-link(href='javascript:void(0);')
+								i.fi.fi-rr-search
+				#clear-all-btn.filter-btns-group2
+					.btn.btn-clean6((click)='search()') Tìm kiếm
+		.filter-btns-group.btn-group
+			.btn-group-item
+				button.btn.btn-clean5(name='filter', type='button')
+					| Hoa quả tươi
+					i.fi.fi-rr-caret-down.ml-4
+			.btn-group-item
+				button.btn.btn-clean5(name='filter', type='button')
+					| Thực phẩm khô
+					i.fi.fi-rr-caret-down.ml-4
+			.btn-group-item
+				button.btn.btn-clean5(name='filter', type='button')
+					| Gia vị các loại
+					i.fi.fi-rr-caret-down.ml-4
 	.shadow-bg.row &nbsp;
 
 	.row.recipe-listing-main-bg(name='recipe-container')
@@ -100,7 +94,9 @@ main#main.home-container(role='main')
 								.recipe-listing.recipe-listing-bg.col-centered([class]='"bg-" + ( (index + 1) % 9 )')
 									.recipe-listing-column
 										a(href='javascript:void(0);')
-											img.recipe-thumbnail(src='//contenthandler.azureedge.net/recp/772/225/0/787.jpg' alt='Homemade Corned Beef and Cabbage')
+											img.recipe-thumbnail(
+												[src]='product.image',
+												[alt]='product.name')
 									h4.text-truncate([title]='product.name')
 										a(href='javascript:void(0);', [class]='"color-" + ( (index + 1) % 9 )')
 											| {{ product.name }}
