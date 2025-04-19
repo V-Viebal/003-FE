@@ -56,7 +56,7 @@ main#main.home-container(role='main')
 					[class.btn-clean5--active]='filterType === PRODUCT_TYPE.VEGETABLES',
 					(click)='onFilter( PRODUCT_TYPE.VEGETABLES )')
 					.layout-row.layout-gap-4
-						i.fi.fi-tr-leafy-green.mr-12
+						i.fi.fi-tr-leafy-green.mr-8
 						span Rau củ quả tươi
 						| (94)
 			.btn-group-item
@@ -66,7 +66,7 @@ main#main.home-container(role='main')
 					[class.btn-clean5--active]='filterType === PRODUCT_TYPE.SEA_FOOD',
 					(click)='onFilter( PRODUCT_TYPE.SEA_FOOD )')
 					.layout-row.layout-gap-4
-						i.fi.fi-tr-fish.mr-12
+						i.fi.fi-tr-fish.mr-8
 						span Hải sản tươi sống
 						| (38)
 			.btn-group-item
@@ -76,7 +76,7 @@ main#main.home-container(role='main')
 					[class.btn-clean5--active]='filterType === PRODUCT_TYPE.MEAT',
 					(click)='onFilter( PRODUCT_TYPE.MEAT )')
 					.layout-row.layout-gap-4
-						i.fi.fi-ts-meat.mr-12
+						i.fi.fi-ts-meat.mr-8
 						span Thịt tươi sống
 						| (67)
 		.filter-btns-group.btn-group
@@ -87,7 +87,7 @@ main#main.home-container(role='main')
 					[class.btn-clean5--active]='filterType === PRODUCT_TYPE.FRUIT',
 					(click)='onFilter( PRODUCT_TYPE.FRUIT )')
 					.layout-row.layout-gap-4
-						i.fi.fi-ts-apple-crate.mr-12
+						i.fi.fi-ts-apple-crate.mr-8
 						span Hoa quả tươi
 						| (16)
 			.btn-group-item
@@ -97,7 +97,7 @@ main#main.home-container(role='main')
 					[class.btn-clean5--active]='filterType === PRODUCT_TYPE.DRY_FOOD',
 					(click)='onFilter( PRODUCT_TYPE.DRY_FOOD )')
 					.layout-row.layout-gap-4
-						i.fi.fi-ts-peanuts.mr-12
+						i.fi.fi-ts-peanuts.mr-8
 						span Thực phẩm khô
 						| (24)
 			.btn-group-item
@@ -107,14 +107,14 @@ main#main.home-container(role='main')
 					[class.btn-clean5--active]='filterType === PRODUCT_TYPE.SPICE',
 					(click)='onFilter( PRODUCT_TYPE.SPICE )')
 					.layout-row.layout-gap-4
-						i.fi.fi-ts-salt-pepper.mr-12
+						i.fi.fi-ts-salt-pepper.mr-8
 						span Gia vị các loại
 						| (21)
 			span.search-group
 				.filter-btns-group2.text-center
 					form
 						// navbar-form
-						input.form-control.search-bar-icon-base(type='text', placeholder='Tìm kiếm', name='search', [(ngModel)]='searchValue', (ngModelChange)='search()')
+						input.form-control.search-bar-icon-base(type='text', placeholder='Tìm kiếm', name='search', [ngModel]='searchValue', (ngModelChange)='search( $event )')
 						span.search-bar-icon
 							a#search-bar-icon-link((click)='search()')
 								i.fi.fi-rr-search
@@ -127,18 +127,22 @@ main#main.home-container(role='main')
 					//- cdk-virtual-scroll-viewport.flex(
 					//- 	itemSize='265')
 					//- 	ng-container(*cdkVirtualFor='let product of productService.products(); let index = $index;')
-					+for('product of productService.products(); track product; let index = $index')
-						.col-lg-4.col-md-4.col-sm-12
-							.feature-container
-								.recipe-listing.recipe-listing-bg.col-centered([class]='"bg-" + ( ( index % 9 ) + 1 )')
-									.recipe-listing-column
-										a(href='javascript:void(0);')
-											img.recipe-thumbnail(
-												[src]='product.image',
-												[alt]='product.name')
-									h4.text-truncate([title]='product.name')
-										a(href='javascript:void(0);', [class]='"color-" + ( ( index % 9 ) + 1 )')
-											| {{ product.name }}
+					+if('productService.products().length > 0')
+						+for('product of productService.products(); track product; let index = $index')
+							.col-lg-4.col-md-4.col-sm-12
+								.feature-container
+									.recipe-listing.recipe-listing-bg.col-centered([class]='"bg-" + ( ( index % 9 ) + 1 )')
+										.recipe-listing-column
+											a(href='javascript:void(0);')
+												img.recipe-thumbnail(
+													[src]='product.image',
+													[alt]='product.name')
+										h4.text-truncate([title]='product.name')
+											a(href='javascript:void(0);', [class]='"color-" + ( ( index % 9 ) + 1 )')
+												| {{ product.name }}
+					+else
+						.col-lg-12.col-md-12.col-sm-12
+							h4.text-center Không tìm thấy sản phẩm nào
 
 .row.section.social.social-bg
 	.container

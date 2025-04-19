@@ -29,6 +29,7 @@ import {
 import {
 	ProductType
 } from '../resources';
+import { Debounce } from 'angular-core';
 
 @Component({
 	selector: 'product',
@@ -95,54 +96,90 @@ export class ProductComponent implements OnInit {
 		}
 	}
 
-	protected search() {
-		const searchValue
-			= this.searchValue.trim();
-
-		if ( !this.searchValue ) {
+	@Debounce( 300 )
+	protected search( searchValue?: string ): void {
+		if ( !searchValue ) {
 			this.productService.products.set( this.productsBk );
+			this.searchValue = null;
+			this.onFilter();
+			this._cdr.markForCheck();
 			return;
+		}
+
+		if ( searchValue?.trim() ) {
+			this.searchValue
+				= searchValue.trim();
 		}
 
 		if ( searchValue ) {
 			this.productService.products.update(
 				( products: Product[] ) => {
-					products
-						= _.cloneDeep( this.productsBk );
+					if ( searchValue ) {
+						products
+							= _.cloneDeep( this.productsBk );
+					}
 
-					return _.filter( products, ( product: Product ) => {
-						return product.name
+					return _.filter(products, (product: Product) => {
+						// Normalize both product name and search value to remove diacritics
+						const normalizeText = (text: string) =>
+							text
 							.toLowerCase()
-							.includes( searchValue.toLowerCase() );
+							.normalize("NFD") // Decompose diacritics
+							.replace(/[\u0300-\u036f]/g, ""); // Remove diacritic marks
+
+						const normalizedProductName = normalizeText(product.name);
+						const normalizedSearchValue = normalizeText(searchValue);
+
+						return normalizedProductName.includes(normalizedSearchValue);
 					});
 				}
 			);
 		}
+
+		if ( searchValue && this.filterType ) {
+			this.onFilter();
+		}
+
+		this._cdr.markForCheck();
+		this.scrollToToolbar();
 	}
 
-	protected onFilter( type : string ): void {
+	protected onFilter( type?: string ): void {
+
 		if ( type === this.filterType ) {
 			this.productService.products.set( this.productsBk );
 			this.filterType = undefined;
+			this.search();
 			this._cdr.markForCheck();
 			return;
 		}
 
-		this.filterType
-			= type;
+		if ( type ) {
+			this.filterType
+				= type;
+		}
 
 		this.productService.products.update(
 			( products: Product[] ) => {
-				products
-					= _.cloneDeep( this.productsBk );
+				if ( type ) {
+					products
+						= _.cloneDeep( this.productsBk );
+				}
 
 				return products.filter(
 					( product: Product ) => {
-						return product.type === type;
+						return product.type === this.filterType;
 					}
 				);
 			}
 		);
+
+		if ( this.searchValue && type ) {
+			this.search();
+		}
+
+		this._cdr.markForCheck();
+		this.scrollToToolbar();
 	}
 
 	private _observeToolbar(): void {

@@ -13,6 +13,8 @@ import {
 import {
 	Product
 } from '../interfaces';
+import vegetablesData from '../data/vegetables.json';
+import seaFoodData from '../data/sea-food.json';
 import dryFoodData from '../data/dry-food.json';
 import fruitData from '../data/fruit.json';
 import meatData from '../data/meat.json';
@@ -26,9 +28,11 @@ export class ProductService {
 	public getProducts(): Observable<Product[]> {
 		return of(
 			_.shuffle([
+				...vegetablesData,
+				...seaFoodData,
+				...meatData,
 				...dryFoodData,
 				...fruitData,
-				...meatData,
 				...spiceData
 			] as Product[] )
 		)
