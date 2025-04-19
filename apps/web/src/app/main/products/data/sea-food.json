@@ -1,0 +1,230 @@
+[
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W3S",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/Cá-basa-fillet-đông-lạnh-gói-200g-1-300x300.jpg",
+		"name": "Cá basa fillet đông lạnh",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W4T",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/ca-basa-tam-bot-sot-tartar-godaco-goi-250g-201903271423517443-300x300.jpg",
+		"name": "Cá basa tẩm bột",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W5U",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/5e72e12d81499-300x300.jpg",
+		"name": "Cá basa viên",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W6V",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/unnamed-2-300x300.jpg",
+		"name": "Cá chép",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W7W",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/h8vlmwnatzqdyet2f0wh-ca-com-san-large-2x-300x300.jpg",
+		"name": "Cá cơm",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W8X",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/ca_dieu_hong_3c90268c-6955-4567-6859-aee39b4b624d_grande-300x300.jpg",
+		"name": "Cá diêu hồng",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W9Y",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/4-zalm-loin-white-300x300.png",
+		"name": "Cá hồi fillet đông lạnh(200gr/khay)",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W0Z",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/timthumb-248x181-2.jpg",
+		"name": "Cá hồi tươi fillet ( nhập khẩu )",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W1A",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/cakim-300x300.jpg",
+		"name": "Cá kìm",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W2B",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/333_1787_240.jpg",
+		"name": "Cá quả",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W3C",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/calockhoto22.jpg",
+		"name": "Cá quả đánh vảy, bỏ ruột",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W4D",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/tải-xuống-18-1.jpg",
+		"name": "Cá rô phi",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W5E",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/Cá-rô-phi-lê-1-300x300.jpg",
+		"name": "Cá rô phi lọc xương loại 1",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W6F",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/ca-thu-cat-lat-300x300.png",
+		"name": "Cá thu tươi (một nắng)",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W7G",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/pngtree-grass-carp-png-clipart_1461639-300x300.jpg",
+		"name": "Cá trắm bỏ đầu đuôi ruột",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W8H",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/cá-trắm-cỏ-300x300.jpg",
+		"name": "Cá trắm cả con ( 2kg- 3kg )",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W9I",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/thit-ca-tram-gion-2-300x300.jpg",
+		"name": "Cá trắm cả con làm sạch",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W0J",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/13442566586398-300x300.jpg",
+		"name": "Cá trắm khúc",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W1K",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/Recipe332-635388926840662500-300x300.jpg",
+		"name": "Cá trắm thịt (lọc)",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W2L",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/Cá-trôi-cắt-khúc-300x300.jpg",
+		"name": "Cá trôi bỏ đầu, ruột",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W3M",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/ca-troi-21661fc2-61f4-4a7e-aa39-1a205a011af3-300x300.jpg",
+		"name": "Cá trôi nguyên con",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W4N",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/tải-xuống.jpg",
+		"name": "Cua chưa xé",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W5O",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/151117_cua-dong-300x300.jpg",
+		"name": "Cua xay",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W6P",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/ga-ta-nguyen-con-300x300.jpg",
+		"name": "Gà CN nguyên con bỏ đầu chân",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W7Q",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/cach-lam-mien-luon-gion-tan-chieu-dai-ca-nha-300x300.jpg",
+		"name": "Lươn lọc",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W8R",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/Monopterus_albus-300x300.jpg",
+		"name": "Lươn nguyên con",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W9S",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/unnamed-1-1-300x300.jpg",
+		"name": "Mực ống (làm chả mực)",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W0T",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/timthumb-300x300.jpg",
+		"name": "Mực ống 2, 3 con /kg",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W1U",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/calamar-entero-300x300.jpg",
+		"name": "Mực ống 5, 6 con/kg",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W2V",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/ngao-bien-van-don-6-ngao-trang-300x300.jpg",
+		"name": "Ngao",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W3W",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/8ee55eb05ef8bd4e558bdac816d605f9635469155581564832-300x265.jpg",
+		"name": "Tôm đồng",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W4X",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/tom-thit-31-40-home-food-450g-300x300.jpg",
+		"name": "Tôm đông lạnh size 31/40",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W5Y",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/unnamed-3-300x267.jpg",
+		"name": "Tôm thẻ 100-140 con/kg",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W6Z",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/11/1467777384-Tom-tuoi-300x300.jpg",
+		"name": "Tôm tươi",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W7A",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/toom-su-quang-canh_95b1532083052-300x300.jpg",
+		"name": "Tôm tươi (40 con/1kg)",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W8B",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/images-1.jpg",
+		"name": "Tôm tươi (50 – 70 con/1kg)",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W9C",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/prawn1-300x300.jpg",
+		"name": "Tôm tươi loại 40 con/kg",
+		"type": "SEA_FOOD"
+	},
+	{
+		"id": "01J7KX4Z6V7K9Y2R5P8T3Q0W0D",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/5-tac-hai-cua-trai-hen-ma-nguoi-an-khong-he-biet.jpg",
+		"name": "Trai",
+		"type": "SEA_FOOD"
+	}
+]

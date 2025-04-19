@@ -173,6 +173,7 @@
 		position: absolute;
 		z-index: 999;
 		width: 100%;
+		bottom: -20px
 	}
 
 	.filter-btns-group {
@@ -182,6 +183,7 @@
 		align-items: center;
 		flex-wrap: wrap;
 		text-align: left;
+		gap: 8px;
 	}
 
 		.filter-btns-group .btn-group-item button.active {
@@ -216,13 +218,9 @@
 	.btn-group-item {
 		display: flex;
 		margin: 0 0.5em 0 0;
-		width: 170px;
 	}
 
-	.btn-clean5,
-	.btn-clean5:hover,
-	.btn-clean5:focus,
-	.btn-clean5:focus:hover {
+	.btn-clean5 {
 		background-color: #ffffff;
 		color: #e8a62d;
 		font-family: 'Inter', Helvetica, Arial, sans-serif;
@@ -231,25 +229,25 @@
 		font-size: 1.0em;
 		border-radius: 0px;
 		border: 1px solid #e8a62d;
-		width: 12em;
+		width: 208px;
 	}
 
-		.btn-clean5:focus {
-			background-color: #e8a62d;
-			color: #ffffff;
-			font-family: 'Inter', Helvetica, Arial, sans-serif;
-			padding: 0.50em 1.2em;
-			margin-right: 0em;
-			font-size: 1.0em;
-			border-radius: 0px;
-			border: 1px solid #e8a62d;
-			width: 12em;
-		}
+	.btn-clean5:hover,
+	.btn-clean5--active {
+		background-color: #e8a62d;
+		color: #ffffff;
+		font-family: 'Inter', Helvetica, Arial, sans-serif;
+		padding: 0.50em 1.2em;
+		margin-right: 0em;
+		font-size: 1.0em;
+		border-radius: 0px;
+		border: 1px solid #e8a62d;
+		width: 208px;
+	}
 
 	/* Search bar  */
 	.form-control {
 		display: block;
-		width: 12em;
 		height: 36px;
 	}
 
@@ -410,6 +408,20 @@
 		width: 20%;
 		height: auto;
 	}*/
+	@keyframes shake {
+		0% { transform: rotate(0deg); }
+		10% { transform: rotate(0.3deg); }
+		20% { transform: rotate(-0.3deg); }
+		30% { transform: rotate(0.3deg); }
+		40% { transform: rotate(-0.3deg); }
+		50% { transform: rotate(0.1deg); }
+		60% { transform: rotate(-0.1deg); }
+		70% { transform: rotate(0.1deg); }
+		80% { transform: rotate(-0.1deg); }
+		90% { transform: rotate(0.3deg); }
+		100% { transform: rotate(-0.3deg); }
+	}
+
 	.recipe-listing {
 	}
 
@@ -423,6 +435,7 @@
 		margin: 2.0em 0.2em;
 		background-size: 100% 100%;
 		position: relative;
+		transition: all 0.3s ease;
 
 		&::after {
 			content: '';
@@ -440,6 +453,9 @@
 			right: 17px;
 			top: 9px;
 			height: 4px;
+		}
+		&:hover {
+			animation: shake 0.8s ease-in-out infinite;
 		}
 	}
 
@@ -505,10 +521,18 @@
 		background-image: url(/assets/images/ffty/fabric-light-bg.jpg);
 		background-size: 95px 117px;
 		background-repeat: repeat;
-		padding: 20px 0 16px 0;
-		gap: 16px;
+		padding: 90px 0 32px;
+		gap: 28px;
 		display: flex;
 		flex-direction: column;
+		position: relative;
+	}
+
+	.toolbar--sticky {
+		position: sticky;
+		top: 0;
+		z-index: 100;
+		padding-top: 112px;
 	}
 
 	.recipe-listing-column {
@@ -1228,10 +1252,6 @@
 			padding-right: 0.5em;
 		}
 
-		.form-control {
-			width: 10.5em;
-		}
-
 	}
 
 	@media (max-width: 992px) {
@@ -1409,9 +1429,13 @@
 	@media (max-width: 768px) {
 
 		.filter-btns-group {
-			width: 175px;
-			margin: 0.25em auto;
-			display: block;
+			.btn-clean5 {
+				width: auto;
+
+				span {
+					display: none;
+				}
+			}
 		}
 
 

@@ -1,4 +1,6 @@
-nav.navbar.navbar-exception.navbar-default.navbar-fixed-top.boxShadow.row(role='navigation')
+nav.navbar.navbar-exception.navbar-default.navbar-fixed-top.boxShadow.row(
+	#navbar,
+	role='navigation')
 	.login-background
 		.login-container
 			.login-nav-bar
@@ -31,7 +33,7 @@ nav.navbar.navbar-exception.navbar-default.navbar-fixed-top.boxShadow.row(role='
 
 main#main.home-container(role='main')
 	section.row.featured-bg-color
-		.recipes-hero
+		.recipes-hero(#hero)
 			.hero-feature-mobile
 				img(src='/assets/images/ffty/vegetables-on-table-looking-down.jpg', alt='organic fruit vegtable home delivery - how it works')
 			// Appears only 767px or less screens
@@ -43,62 +45,99 @@ main#main.home-container(role='main')
 					h2 Thực Phẩm Đồng Quê
 					h1#solid-color Các Sản Phẩm Của Chúng Tôi
 					div
-						a.btn.btn-primary.btn-lg(href='recipes/772/homemade-corned-beef-and-cabbage.html', role='button') XEM NGAY
+						a.btn.btn-primary.btn-lg((click)='scrollToToolbar()') XEM NGAY
 
-	.recipe-filter-settings-bg
+	.recipe-filter-settings-bg(#toolbar)
 		.filter-btns-group.btn-group
 			.btn-group-item
-				button.btn.btn-clean5(name='filter', type='button')
-					| Hải sản tươi sống
-					i.fi.fi-rr-caret-down.ml-4
+				button.btn.btn-clean5(
+					name='filter',
+					type='button',
+					[class.btn-clean5--active]='filterType === PRODUCT_TYPE.VEGETABLES',
+					(click)='onFilter( PRODUCT_TYPE.VEGETABLES )')
+					.layout-row.layout-gap-4
+						i.fi.fi-tr-leafy-green.mr-12
+						span Rau củ quả tươi
+						| (94)
 			.btn-group-item
-				button.btn.btn-clean5(name='filter', type='button')
-					| Rau củ quả tươi
-					i.fi.fi-rr-caret-down.ml-4
+				button.btn.btn-clean5(
+					name='filter',
+					type='button',
+					[class.btn-clean5--active]='filterType === PRODUCT_TYPE.SEA_FOOD',
+					(click)='onFilter( PRODUCT_TYPE.SEA_FOOD )')
+					.layout-row.layout-gap-4
+						i.fi.fi-tr-fish.mr-12
+						span Hải sản tươi sống
+						| (38)
 			.btn-group-item
-				button.btn.btn-clean5(name='filter', type='button')
-					| Thịt tươi sống
-					i.fi.fi-rr-caret-down.ml-4
+				button.btn.btn-clean5(
+					name='filter',
+					type='button',
+					[class.btn-clean5--active]='filterType === PRODUCT_TYPE.MEAT',
+					(click)='onFilter( PRODUCT_TYPE.MEAT )')
+					.layout-row.layout-gap-4
+						i.fi.fi-ts-meat.mr-12
+						span Thịt tươi sống
+						| (67)
+		.filter-btns-group.btn-group
+			.btn-group-item
+				button.btn.btn-clean5(
+					name='filter',
+					type='button',
+					[class.btn-clean5--active]='filterType === PRODUCT_TYPE.FRUIT',
+					(click)='onFilter( PRODUCT_TYPE.FRUIT )')
+					.layout-row.layout-gap-4
+						i.fi.fi-ts-apple-crate.mr-12
+						span Hoa quả tươi
+						| (16)
+			.btn-group-item
+				button.btn.btn-clean5(
+					name='filter',
+					type='button',
+					[class.btn-clean5--active]='filterType === PRODUCT_TYPE.DRY_FOOD',
+					(click)='onFilter( PRODUCT_TYPE.DRY_FOOD )')
+					.layout-row.layout-gap-4
+						i.fi.fi-ts-peanuts.mr-12
+						span Thực phẩm khô
+						| (24)
+			.btn-group-item
+				button.btn.btn-clean5(
+					name='filter',
+					type='button',
+					[class.btn-clean5--active]='filterType === PRODUCT_TYPE.SPICE',
+					(click)='onFilter( PRODUCT_TYPE.SPICE )')
+					.layout-row.layout-gap-4
+						i.fi.fi-ts-salt-pepper.mr-12
+						span Gia vị các loại
+						| (21)
 			span.search-group
 				.filter-btns-group2.text-center
 					form
 						// navbar-form
-						input.form-control.search-bar-icon-base(type='text', placeholder='Tìm kiếm', name='search')
+						input.form-control.search-bar-icon-base(type='text', placeholder='Tìm kiếm', name='search', [(ngModel)]='searchValue', (ngModelChange)='search()')
 						span.search-bar-icon
-							a#search-bar-icon-link(href='javascript:void(0);')
+							a#search-bar-icon-link((click)='search()')
 								i.fi.fi-rr-search
-				#clear-all-btn.filter-btns-group2
-					.btn.btn-clean6((click)='search()') Tìm kiếm
-		.filter-btns-group.btn-group
-			.btn-group-item
-				button.btn.btn-clean5(name='filter', type='button')
-					| Hoa quả tươi
-					i.fi.fi-rr-caret-down.ml-4
-			.btn-group-item
-				button.btn.btn-clean5(name='filter', type='button')
-					| Thực phẩm khô
-					i.fi.fi-rr-caret-down.ml-4
-			.btn-group-item
-				button.btn.btn-clean5(name='filter', type='button')
-					| Gia vị các loại
-					i.fi.fi-rr-caret-down.ml-4
-	.shadow-bg.row &nbsp;
+		.shadow-bg.row &nbsp;
 
 	.row.recipe-listing-main-bg(name='recipe-container')
 		.container
 			.col-lg-12.col-md-12.col-sm-12.recipe-listing
 				.row.row-centered
+					//- cdk-virtual-scroll-viewport.flex(
+					//- 	itemSize='265')
+					//- 	ng-container(*cdkVirtualFor='let product of productService.products(); let index = $index;')
 					+for('product of productService.products(); track product; let index = $index')
 						.col-lg-4.col-md-4.col-sm-12
 							.feature-container
-								.recipe-listing.recipe-listing-bg.col-centered([class]='"bg-" + ( (index + 1) % 9 )')
+								.recipe-listing.recipe-listing-bg.col-centered([class]='"bg-" + ( ( index % 9 ) + 1 )')
 									.recipe-listing-column
 										a(href='javascript:void(0);')
 											img.recipe-thumbnail(
 												[src]='product.image',
 												[alt]='product.name')
 									h4.text-truncate([title]='product.name')
-										a(href='javascript:void(0);', [class]='"color-" + ( (index + 1) % 9 )')
+										a(href='javascript:void(0);', [class]='"color-" + ( ( index % 9 ) + 1 )')
 											| {{ product.name }}
 
 .row.section.social.social-bg

@@ -3,11 +3,32 @@ import {
 	ChangeDetectionStrategy,
 	OnInit,
 	inject,
+	ViewChild,
+	ElementRef,
+	ChangeDetectorRef,
+	afterNextRender,
+	AfterRenderPhase,
+	NgZone,
+	PLATFORM_ID,
+	Inject,
 } from '@angular/core';
+import _ from 'lodash';
+import {
+	isPlatformBrowser
+} from '@angular/common';
+
 import {
 	ProductService
 } from '../services';
-import { take } from 'rxjs';
+import {
+	take
+} from 'rxjs';
+import {
+	Product
+} from '../interfaces';
+import {
+	ProductType
+} from '../resources';
 
 @Component({
 	selector: 'product',
@@ -18,42 +39,54 @@ import { take } from 'rxjs';
 })
 export class ProductComponent implements OnInit {
 
-	protected productService: ProductService
+	@ViewChild( 'toolbar' )
+	protected toolbar!: ElementRef;
+	@ViewChild( 'navbar' )
+	protected navbar!: ElementRef;
+	@ViewChild( 'hero' )
+	protected hero!: ElementRef;
+
+	protected readonly PRODUCT_TYPE: typeof ProductType
+		= ProductType;
+	protected readonly productService: ProductService
 		= inject( ProductService );
+	protected readonly _cdr: ChangeDetectorRef
+		= inject( ChangeDetectorRef );
 
-	searchValue: string = '';
+	protected filterType: string;
+	protected searchValue: string;
+	protected productsBk: Product[];
 
-	// Ingredient List (same as in the script)
-	ingredientList: { [key: number]: string } = {
-		177: "Artichoke", 138: "Arugula", 178: "Asparagus", 151: "Basil", 106: "Bay Leaves",
-		181: "Beets", 134: "Bok Choy", 165: "Broccoli", 167: "Brussels Sprout", 166: "Cabbage",
-		158: "Carrot", 171: "Cauliflower", 168: "Celery", 133: "Chard", 144: "Chives",
-		188: "Cilantro", 140: "Collard", 176: "Corn", 173: "Cucumber", 145: "Dill",
-		169: "Eggplant", 213: "Endive", 170: "Fennel", 175: "Fresh Bean", 157: "Garlic",
-		187: "Ginger", 224: "Greens", 111: "Herb mix", 135: "Kale", 190: "Kohlrabi",
-		185: "Leeks", 143: "Lemon Grass", 139: "Lettuce", 199: "Mint", 130: "Mushroom",
-		189: "Okra", 156: "Onion", 147: "Oregano", 152: "Parsley", 194: "Parsnip",
-		210: "Pea", 180: "Peas", 184: "Pepper", 154: "Potato", 205: "Pumpkin",
-		201: "Radicchio", 159: "Radish", 172: "Rhubarb", 211: "Romanesco", 146: "Rosemary",
-		155: "Rutabaga", 105: "Sage", 214: "Shallot", 132: "Spinach", 182: "Summer Squash",
-		148: "Sunchoke", 160: "Tarragon", 150: "Thyme", 192: "Tomatillo", 122: "Turmeric",
-		164: "Turnip", 104: "Watercress", 183: "Winter Squash", 100: "Apple", 116: "Apricot",
-		204: "Aprium", 101: "Avocado", 129: "Banana", 208: "Berries", 113: "Cherry",
-		117: "Cherry Tomato", 174: "Fig", 120: "Grape", 127: "Grapefruit", 118: "Heirloom Tomato",
-		128: "Kiwi", 200: "Kumquat", 126: "Lemon", 195: "Lime", 203: "Mango", 121: "Musk Melon",
-		114: "Nectarine", 124: "Orange", 207: "Papaya", 112: "Peach", 123: "Pear",
-		196: "Persimmon", 149: "Plum", 163: "Pluot", 193: "Pomegranate", 119: "Tomato",
-		137: "Watermelon",
-	};
+	constructor(
+		@Inject( PLATFORM_ID ) private _platformId: Object,
+		private _ngZone: NgZone
+	) {
+		afterNextRender(() => {
+			if ( isPlatformBrowser( this._platformId ) ) {
+				this._ngZone.runOutsideAngular( () => {
+					setTimeout(() => {
+						this._observeToolbar();
+					}, 100);
+				});
+			}
+		}, { phase: AfterRenderPhase.MixedReadWrite });
+	}
 
 	ngOnInit(): void {
-		// Initial load of products (if needed)
 		this.productService.getProducts().pipe(take(1)).subscribe({
-		next: (products) => {
-			console.log('Products:', products);
-		},
-		error: (err) => console.error('Error fetching products:', err),
+			next: ( products: Product[] ) => {
+				this.productsBk
+					= _.cloneDeep( products );
+			},
+			error: (error) => {
+				console.error('Error loading products:', error);
+			},
 		});
+	}
+
+	protected scrollToToolbar(): void {
+		this.toolbar.nativeElement
+		.scrollIntoView({ behavior: 'smooth', block: 'start' });
 	}
 
 	protected onSearchKeypress(event: KeyboardEvent): void {
@@ -63,7 +96,74 @@ export class ProductComponent implements OnInit {
 	}
 
 	protected search() {
+		const searchValue
+			= this.searchValue.trim();
 
+		if ( !this.searchValue ) {
+			this.productService.products.set( this.productsBk );
+			return;
+		}
+
+		if ( searchValue ) {
+			this.productService.products.update(
+				( products: Product[] ) => {
+					products
+						= _.cloneDeep( this.productsBk );
+
+					return _.filter( products, ( product: Product ) => {
+						return product.name
+							.toLowerCase()
+							.includes( searchValue.toLowerCase() );
+					});
+				}
+			);
+		}
 	}
 
+	protected onFilter( type : string ): void {
+		if ( type === this.filterType ) {
+			this.productService.products.set( this.productsBk );
+			this.filterType = undefined;
+			this._cdr.markForCheck();
+			return;
+		}
+
+		this.filterType
+			= type;
+
+		this.productService.products.update(
+			( products: Product[] ) => {
+				products
+					= _.cloneDeep( this.productsBk );
+
+				return products.filter(
+					( product: Product ) => {
+						return product.type === type;
+					}
+				);
+			}
+		);
+	}
+
+	private _observeToolbar(): void {
+		if ( this.hero ) {
+			const observer: IntersectionObserver = new IntersectionObserver(
+				( entries: IntersectionObserverEntry[] ) => {
+					entries.forEach( ( entry: IntersectionObserverEntry ) => {
+						if ( !entry.isIntersecting ) {
+							this.toolbar.nativeElement.classList.add('toolbar--sticky');
+						} else {
+							this.toolbar.nativeElement.classList.remove( 'toolbar--sticky' );
+						}
+					});
+				},
+				{
+					root: null,
+					rootMargin: '200px 0px 0px 0px',
+					threshold: 0.5,
+				}
+			);
+			observer.observe( this.hero.nativeElement );
+		}
+	}
 }

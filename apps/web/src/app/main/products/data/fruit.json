@@ -1,0 +1,98 @@
+[
+	{
+	  "id": "01J9V8W3QX2N1T4K5P7M2R8Y3O",
+	  "name": "Bưởi năm roi",
+	  "image": "https://hoangdongfood.com/wp-content/uploads/2018/12/BƯỞI-5-ROI-300x300.jpg",
+	  "type": "FRUIT"
+	},
+	{
+	  "id": "01J9V8W3QX2N1T4K5P7M2R8Y4P",
+	  "name": "Cam Sành",
+	  "image": "https://hoangdongfood.com/wp-content/uploads/2018/12/camsanh-300x300.jpg",
+	  "type": "FRUIT"
+	},
+	{
+	  "id": "01J9V8W3QX2N1T4K5P7M2R8Y5Q",
+	  "name": "Chanh leo",
+	  "image": "https://hoangdongfood.com/wp-content/uploads/2018/12/chanh-day-300x300.jpg",
+	  "type": "FRUIT"
+	},
+	{
+	  "id": "01J9V8W3QX2N1T4K5P7M2R8Y6R",
+	  "name": "Chuối tây",
+	  "image": "https://hoangdongfood.com/wp-content/uploads/2018/12/uploaded-doi-tac_product1611_thumbcr_580x397-300x300.jpg",
+	  "type": "FRUIT"
+	},
+	{
+	  "id": "01J9V8W3QX2N1T4K5P7M2R8Y7S",
+	  "name": "Chuối tiêu",
+	  "image": "https://hoangdongfood.com/wp-content/uploads/2018/12/chuoi-quues-6-221x254.jpg",
+	  "type": "FRUIT"
+	},
+	{
+	  "id": "01J9V8W3QX2N1T4K5P7M2R8Y8T",
+	  "name": "Chuối xanh",
+	  "image": "https://hoangdongfood.com/wp-content/uploads/2018/12/chuoi_xanh_1-300x300.jpg",
+	  "type": "FRUIT"
+	},
+	{
+	  "id": "01J9V8W3QX2N1T4K5P7M2R8Y9U",
+	  "name": "Đu đủ",
+	  "image": "https://hoangdongfood.com/wp-content/uploads/2018/12/dudu-300x300.jpg",
+	  "type": "FRUIT"
+	},
+	{
+	  "id": "01J9V8W3QX2N1T4K5P7M2R8Y0V",
+	  "name": "Dứa",
+	  "image": "https://hoangdongfood.com/wp-content/uploads/2018/12/832184_large-300x300.jpg",
+	  "type": "FRUIT"
+	},
+	{
+	  "id": "01J9V8W3QX2N1T4K5P7M2R8Y1W",
+	  "name": "Dưa hấu Miền Nam",
+	  "image": "https://hoangdongfood.com/wp-content/uploads/2018/12/upload_f7b2fb3105fd479eb62a0fa1b0ad827d_large-300x300.jpg",
+	  "type": "FRUIT"
+	},
+	{
+	  "id": "01J9V8W3QX2N1T4K5P7M2R8Y2X",
+	  "name": "Dưa vàng",
+	  "image": "https://hoangdongfood.com/wp-content/uploads/2018/12/20190405173049Hạt-giống-dưa-lưới-300x300.png",
+	  "type": "FRUIT"
+	},
+	{
+	  "id": "01J9V8W3QX2N1T4K5P7M2R8Y3Y",
+	  "name": "Lê quả",
+	  "image": "https://hoangdongfood.com/wp-content/uploads/2018/12/pear-300x300.jpg",
+	  "type": "FRUIT"
+	},
+	{
+	  "id": "01J9V8W3QX2N1T4K5P7M2R8Y4Z",
+	  "name": "Nho đen không hạt",
+	  "image": "https://hoangdongfood.com/wp-content/uploads/2018/12/nho_1-300x300.jpg",
+	  "type": "FRUIT"
+	},
+	{
+	  "id": "01J9V8W3QX2N1T4K5P7M2R8Y5A",
+	  "name": "Ổi quả to",
+	  "image": "https://hoangdongfood.com/wp-content/uploads/2018/12/2-2-guava-transparent-thumb.png",
+	  "type": "FRUIT"
+	},
+	{
+	  "id": "01J9V8W3QX2N1T4K5P7M2R8Y6B",
+	  "name": "Quýt Sài Gòn",
+	  "image": "https://hoangdongfood.com/wp-content/uploads/2018/12/image-300x300.png",
+	  "type": "FRUIT"
+	},
+	{
+	  "id": "01J9V8W3QX2N1T4K5P7M2R8Y7C",
+	  "name": "Táo Mỹ",
+	  "image": "https://hoangdongfood.com/wp-content/uploads/2018/12/download.jpg",
+	  "type": "FRUIT"
+	},
+	{
+	  "id": "01J9V8W3QX2N1T4K5P7M2R8Y8D",
+	  "name": "Xoài vàng",
+	  "image": "https://hoangdongfood.com/wp-content/uploads/2018/12/xoai-cat-hoa-loc-300x300.jpg",
+	  "type": "FRUIT"
+	}
+  ]

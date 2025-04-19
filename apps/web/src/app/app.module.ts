@@ -45,6 +45,7 @@ import { FormsModule } from '@angular/forms';
 import { NgOptimizedImage } from '@angular/common';
 import { ProductService } from '@main/products/services';
 import { ProductComponent } from '@main/products/components';
+import { ScrollingModule } from '@angular/cdk/scrolling';
 
 // eslint-disable-next-line @typescript-eslint/naming-convention
 const ServiceWorkerModule: ModuleWithProviders<SWModule>
@@ -77,6 +78,7 @@ export function initializeTranslateService(translate: TranslateService) {
 
 		AppRoutingModules,
 		NgOptimizedImage,
+		ScrollingModule,
 
 		ServiceWorkerModule,
 	],

@@ -1,0 +1,404 @@
+[
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y6Z",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/catlonhuuco-300x300.jpg",
+		"name": "Bầu dục",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y7A",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/11/1467778451-3-300x300.jpg",
+		"name": "Bò bắp tròn",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y8B",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/9555990577182-300x300.jpg",
+		"name": "Cánh gà CN",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y9C",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/cach-lam-cha-que-1-1200x800-1-300x300.jpg",
+		"name": "Chả mỡ",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y0D",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/2635232156114435433-300x300.jpg",
+		"name": "Chả quế",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y1E",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/1456373249253_7717013-300x300.jpg",
+		"name": "Chân gà CN",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y2F",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/9565022781470-300x300.jpg",
+		"name": "Chim bồ câu",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y3G",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/chimcut-300x230.png",
+		"name": "Chim cút",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y4H",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/15017510859818-300x300.jpg",
+		"name": "Đuôi bò",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y5I",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/9484596936734-300x300.jpg",
+		"name": "Gà CN nguyên con",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y6J",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/11/1467780358-Ga-cong-nghiep-300x300.jpg",
+		"name": "Gà Công Nghiệp",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y7K",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/7b4709f9102452f8f18c0d089ce358e5-300x300.jpg",
+		"name": "Gà đùi góc tư",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y8L",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/dui-ga-sach-nhap-khau-300x300.jpg",
+		"name": "Gà đùi tỏi",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y9M",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/a4a95902f1c8f51e83a1a8fa7746f41c-300x300.jpg",
+		"name": "Gà đùi tỏi cụt",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y0N",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/ma-dui-ga-tui-ngon-300x300.jpg",
+		"name": "Gà đùi tỏi má, má gà",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y1O",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/unnamed-300x300.png",
+		"name": "Gà lườn",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y2P",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/100g-uc-ga-chua-bao-nhieu-calo-3-1054-300x300.jpg",
+		"name": "Gà lườn lọc",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y3Q",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/9484596936734-300x300.jpg",
+		"name": "Gà ta nguyên con",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y4R",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/Ức-gà-nguyên-xương-ba-huân-300x300.png",
+		"name": "Gà ức có xương",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y5S",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/9501739122718-300x300.jpg",
+		"name": "Gà ức không xương",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y6T",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/GioCha_25032014_1-300x300.jpg",
+		"name": "Giò lụa",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y7U",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/14573651763716_gio-song-1-300x300.jpg",
+		"name": "Giò sống",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y8V",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/an-mo-dong-vat-tai-sao-khong-300x300.jpg",
+		"name": "Mỡ phần",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y9W",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/unnamed-1-300x300.jpg",
+		"name": "Mỡ sấn",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y0X",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/mong-gio-heo-7_1543596775-300x300.jpg",
+		"name": "Móng giò làm sạch",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y1Y",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/nac-vai-300x300.jpg",
+		"name": "Nạc vai ( cả quả )",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y2Z",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/nac-dam-300x300.jpg",
+		"name": "Nạc vai dăm (cầu vai ngắn)",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y3A",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/thịt-ngan-bỏ-đầu-chân-cánh-300x300-1.jpg",
+		"name": "Ngan bỏ đầu chân cánh",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y4B",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/9490314067998-300x300.jpg",
+		"name": "Ngan nguyên con",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y5C",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/nac-vai-1-300x300.jpg",
+		"name": "Sấn mông, vai",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y6D",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/lọc-bì-300x300.jpg",
+		"name": "Sấn mông, vai bỏ bì",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y7E",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/Article2962-636160083474926580-300x300.jpg",
+		"name": "Sườn thăn không cục",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y8F",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/10477-mon-bap-bo-3-300x300.jpg",
+		"name": "Thịt bò bắp",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y9G",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/de_suon_bo_uc-300x300.jpg",
+		"name": "Thịt bò dẻ sườn",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y0H",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/11-600x541-300x300.jpg",
+		"name": "Thịt bò diềm thăn",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y1I",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/Gầu-bò-300x300.jpg",
+		"name": "Thịt bò gầu",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y2J",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/Thịt-Bò-mông-600x315-300x300.png",
+		"name": "Thịt bò mông",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y3K",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/1491965329-148162046049371-bo-3-300x300.jpg",
+		"name": "Thịt bò quạt",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y4L",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/26_grande-300x300.jpg",
+		"name": "Thịt bò thăn",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y5M",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/tenderloin-bo-uc-2-300x300.jpg",
+		"name": "Thịt bò thăn nõn",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y6N",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/nac_vai_heo_master-300x300.jpg",
+		"name": "Thịt cầu vai",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y7O",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/thit-chan-gio-300x300.jpg",
+		"name": "Thịt chân giò",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y8P",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/rang-thit-ba-chi-5-300x300.jpg",
+		"name": "Thịt dọi (thịt ba chỉ)",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y9Q",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/thit-heo-ba-chi-khong-da-1527217263-300x300.jpg",
+		"name": "Thịt dọi bỏ bì",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y0R",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/1_SNXY-300x300.jpg",
+		"name": "Thịt dọi quế",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y1S",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/thit-ba-chi-lon2-300x300.jpg",
+		"name": "Thịt dọi quế (ba chỉ ngon)",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y2T",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/2014_02_26_09_29_46_64-300x300.png",
+		"name": "Thịt mông sấn",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y3U",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/Levi-Mart-thit-mong-1-300x300.jpg",
+		"name": "Thịt mông sấn lọc bì",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y4V",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/Thịt-nạc-mông-lọc-sạch-500x500-300x300.jpg",
+		"name": "Thịt nạc mông",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y5W",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/20160419090651-luoc-thit-300x300.jpg",
+		"name": "Thịt nạc thăn",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y6X",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/11/1467780237-Thit-nac-vai-300x300.jpg",
+		"name": "Thịt Nạc Vai",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y7Y",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/nac-vai-1-300x300.jpg",
+		"name": "Thịt nạc vai",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y8Z",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/Thịt-nách-300x270.jpg",
+		"name": "Thịt nách",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y9A",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/san-vai-300x223.png",
+		"name": "Thịt sấn vai",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y0B",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/Tim-Ga-Vietgap-Pham-Ton-300x300.jpg",
+		"name": "Tim gà",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y1C",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/tim-lon-300x253.png",
+		"name": "Tim lợn",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y2D",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/trung-cut-ba-huan-16450227033_1000_750_1c970e53-b724-405c-8723-10e622b9eae3-300x300.jpg",
+		"name": "Trứng cút",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y3E",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/Trứng-gà-Ba-Huân-hộp-6-quả-300x300.jpg",
+		"name": "Trứng gà CN (đóng hộp)",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y4F",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/trứng-gà-ta_-05-03-2019-13-46-46-300x300.png",
+		"name": "Trứng gà ta",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y5G",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/huyet-ap-thap-an-trung-vịt-300x300.jpg",
+		"name": "Trứng vịt",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y6H",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/thịt-vịt-bỏ-đầu-chân-300x300.jpg",
+		"name": "Vịt bỏ đầu chân cánh",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y7I",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/thit-vit-nguyen-con-tuoi-13-300x276.jpg",
+		"name": "Vịt nguyên con",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y8J",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/xuong-cuc-300x300.jpg",
+		"name": "Xương cục",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y9K",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/a85d3ca75db49411fa5ca16fbac7da90-300x300.jpg",
+		"name": "Xương gà",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y0L",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/iaN3Ou0Q7CpBisNqpFG3_16.-Xuong-ong-large@2x.jpg-300x300.jpg",
+		"name": "Xương ống",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y1M",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/xuong-cuc-heo-huong-huu-co-01-300x300.jpg",
+		"name": "Xương sườn có cục",
+		"type": "MEAT"
+	},
+	{
+		"id": "01J9V8W3QX2N1T4K5P7M2R8Y2N",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/file-300x300.jpg",
+		"name": "Xương sườn không cục",
+		"type": "MEAT"
+	}
+]

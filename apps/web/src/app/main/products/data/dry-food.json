@@ -1,0 +1,146 @@
+[
+	{
+		"id": "01J9VB2K7N4P8R3T6M9W1X5Y0Z",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/banh-my-goi-minh-300x300.jpg",
+		"name": "Bánh mỳ gối to",
+		"type": "DRY_FOOD"
+	},
+	{
+		"id": "01J9VB2K7N4P8R3T6M9W1X5Y1A",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/12/mibanhda-300x300.gif",
+		"name": "Bánh phở",
+		"type": "DRY_FOOD"
+	},
+	{
+		"id": "01J9VB2K7N4P8R3T6M9W1X5Y2B",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/daudenthainguyen_yexo-300x300.jpg",
+		"name": "Đỗ đen",
+		"type": "DRY_FOOD"
+	},
+	{
+		"id": "01J9VB2K7N4P8R3T6M9W1X5Y3C",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/8f66__dau-do-hat-lon-dalat-300x194.png",
+		"name": "Đỗ đỏ",
+		"type": "DRY_FOOD"
+	},
+	{
+		"id": "01J9VB2K7N4P8R3T6M9W1X5Y4D",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/11/1467775620-Dau-tuong-300x300.jpg",
+		"name": "Đỗ tương",
+		"type": "DRY_FOOD"
+	},
+	{
+		"id": "01J9VB2K7N4P8R3T6M9W1X5Y5E",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/cx0twW_simg_de2fe0_500x500_maxb-300x300.jpg",
+		"name": "Đỗ xanh",
+		"type": "DRY_FOOD"
+	},
+	{
+		"id": "01J9VB2K7N4P8R3T6M9W1X5Y6F",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/f7564269fe5f11866ea2221882d9425f-300x300.jpg",
+		"name": "Đường xuất khẩu",
+		"type": "DRY_FOOD"
+	},
+	{
+		"id": "01J9VB2K7N4P8R3T6M9W1X5Y7G",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/bf0a93465112016b9340ff37d51a3dcd-300x300.jpg",
+		"name": "Gạo bắc hương Hải Hậu",
+		"type": "DRY_FOOD"
+	},
+	{
+		"id": "01J9VB2K7N4P8R3T6M9W1X5Y8H",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/66821e7bec106896d1e753a498763e25-300x300.png",
+		"name": "Gạo nếp cái hoa vàng",
+		"type": "DRY_FOOD"
+	},
+	{
+		"id": "01J9VB2K7N4P8R3T6M9W1X5Y9I",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/0864a8c4e6ac40d3b69fe3533f4db42b-300x300.jpg",
+		"name": "Gạo tám thái",
+		"type": "DRY_FOOD"
+	},
+	{
+		"id": "01J9VB2K7N4P8R3T6M9W1X5Y0J",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/hat-sen-kho-300x300.jpg",
+		"name": "Hạt sen khô",
+		"type": "DRY_FOOD"
+	},
+	{
+		"id": "01J9VB2K7N4P8R3T6M9W1X5Y1K",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/59a9bc60-7ccf-11e7-887e-c5a070c79e77-300x300.png",
+		"name": "Lạc nhân",
+		"type": "DRY_FOOD"
+	},
+	{
+		"id": "01J9VB2K7N4P8R3T6M9W1X5Y2L",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/images.jpg",
+		"name": "Măng lưỡi lợn",
+		"type": "DRY_FOOD"
+	},
+	{
+		"id": "01J9VB2K7N4P8R3T6M9W1X5Y3M",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/1552964502508_7885226-300x300.jpg",
+		"name": "Miến",
+		"type": "DRY_FOOD"
+	},
+	{
+		"id": "01J9VB2K7N4P8R3T6M9W1X5Y4N",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/2c1a877557a9ebd2d2851a3df355d3ab-300x300.jpg",
+		"name": "Mộc nhĩ",
+		"type": "DRY_FOOD"
+	},
+	{
+		"id": "01J9VB2K7N4P8R3T6M9W1X5Y5O",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/images-1-1.jpg",
+		"name": "Mỳ chũ",
+		"type": "DRY_FOOD"
+	},
+	{
+		"id": "01J9VB2K7N4P8R3T6M9W1X5Y6P",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/unnamed-1-1-300x300.png",
+		"name": "Mỳ Micoem (mỳ cân)",
+		"type": "DRY_FOOD"
+	},
+	{
+		"id": "01J9VB2K7N4P8R3T6M9W1X5Y7Q",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/my-goi-hao-hao-tom-chua-cay-75g-min-300x300.jpg",
+		"name": "Mỳ tôm hảo hảo",
+		"type": "DRY_FOOD"
+	},
+	{
+		"id": "01J9VB2K7N4P8R3T6M9W1X5Y8R",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/11/1467774361-Nam-huong-300x300.jpg",
+		"name": "Nấm hương",
+		"type": "DRY_FOOD"
+	},
+	{
+		"id": "01J9VB2K7N4P8R3T6M9W1X5Y9S",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/Ngo-ngot-hieu-Crystal-hop-411g-300x300.jpg",
+		"name": "Ngô kem",
+		"type": "DRY_FOOD"
+	},
+	{
+		"id": "01J9VB2K7N4P8R3T6M9W1X5Y0T",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/tai-chuaa-300x300.jpg",
+		"name": "Tai chua",
+		"type": "DRY_FOOD"
+	},
+	{
+		"id": "01J9VB2K7N4P8R3T6M9W1X5Y1U",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/tom-kho-dac-san-binh-dinh-1-300x300.jpg",
+		"name": "Tôm khô",
+		"type": "DRY_FOOD"
+	},
+	{
+		"id": "01J9VB2K7N4P8R3T6M9W1X5Y2V",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2020/04/46325581_107075530310749_6568223911597572096_o_7105ddd7df6c41e486f1043fc56985c4-300x300.jpg",
+		"name": "Tôm khô loại 1",
+		"type": "DRY_FOOD"
+	},
+	{
+		"id": "01J9VB2K7N4P8R3T6M9W1X5Y3W",
+		"image": "https://hoangdongfood.com/wp-content/uploads/2018/11/1467774864-Trung-ga-cong-gnhiep-300x300.jpg",
+		"name": "Trứng gà công nghiệp",
+		"type": "DRY_FOOD"
+	}
+]

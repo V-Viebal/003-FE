@@ -3,10 +3,10 @@ export const CONSTANT = {
 } as const;
 
 export enum ProductType {
-	SEA_FOOD = 1,
-	MEAT = 2,
-	FRUITS = 3,
-	VEGETABLES = 4,
-	NOODLES = 5,
-	OTHERS = 6,
+	SEA_FOOD = 'SEA_FOOD',
+	MEAT = 'MEAT',
+	FRUIT = 'FRUIT',
+	VEGETABLES = 'VEGETABLES',
+	SPICE = 'SPICE',
+	DRY_FOOD = 'DRY_FOOD',
 }
